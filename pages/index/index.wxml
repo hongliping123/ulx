@@ -1,0 +1,5 @@
+<view class="top">
+  <view class="top_left">
+    <image lazy-load='true' src='../img/wei.png'></image>
+  </view>
+</view>

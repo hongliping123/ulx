@@ -1,0 +1,13 @@
+.top{
+  display: flex;
+  height: 106rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.top .top_left{
+  flex: 1;
+}
+.top .top_left image{
+  width: 36rpx;
+  height: 46rpx;
+}
