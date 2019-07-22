@@ -9,11 +9,12 @@
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false
+		"autoAudits": false,
+		"checkSiteMap": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.7.5",
-	"appid": "wxfacfc9a34535692e",
+	"appid": "wx8d82bffebb61f704",
 	"projectname": "Ulx",
 	"debugOptions": {
 		"hidedInDevtools": []

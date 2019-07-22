@@ -1,0 +1,27 @@
+<view class='container'>
+  <view class='cont_top'>
+    <text>登入</text>
+    <text>U老乡商家端</text>
+  </view>
+
+  <view>
+    <view class="cont_body">
+      <view class="cont_body_child">
+        <image src="../img/zhanghu.png"></image>
+        <input type="number" placeholder="请输入用户账号"></input>
+      </view>
+
+      <view class="cont_body_child cont_body_child1">
+        <view class="cont_body_child_text">
+          <image src="../img/mima .png"></image>
+          <input type="text" placeholder="请输入用户密码"></input>
+        </view>
+        <view class="cont_body_child_img">
+          <image src="../img/yingc.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="but">登入</view>
+</view>

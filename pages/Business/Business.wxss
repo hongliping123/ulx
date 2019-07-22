@@ -1,0 +1,48 @@
+.cont_top {
+  background: url("http://m.qpic.cn/psb?/V103fdTR0PY8oM/nS*JDSqrM*4EQrJteXodkGCBYomD.0rLx2TxJ5tLDLc!/b/dLgAAAAAAAAA&bo=7gJoAe4CaAEDCSw!&rf=viewer_4") no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 360rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont_top image {
+  width: 160rpx;
+  height: 160rpx;
+}
+
+.cont_top text {
+  color: #fff;
+  margin-top: 20rpx;
+  font-size: 36rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+}
+
+.cont_indent {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60rpx;
+}
+
+.cont_indent image {
+  width: 83rpx;
+  height: 94rpx;
+}
+
+.cont_indent_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cont_indent_img text {
+  font-size: 30rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  margin-top: 20rpx;
+}

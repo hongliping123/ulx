@@ -1,0 +1,33 @@
+<view class="container">
+  <view class="cont_top">
+    <text>请扫核销码</text>
+  </view>
+
+  <view class="cont_body">
+    <view class="cont_but">
+      <view class="cont_but_sm">扫描</view>
+    </view>
+    <view class="cont_body_text">
+      <view class="cont_body1">详情</view>
+
+      <view class="cont_body_text1">
+        <text>编号：</text>
+        <text>362132132</text>
+      </view>
+
+      <view class="cont_body_text1">
+        <text>有效期: </text>
+        <text>362132132</text>
+      </view>
+
+      <view class="cont_body_text1">
+        <text>备注: </text>
+        <text>362132132</text>
+      </view>
+    </view>
+
+    <view class="cont_but1">
+      <view class="cont_but_qr">确认核销</view>
+    </view>
+  </view>
+</view>

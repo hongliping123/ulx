@@ -3,12 +3,18 @@
     "pages/switch/switch",
     "pages/scenic/scenic",
     "pages/Introduction/Introduction",
+    "pages/sjlineitem/sjlineitem",
+    "pages/sjadminister/sjadminister",
+    "pages/sjrecord/sjrecord",
+    "pages/cancel/cancel",
+    "pages/Business/Business",
+    "pages/MerchantLogin/MerchantLogin",
     "pages/index/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"
