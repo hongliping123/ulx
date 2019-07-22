@@ -1,5 +1,8 @@
 {
   "pages": [
+    "pages/switch/switch",
+    "pages/scenic/scenic",
+    "pages/Introduction/Introduction",
     "pages/index/index"
   ],
   "window": {

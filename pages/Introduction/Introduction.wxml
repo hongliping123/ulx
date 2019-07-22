@@ -1,0 +1,88 @@
+<view class="top">
+  <view class="top_left">
+    <image src='../img/nvtx.png' lazy-load='true'></image>
+    <view>湖南浣熊</view>
+  </view>
+  <view class="top_right">
+    <image src='../img/gz.png' lazy-load='true'></image>
+    关注
+  </view>
+</view>
+<view class="slide">
+  <swiper class="swiper" autoplay indicator-dots indicator-color="red" indicator-active-color="#fff">
+    <block>
+      <swiper-item>
+        <image class="slide_op" src='../img/slide.png' lazy-load='true'></image>
+      </swiper-item>
+      <swiper-item>
+        <image class="slide_op" src='../img/slide.png' lazy-load='true'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="Comment">
+  <image src='../img/coco.png' lazy-load='true'></image>
+  <view class="Comment_conter">
+    <view class="Comment_title">浙江·江南水乡</view>
+    <view class="Comment_dian">
+      <view>148</view>
+      篇点评
+    </view>
+    <view class="address">
+      位于浙江省·金华市
+    </view>
+  </view>
+  <view class="Comment_Fabulous">
+    <image src='../img/love1.png' lazy-load='true'></image>
+    <view>327</view>
+  </view>
+</view>
+<view class="describe">
+  <view class="describe_title">江南水乡</view>
+  <view class="describe_miao">
+    江南水乡被称为鱼米之乡，是中国风景最优美的地区。 那里还没有受到现代文明的污染。那里 江南水乡被称为鱼米之乡，是中国风景最优美的地区。 那里还没有受到现代文明的污染。那里没…
+  </view>
+</view>
+<view class="Label">
+  <view class="Label_item">
+    农趣
+    <image src='../img/huati.png' lazy-load='true'></image>
+  </view>
+</view>
+<view class="Label_comment">
+  <view class="Label_comment_left">
+    <view class="Label_comment_left_list">
+      <image src='../img/love3.png' lazy-load='true'></image>
+      2193
+    </view>
+    <view class="Label_comment_left_list">
+      <image src='../img/fx.png' lazy-load='true'></image>
+      2193
+    </view>
+  </view>
+  <view class="Label_comment_right">
+    <view class="Label_comment_left_list">
+      <image src='../img/xing.png' lazy-load='true'></image>
+      2193
+    </view>
+  </view>
+</view>
+<view class="send">
+  <view class="send_title">共2193条评论</view>
+  <view class="send_item">
+    <image class="send_tx" src='../img/wxtx.png' lazy-load='true'></image>
+    <input type='text' placeholder='想发表你的想法吗？那快聊一聊' value=''></input>
+  </view>
+  <view class="send_item">
+    <image class="send_tx" src='../img/wxtx.png' lazy-load='true'></image>
+    <view class="send_conter">
+      <view class="send_conter_name">布拉布拉达</view>
+      <view class="send_conter_ping">非常不错的和美丽的一个地方</view>
+    </view>
+    <view class="send_love">
+      <image src='../img/love.png' lazy-load='true'></image>
+      <text>327</text>
+    </view>
+  </view>
+  <view class="whole">查看全部评论</view>
+</view>

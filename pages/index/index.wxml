@@ -1,5 +1,87 @@
 <view class="top">
   <view class="top_left">
     <image lazy-load='true' src='../img/wei.png'></image>
+    <view>长沙</view>
+  </view>
+  <view class="top_input">
+    <input class="input" type='text' placeholder='这里输入你想搜索的内容'></input>
+    <image src='../img/fdj.png' lazy-load='true'></image>
+  </view>
+  <view class="top_right">
+    <view class="top_right_img">
+      <image lazy-load='true' src='../img/xx.png'></image>
+      <view class='top_right_yuan'>12</view>
+    </view>
+    <image lazy-load='true' src='../img/kf.png'></image>
+  </view>
+</view>
+<view class="img_oo">
+  <image lazy-load='true' src='../img/oo.png'></image>
+</view>
+<view class="item">
+  <view class="item_left">
+    <view class="list">
+      <image class="img" lazy-load='true' src='../img/list_bg.png'></image>
+      <view class="Popular">
+        <view class="Popular_list">24小时热门话题</view>
+        <view class="Popular_list1"># 拥抱夏日</view>
+        <view class="Popular_list1"># 这也太好玩了吧</view>
+        <view class="Popular_list1"># 最美中国乡村</view>
+        <view class="Popular_list1"># 农产品早知道</view>
+        <view class="Popular_list1"># 最美中国乡村</view>
+      </view>
+    </view>
+    <view class="list">
+      <image class="img1" lazy-load='true' src='../img/list_img.png'></image>
+      <image class="img11" lazy-load='true' src='../img/bf.png'></image>
+      <view class="list_title">
+        My2018年旅行记忆，走过山和海洋。在宿务遇... My2018年旅行记忆，走过山和海洋。在宿务遇...
+      </view>
+      <view class="list_footer">
+        <view class="list_la">
+          <image lazy-load='true' src='../img/tx.png'></image>
+          <view>果果在厦门</view>
+        </view>
+        <view class="Fabulous">
+          <image class="img1" lazy-load='true' src='../img/love.png'></image>
+          <view>246</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="item_right">
+    <view class="list">
+      <image class="img1" lazy-load='true' src='../img/list_img.png'></image>
+      <view class="list_title">
+        My2018年旅行记忆，走过山和海洋。在宿务遇... My2018年旅行记忆，走过山和海洋。在宿务遇...
+      </view>
+      <view class="list_footer">
+        <view class="list_la">
+          <image lazy-load='true' src='../img/tx.png'></image>
+          <view>果果在厦门</view>
+        </view>
+        <view class="Fabulous">
+          <image class="img1" lazy-load='true' src='../img/love.png'></image>
+          <view>246</view>
+        </view>
+      </view>
+    </view>
+    <view class="list">
+      <image class="img1" lazy-load='true' src='../img/list_img.png'></image>
+      <image class="img11" lazy-load='true' src='../img/bf.png'></image>
+      <view class="list_title">
+        My2018年旅行记忆，走过山和海洋。在宿务遇... My2018年旅行记忆，走过山和海洋。在宿务遇...
+      </view>
+      <view class="list_footer">
+        <view class="list_la">
+          <image lazy-load='true' src='../img/tx.png'></image>
+          <view>果果在厦门</view>
+        </view>
+        <view class="Fabulous">
+          <image class="img1" lazy-load='true' src='../img/love.png'></image>
+          <view>246</view>
+        </view>
+      </view>
+    </view>
   </view>
 </view>

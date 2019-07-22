@@ -1,0 +1,48 @@
+<view class="top">
+  <input type='text' placeholder='输入城市名' value=''></input>
+  <image src='../img/fdj.png' lazy-load='true'></image>
+</view>
+<view class="item">
+  <text>当前定位</text>
+  <view class="item_btn">长沙</view>
+</view>
+<view class="item1">
+  <view class="item1_title">最近访问的城市</view>
+  <view class="item_list">
+    <view class="list">长沙</view>
+    <view class="list">深圳</view>
+    <view class="list">长沙</view>
+  </view>
+</view>
+<view class="item1">
+  <view class="item1_title">热门城市</view>
+  <view class="item_list">
+    <view class="list">北京</view>
+    <view class="list">深圳</view>
+    <view class="list">上海</view>
+  </view>
+</view>
+<view class="item1">
+  <view class="item1_title">A</view>
+  <view class="item_list">
+    <view class="list">北京</view>
+    <view class="list">深圳</view>
+    <view class="list">上海</view>
+  </view>
+</view>
+<view class="item1">
+  <view class="item1_title">B</view>
+  <view class="item_list">
+    <view class="list">北京</view>
+    <view class="list">深圳</view>
+    <view class="list">上海</view>
+  </view>
+</view>
+<view class="cb">
+  <text>热门</text>
+  <text>A</text>
+  <text>B</text>
+  <text>C</text>
+  <text>D</text>
+  <text>E</text>
+</view>
