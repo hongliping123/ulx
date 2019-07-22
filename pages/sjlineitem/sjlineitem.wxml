@@ -2,4 +2,7 @@
   <view class="cont_top">
      <text>订单已完成</text>
   </view>
+  <view class="cont_body">
+    
+  </view>
 </view>

@@ -16,3 +16,8 @@ page {
   color: rgba(255, 255, 255, 1);
   margin-left: 20rpx;
 }
+
+.cont_body{
+  background: #fff;
+  padding: 20rpx;
+}
