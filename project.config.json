@@ -10,7 +10,7 @@
 		"minified": true,
 		"newFeature": true,
 		"autoAudits": false,
-    "checkSiteMap":false
+		"checkSiteMap": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.7.5",

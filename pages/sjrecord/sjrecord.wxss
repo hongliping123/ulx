@@ -1,0 +1,10 @@
+page{
+  background: #F5F5F5;
+}
+
+.cont_top{
+  background: #fff;
+  padding: 20rpx;
+  border-radius: 10rpx;
+  margin: 20rpx;
+}

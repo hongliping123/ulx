@@ -1,0 +1,46 @@
+<view class="container">
+  <view class="cont_top">
+    <view class="cont_top_text {{cruu==0?'cont_top_colo':''}}" catchtap="cruu" data-cruu="0">
+      <text>全部</text>
+      <view class="{{cruu==0?'icon':''}}"></view>
+    </view>
+
+    <view class="cont_top_text {{cruu==1?'cont_top_colo':''}}" catchtap="cruu" data-cruu="1">
+      <text>待处理</text>
+      <view class="{{cruu==1?'icon':''}}"></view>
+    </view>
+
+    <view class="cont_top_text {{cruu==2?'cont_top_colo':''}}" catchtap="cruu" data-cruu="2">
+      <text>待核销</text>
+      <view class="{{cruu==2?'icon':''}}"></view>
+    </view>
+
+    <view class="cont_top_text {{cruu==3?'cont_top_colo':''}}" catchtap="cruu" data-cruu="3">
+      <text>退款/售后</text>
+      <view class="{{cruu==3?'icon':''}}"></view>
+    </view>
+  </view>
+
+  <view class="cont_body" wx:for="{{6}}" wx:key="index">
+    <view class="cont_body_text">
+      <text>YO!Tea有茶卫星店</text>
+      <text>已完成</text>
+    </view>
+    <view class="cont_body_img">
+      <image src="../img/50.png"></image>
+      <view class="cont_body_img_text">
+        <text>中式烤肉2-3人餐</text>
+        <view class="cont_body_img_text1">
+          <text>￥</text>
+          <text>299</text>
+        </view>
+      </view>
+    </view>
+    <view class="cont_body_but">
+        <view class="cont_body_but1 cont_body_button1">删除订单</view>
+        <view class="cont_body_but1 .cont_body_button2">接单</view>
+    </view>
+  </view>
+
+  
+</view>
