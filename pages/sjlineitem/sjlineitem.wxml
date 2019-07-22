@@ -1,2 +1,5 @@
-<!--pages/sjlineitem/sjlineitem.wxml-->
-<text>pages/sjlineitem/sjlineitem.wxml</text>
+<view class="container">
+  <view class="cont_top">
+     <text>订单已完成</text>
+  </view>
+</view>
