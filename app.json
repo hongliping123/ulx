@@ -1,11 +1,12 @@
 {
   "pages": [
+    "pages/sjadminister/sjadminister",
     "pages/sjrecord/sjrecord",
     "pages/cancel/cancel",
-    "pages/sjadminister/sjadminister",
     "pages/Business/Business",
     "pages/MerchantLogin/MerchantLogin",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/sjlineitem/sjlineitem"
   ],
   "window": {
     "backgroundTextStyle": "light",

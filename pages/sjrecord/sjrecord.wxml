@@ -1,5 +1,15 @@
 <view class="container">
-  <view class="cont_top">
-    
+  <view class="cont_top" wx:for="{{6}}" wx:key="index">
+    <view>2019年06月20日</view>
+    <view class="cont_top_img">
+      <view class="cont_top_img_text1">
+        <image src="../img/touxiang.png"></image>
+        <view class="cont_top_img_text">
+          <text>湖南浣熊</text>
+          <text>订房消费</text>
+        </view>
+      </view>
+      <view class="cont_top_img_text2">+250</view>
+    </view>
   </view>
 </view>
