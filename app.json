@@ -1,11 +1,14 @@
 {
   "pages": [
+    "pages/Business/Business",
+    "pages/MerchantLogin/MerchantLogin",
     "pages/index/index"
+
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"
