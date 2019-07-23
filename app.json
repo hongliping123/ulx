@@ -1,6 +1,9 @@
 {
   "pages": [
     "pages/MerchantLogin/MerchantLogin",
+    "pages/switch/switch",
+    "pages/scenic/scenic",
+    "pages/Introduction/Introduction",
     "pages/sjlineitem/sjlineitem",
     "pages/Business/Business",
     "pages/sjadminister/sjadminister",
