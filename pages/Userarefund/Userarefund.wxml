@@ -45,8 +45,8 @@
     </view>
      <view class="cont_but">
     <!-- <view class="cont_but_tail">删除订单</view> -->
-    <view  class="cont_but_judan">拒绝退款</view>
-    <view class="cont_but_judan">退款</view>
+    <view  class="cont_but_judan">联系卖家</view>
+    <!-- <view class="cont_but_judan">退款</view> -->
   </view>
   </view>
   <!-- <view class="cont_tail">

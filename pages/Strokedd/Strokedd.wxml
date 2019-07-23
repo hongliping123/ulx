@@ -51,7 +51,8 @@
       <!-- <view class="cont_body_but1 cont_body_button1">取消订单</view>
       <view class="cont_body_but1 .cont_body_button2">付款</view> -->
       <!-- <view class="cont_body_but1 .cont_body_button2">使用</view> -->
-      <view class="cont_body_but1 cont_body_button1">查看订单</view>
+      <view class="cont_body_but1 cont_body_button1" catchtap="refund">退款</view>
+      <!-- <view class="cont_body_but1 cont_body_button1">查看订单</view> -->
       <view class="cont_body_but1 .cont_body_button2">评价</view>
       <!-- <view class="cont_body_but1 .cont_body_button2">查看详情</view> -->
     </view>

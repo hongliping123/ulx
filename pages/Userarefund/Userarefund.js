@@ -1,29 +1,13 @@
-// pages/Strokedd/Strokedd.js
-var that
+// pages/Userarefund/Userarefund.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    cruu: 0
+
   },
-  cruu(e) {
-    that = this
-    that.setData({
-      cruu: e.currentTarget.dataset.cruu
-    })
-  },
-  Gojump(){
-    wx.navigateTo({
-      url: '/pages/wdStroke/wdStroke',
-    })
-  },
-  refund(){
-    wx.navigateTo({
-      url: '/pages/Userarefund/Userarefund',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="cont_top">
+    <text>16</text>
+    <text>问答</text>
+  </view>
+  <view class="cont_body" wx:for="{{3}}">
+    <view class="cont_body_text">
+      <view>问</view>
+      <view>广州比较小的众的景点有哪些呀？求推荐适合拍照的地方求推荐适合拍照的地方推荐适合拍照的地方</view>
+    </view>
+    <view class="cont_body_text1">
+        广州塔矗立在广州城市新中轴线与珠江景观线的交汇处，与海心沙亚运公园和珠江新城隔江相望，与广州歌剧院、广东省博物馆、广州图书馆、广州、广州图书馆、广州
+    </view>
+    <view class="cont_body_text2">广州</view>
+  </view>
+
+</view>

@@ -46,7 +46,7 @@
       <!-- <view class="cont_body_but1 .cont_body_button2">接单</view> -->
        <!-- <view class="cont_body_but1 .cont_body_button2">核销</view> -->
         <view class="cont_body_but1 cont_body_button1">拒绝退款</view>
-         <view class="cont_body_but1 .cont_body_button2">退款</view>
+         <view class="cont_body_but1 .cont_body_button2" catchtap="refund">退款</view>
     </view>
   </view>
 

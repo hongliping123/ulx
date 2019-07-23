@@ -1,15 +1,18 @@
 {
   "pages": [
-    "pages/wdStroke/wdStroke",
+    "pages/giftcard/giftcard",
+    "pages/Myquestions/Myquestions",
     "pages/Strokedd/Strokedd",
+    "pages/Userarefund/Userarefund",
     "pages/MerchantLogin/MerchantLogin",
+    "pages/sjrefund/sjrefund",
+    "pages/wdStroke/wdStroke",
     "pages/switch/switch",
     "pages/scenic/scenic",
     "pages/Introduction/Introduction",
     "pages/sjlineitem/sjlineitem",
     "pages/Business/Business",
     "pages/sjadminister/sjadminister",
-    "pages/sjrefund/sjrefund",
     "pages/sjrecord/sjrecord",
     "pages/cancel/cancel",
     "pages/index/index"

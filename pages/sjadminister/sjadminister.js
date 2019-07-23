@@ -20,6 +20,13 @@ Page({
       url: '/pages/sjlineitem/sjlineitem',
     })
   },
+  refund(){
+    wx.navigateTo({
+      url: '/pages/sjrefund/sjrefund',
+    })
+  },
+
+
   /**
    * 生命周期函数--监听页面加载
    */
