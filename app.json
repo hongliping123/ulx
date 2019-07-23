@@ -1,11 +1,12 @@
 {
   "pages": [
+    "pages/MerchantLogin/MerchantLogin",
     "pages/sjlineitem/sjlineitem",
+    "pages/Business/Business",
     "pages/sjadminister/sjadminister",
+    "pages/sjrefund/sjrefund",
     "pages/sjrecord/sjrecord",
     "pages/cancel/cancel",
-    "pages/Business/Business",
-    "pages/MerchantLogin/MerchantLogin",
     "pages/index/index"
   ],
   "window": {

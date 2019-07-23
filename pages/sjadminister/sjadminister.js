@@ -15,6 +15,12 @@ Page({
       cruu: e.currentTarget.dataset.cruu
     })
   },
+  Gojump(){
+    wx.navigateTo({
+      url: '/pages/sjlineitem/sjlineitem',
+    })
+    console.log(1)
+  },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -23,5 +23,5 @@
     </view>
   </view>
 
-  <view class="but">登入</view>
+  <view class="but" bindtap="Gojump">登入</view>
 </view>
