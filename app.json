@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/wdStroke/wdStroke",
+    "pages/Strokedd/Strokedd",
     "pages/MerchantLogin/MerchantLogin",
     "pages/switch/switch",
     "pages/scenic/scenic",

@@ -1,0 +1,20 @@
+<view class="container">
+  <view class="cont_top">
+      <text>买家已付款</text>
+      <!-- <text>剩余23小时59分自动关闭</text> -->
+  </view>
+  <view class="cont_body">
+    <view class="cont_body_img">
+        <view class="cont_body_img1">
+          <image src="../img/50.png"></image>
+        </view>
+        <view class="cont_body_text">
+          <text>温馨双床房|机场免费接送+大窗+免押金|无早|大床|有窗</text>
+          <view class="cont_body_text1">
+            <text>￥299</text>
+            <text>x1</text>
+          </view>
+        </view>
+    </view>
+  </view>
+</view>
