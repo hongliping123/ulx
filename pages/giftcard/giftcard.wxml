@@ -1,2 +1,19 @@
-<!--pages/giftcard/giftcard.wxml-->
-<text>pages/giftcard/giftcard.wxml</text>
+<view class="container">
+    <view class="cont_top">
+        <view class="cont_value">
+          面值50.00元
+        </view>
+    </view>
+    <view class="cont_top_text">
+      <text class="cont_top_text_sg">新鲜水果礼品卡</text>
+      <text class="cont_money">￥39/张</text>
+    </view>
+    <view class="cont_top_text1">每人限购一张</view>
+    <view class="cont_top_but">购买</view>
+    <view class="cont_bottom">
+      <view class="cont_bottom_title">详情介绍</view>
+      <view class="cont_bottom_list">
+          包图网汇集了各种流行趋势,视觉冲击力强的原创广告图片设计、电商淘宝、企业办公模板素材,由顶尖的设计师供稿,符合各个行业的商用需求。 
+      </view>
+    </view>
+</view>

@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/share/share",
     "pages/giftcard/giftcard",
     "pages/Myquestions/Myquestions",
     "pages/Strokedd/Strokedd",
@@ -16,6 +17,7 @@
     "pages/sjrecord/sjrecord",
     "pages/cancel/cancel",
     "pages/index/index"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
