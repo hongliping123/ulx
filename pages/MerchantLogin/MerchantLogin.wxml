@@ -14,7 +14,7 @@
       <view class="cont_body_child cont_body_child1">
         <view class="cont_body_child_text">
           <image src="../img/mima .png"></image>
-          <input type="text" placeholder="请输入用户密码"></input>
+          <input type="password" placeholder="请输入用户密码"></input>
         </view>
         <view class="cont_body_child_img">
           <image src="../img/yingc.png"></image>
