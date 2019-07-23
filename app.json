@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/Hotel/Hotel",
     "pages/switch/switch",
     "pages/scenic/scenic",
     "pages/Introduction/Introduction",

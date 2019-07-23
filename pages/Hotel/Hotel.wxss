@@ -1,0 +1,711 @@
+.slide {
+  width: 750rpx;
+  height: 380rpx;
+}
+
+.swiper {
+  width: 750rpx;
+  height: 380rpx;
+}
+
+.swiper .slide_op {
+  width: 750rpx;
+  height: 380rpx;
+}
+
+.address {
+  margin-top: 25rpx;
+  border-bottom: 1px solid #ccc;
+  padding: 0 30rpx;
+  overflow: hidden;
+}
+
+.address .address_title {
+  height: 34rpx;
+  font-size: 36rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(68, 68, 68, 1);
+  line-height: 34rpx;
+}
+
+.address .address_tel {
+  display: flex;
+  padding-top: 36rpx;
+  padding-bottom: 20rpx;
+}
+
+.address .address_tel .wz {
+  width: 50rpx;
+  height: 44rpx;
+  margin-right: 6rpx;
+}
+
+.address .address_tel .zj {
+  flex: 1;
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+}
+
+.address .address_tel .tel {
+  width: 40rpx;
+  height: 45rpx;
+  margin-left: 98rpx;
+}
+
+.accommodation {
+  width: 690rpx;
+  height: 128rpx;
+  margin: 0 auto;
+  margin-top: 60rpx;
+  background: rgba(226, 85, 32, 1);
+  display: flex;
+}
+
+.accommodation .accommodation_date {
+  flex: 1;
+  padding-top: 30rpx;
+}
+
+.accommodation .accommodation_date .accommodation_date_li {
+  height: 26rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(241, 241, 241, 1);
+  line-height: 26rpx;
+  text-align: center;
+}
+
+.accommodation .accommodation_date .accommodation_date_cc {
+  height: 25rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  line-height: 25rpx;
+  text-align: center;
+  margin-top: 16rpx;
+}
+
+.accommodation .accommodation_conter {
+  width: 80rpx;
+  height: 32rpx;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 16rpx;
+  text-align: center;
+  line-height: 32rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 48rpx;
+}
+
+.tab {
+  width: 690rpx;
+  height: 50rpx;
+  margin: 0 auto;
+  margin-top: 50rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab .tab_item {
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  line-height: 50rpx;
+}
+
+.tab .tab_item1 {
+  font-size: 30rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+  line-height: 50rpx;
+  position: relative;
+}
+
+.tab .tab_item1 view {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 91rpx;
+  height: 6rpx;
+  background: rgba(226, 85, 32, 1);
+  border-radius: 3rpx;
+  top: 60rpx;
+}
+
+.tab_list1 {
+  width: 690rpx;
+  margin: 0 auto;
+  margin-top: 50rpx;
+}
+
+.tab_list1 .tab_list_fw {
+  padding-bottom: 40rpx;
+}
+
+.tab_list1 .tab_list_fw image {
+  width: 690rpx;
+  height: 380rpx;
+}
+
+.tab_list1 .tab_list_fw .tab_list1_x {
+  height: 24rpx;
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(140, 140, 140, 1);
+  margin-top: 30rpx;
+}
+
+.tab_list1 .tab_list_fw .tab_list1_x1 {
+  height: 28rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+  margin-top: 20rpx;
+}
+
+.tab_list1 .tab_list_fw .tab_list1_pirce {
+  height: 22rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(242, 67, 2, 1);
+  line-height: 22rpx;
+  margin-top: 18rpx;
+}
+
+.hhh {
+  width: 750rpx;
+  height: 20rpx;
+  background: rgba(241, 241, 241, 1);
+}
+
+.Tourist {
+  width: 690rpx;
+  margin: 0 auto;
+  padding-bottom: 45rpx;
+}
+
+.Tourist .Tourist_title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Tourist .Tourist_title text {
+  height: 32rpx;
+  font-size: 34rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 30rpx;
+}
+
+.Tourist .Tourist_title .Tourist_title_right {
+  display: flex;
+  margin-top: 34rpx;
+}
+
+.Tourist .Tourist_title .Tourist_title_right view {
+  height: 25rpx;
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(0, 152, 248, 1);
+}
+
+.Tourist .Tourist_title .Tourist_title_right image {
+  width: 11rpx;
+  height: 20rpx;
+  margin-top: 8rpx;
+  margin-left: 16rpx;
+}
+
+.Tourist .Tourist_a {
+  margin-top: 30rpx;
+  display: flex;
+  height: 60rpx;
+}
+
+.Tourist .Tourist_a .Tourist_p {
+  width: 100rpx;
+  border-right: 1px solid #ccc;
+  height: 70rpx;
+}
+
+.Tourist .Tourist_a >.view1 {
+  line-height: 70rpx;
+  height: 70rpx;
+  margin-left: 40rpx;
+}
+
+.Tourist .Tourist_a .Tourist_p1 {
+  font-size: 42rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(255, 70, 1, 1);
+  text-align: left;
+  height: 30rpx;
+  line-height: 30rpx;
+}
+
+.Tourist .Tourist_a .Tourist_p2 {
+  font-size: 20rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(255, 70, 1, 1);
+  line-height: 30px;
+  text-align: left;
+  height: 30rpx;
+}
+
+.Tourist .Tourist_lun {
+  margin-top: 30rpx;
+}
+
+.Tourist .Tourist_lun .Tourist_pl {
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  margin-top: 26rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.Tourist .Tourist_lun .Tourist_lun_p {
+  height: 60rpx;
+  display: flex;
+}
+
+.Tourist .Tourist_lun .Tourist_lun_p image {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.Tourist .Tourist_lun .Tourist_lun_p .Tourist_lun_right {
+  flex: 1;
+  margin-left: 27rpx;
+}
+
+.Tourist .Tourist_lun .Tourist_lun_p .Tourist_lun_right .Tourist_name {
+  height: 26rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+  line-height: 28rpx;
+}
+
+.Tourist .Tourist_lun .Tourist_lun_p .Tourist_lun_right .Tourist_date {
+  height: 17rpx;
+  font-size: 22rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(158, 158, 158, 1);
+  margin-top: 18rpx;
+  line-height: 17rpx;
+}
+
+.Hotel {
+  width: 690rpx;
+  margin: 0 auto;
+}
+
+.Hotel .Hotel_title {
+  margin-top: 30rpx;
+  height: 32rpx;
+  font-size: 34rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  line-height: 32rpx;
+}
+
+.Hotel .Hotel_item {
+  padding-bottom: 100rpx;
+}
+
+.Hotel .Hotel_item .Hotel_list {
+  display: flex;
+  padding-bottom: 30rpx;
+  border-bottom: 1px solid #ccc;
+  margin-top: 30rpx;
+}
+
+.Hotel .Hotel_item .Hotel_list image {
+  width: 158rpx;
+  height: 229rpx;
+}
+
+.Hotel .Hotel_item .Hotel_list .Hotel_list_right {
+  flex: 1;
+  margin-left: 24rpx;
+}
+
+.Hotel .Hotel_item .Hotel_list .Hotel_list_right .Hotel_list_right_title {
+  height: 29rpx;
+  font-size: 30rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  line-height: 29rpx;
+  margin-top: 7rpx;
+}
+
+.Hotel .Hotel_item .Hotel_list .Hotel_list_right .Hotel_list_right_lan {
+  display: flex;
+  height: 28rpx;
+  margin-top: 28rpx;
+}
+
+.Hotel .Hotel_item .Hotel_list .Hotel_list_right .Hotel_list_right_lan .Hotel_lan1 {
+  font-size: 28rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  line-height: 27rpx;
+}
+
+.Hotel .Hotel_item .Hotel_list .Hotel_list_right .Hotel_list_right_lan .Hotel_lan2 {
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  margin-left: 15rpx;
+}
+
+.Hotel .Hotel_item .Hotel_list .Hotel_list_right .Hotel_list_right_lan .Hotel_lan3 {
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(157, 157, 157, 1);
+  margin-left: 15rpx;
+}
+
+.Hotel .Hotel_item .Hotel_list .Hotel_list_right .Hotel_list_right_text {
+  height: 25rpx;
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(157, 157, 157, 1);
+  margin-top: 25rpx;
+  line-height: 25rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.Hotel .Hotel_item .Hotel_list .Hotel_list_right .Hotel_list_right_pirce {
+  text-align: right;
+  height: 28rpx;
+  font-size: 22rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: #9e9e9e;
+  line-height: 28rpx;
+}
+
+.Hotel .Hotel_item .Hotel_list .Hotel_list_right .Hotel_list_right_pirce text {
+  font-size: 22rpx;
+  color: #ff4601;
+}
+
+.Hotel .Hotel_item .Hotel_list .Hotel_list_right .Hotel_list_right_pirce text:nth-child(2) {
+  font-size: 28rpx;
+  color: #ff4601;
+}
+
+.footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 750rpx;
+}
+
+.footer .footer_left {
+  width: 440rpx;
+  height: 100rpx;
+  position: relative;
+}
+
+.footer .footer_left image {
+  width: 440rpx;
+  height: 100rpx;
+}
+
+.footer .footer_left view {
+  height: 34rpx;
+  font-size: 36rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 34rpx;
+}
+
+.footer .footer_right {
+  flex: 1;
+  height: 100rpx;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+}
+
+.footer .footer_right .shoucan {
+  text-align: center;
+  margin-top: 12rpx;
+}
+
+.footer .footer_right .shoucan image {
+  width: 38rpx;
+  height: 36rpx;
+}
+
+.footer .footer_right .shoucan view {
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  height: 23rpx;
+  line-height: 23rpx;
+  margin-top: 15rpx;
+}
+
+.introduce {
+  width: 750rpx;
+  padding-top: 60rpx;
+  padding-bottom: 100rpx;
+}
+
+.introduce .introduce_item .introduce_title {
+  display: flex;
+  height: 32px;
+  margin: 0 auto;
+  margin-top: 60rpx;
+  width: 690rpx;
+}
+
+.introduce .introduce_item .introduce_title1 {
+  margin: 0 auto;
+  margin-top: 60rpx;
+  width: 690rpx;
+}
+
+.introduce .introduce_item .introduce_title1 .introduce_list {
+  margin-top: 45rpx;
+}
+
+.introduce .introduce_item .introduce_title1 .introduce_list1 {
+  margin-top: 45rpx;
+}
+
+.introduce .introduce_item .introduce_title1 .introduce_list1 .introduce_title1_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.introduce .introduce_item .introduce_title1 .introduce_list1 .introduce_title1_list .list {
+  height: 24rpx;
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  line-height: 24rpx;
+  margin-bottom: 30rpx;
+  width: 33%;
+}
+
+.introduce .introduce_item .introduce_title1 .introduce_list1 .introduce_title1_list .list text {
+  font-size: 26rpx;
+  color: #e25520;
+}
+
+.introduce .introduce_item .introduce_title1 .introduce_title1_h1 {
+  height: 32rpx;
+  line-height: 32rpx;
+  font-size: 34rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+}
+
+.introduce .introduce_item .introduce_title view {
+  height: 32rpx;
+  line-height: 32rpx;
+  font-size: 34rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+}
+
+.introduce .introduce_item .introduce_title text {
+  height: 32rpx;
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(153, 153, 153, 1);
+  line-height: 32rpx;
+  margin-left: 25rpx;
+}
+
+.introduce .introduce_item .introduce_list .introduce_list_title {
+  margin: auto;
+  width: 690rpx;
+  height: 29rpx;
+  font-size: 30rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(102, 102, 102, 1);
+  line-height: 29rpx;
+  margin-top: 60rpx;
+}
+
+.introduce .introduce_item .introduce_list .introduce_list_conter {
+  margin: auto;
+  width: 690rpx;
+  font-size: 26rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: rgba(17, 17, 17, 1);
+  margin-top: 45rpx;
+}
+
+.introduce .introduce_item .introduce_list .introduce_img {
+  width: 750rpx;
+}
+
+.introduce .introduce_item .introduce_list .introduce_img image {
+  width: 750rpx;
+  height: 380rpx;
+  margin-top: 45rpx;
+  margin-bottom: 80rpx;
+}
+
+.Introduction {
+  width: 750rpx;
+  margin-top: 48rpx;
+  padding-bottom: 100rpx;
+}
+
+.Introduction .cover {
+  width: 750rpx;
+}
+
+.Introduction .cover .cover_kie {
+  position: relative;
+}
+
+.Introduction .cover .cover_kie image {
+  width: 750rpx;
+  height: 380rpx;
+}
+
+.Introduction .cover .cover_kie .cover_text {
+  display: flex;
+  justify-content: space-between;
+  width: 230rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Introduction .cover .cover_text view {
+  height: 45rpx;
+  font-size: 48rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  line-height: 45rpx;
+}
+
+.cover .cover_690 {
+  width: 690rpx;
+  margin: 0 auto;
+}
+
+.cover .cover_690 .cover_690_text {
+  font-size: 30rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+  margin-top: 60rpx;
+  line-height: 26px;
+}
+
+.cover .cover_690 .cover_690_img {
+  width: 690rpx;
+  height: 380rpx;
+  margin-top: 60rpx;
+}
+
+.cover .cover_690 .cover_690_img image {
+  width: 690rpx;
+  height: 380rpx;
+}
+
+.cover .cover_690 .cover_690_title {
+  height: 32rpx;
+  font-size: 34rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(68, 68, 68, 1);
+  margin-top: 80rpx;
+  line-height: 32rpx;
+  text-align: center;
+}
+
+.cover .cover_690 .cover_690_text1 {
+  font-size: 30rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(153, 153, 153, 1);
+  margin-top: 60rpx;
+}
+
+.cover .cover_690 .cover_690_text11 {
+  font-size: 26rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: rgba(17, 17, 17, 1);
+  margin-top: 50rpx;
+}
+
+.cover .cover_690 .cover_690_h3 {
+  height: 29rpx;
+  font-size: 30rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+  line-height: 29rpx;
+  margin-top: 60rpx;
+}
+
+.cover .cover_690 .cover_690_h4 {
+  height: 25rpx;
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(153, 153, 153, 1);
+  margin-top: 30rpx;
+  line-height: 25rpx;
+}
