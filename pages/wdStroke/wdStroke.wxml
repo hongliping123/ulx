@@ -1,0 +1,49 @@
+<view class="container">
+  <view class="cont_top">
+      <text>买家已付款</text>
+      <!-- <text>剩余23小时59分自动关闭</text> -->
+  </view>
+  <view class="cont_body">
+    <view class="cont_body_img">
+        <view class="cont_body_img1">
+          <image src="../img/50.png"></image>
+        </view>
+        <view class="cont_body_img_text">
+          <text>温馨双床房|机场免费接送+大窗+免押金|无早|大床|有窗</text>
+          <view class="cont_body_img_text1">
+            <text class="money_colour">￥299</text>
+            <text>x1</text>
+          </view>
+        </view>
+    </view>
+    <view class="cont_body_but">
+      <view class="cont_body_but1">取消订单</view>
+      <view class="cont_body_but1">付款</view>
+    </view>
+
+    <view class="cont_body_text">
+      <text>实付款：</text>
+      <text class="money_colour">￥299</text>
+    </view>
+  </view>
+  <view class="cont_hexiaoma">
+    <view class="cont_hexiaoma_text">核销码:</view>
+    <view class="cont_hexiaoma_img">
+        <image src="../img/erweima.png"></image>
+        <text>前往商家核销此码</text>
+    </view>
+  </view>
+  <view class="cont_tail">
+    <view class="cont_tail_text">订单信息</view>
+    
+    <view class="cont_tail_text1">订单号：2654246524989516913</view>
+    
+    <view class="cont_tail_text1">创建时间：2019-11-18    13:16</view>
+    
+    <view class="cont_tail_text1">成交时间：2019-11-18    13:16</view>
+
+    <view class="cont_tail_but">
+      <view class="cont_tail_but1">联系卖家</view>
+    </view>
+  </view>
+</view>

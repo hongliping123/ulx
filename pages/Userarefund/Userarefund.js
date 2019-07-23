@@ -1,11 +1,11 @@
-// pages/MerchantLogin/MerchantLogin.js
+// pages/Userarefund/Userarefund.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    
+
   },
 
   /**
@@ -15,11 +15,6 @@ Page({
 
   },
 
-  Gojump(){
-    wx.navigateTo({
-      url: '/pages/Business/Business',
-    })
-  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

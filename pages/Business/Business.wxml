@@ -4,17 +4,17 @@
       <text>大猫</text>
   </view>
   <view class="cont_indent">
-    <view class="cont_indent_img">
+    <view class="cont_indent_img" catchtap="Gojump">
         <image src="../img/dinganggg.png"></image>
         <text>订单管理</text>
     </view>
 
-     <view class="cont_indent_img">
+     <view class="cont_indent_img" catchtap="Gojump1">
         <image src="../img/dingdanghe.png"></image>
         <text>订单核销</text>
     </view>
 
-     <view class="cont_indent_img">
+     <view class="cont_indent_img" catchtap="Gojump2">
         <image src="../img/jiaoyij.png"></image>
         <text>交易记录</text>
     </view>

@@ -1,0 +1,146 @@
+page {
+  background: #f5f5f5;
+}
+
+.cont_top {
+  background: #fff;
+  height: 100rpx;
+  margin-top: 5rpx;
+}
+
+.cont_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cont_top_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.icon {
+  background: #e25520;
+  border-radius: 10px;
+  width: 40rpx;
+  height: 6rpx;
+  position: absolute;
+  bottom: -30rpx;
+}
+
+.cont_top_colo {
+  color: #e25520;
+}
+
+.cont_body {
+  background: #fff;
+  border-radius: 10rpx;
+  margin: 20rpx 20rpx;
+  padding: 20rpx;
+}
+
+.cont_body_text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont_body_text text:nth-child(1) {
+  font-size: 28rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+}
+
+.cont_body_text text:nth-child(2) {
+  font-size: 28rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: rgba(226, 85, 32, 1);
+}
+
+.cont_body_img {
+  margin-top: 30rpx;
+  display: flex;
+}
+
+.cont_body_img image {
+  width: 181rpx;
+  height: 180rpx;
+  border-radius: 10rpx;
+}
+
+.cont_body_img_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20rpx;
+}
+
+.cont_body_img_text>text:nth-child(1) {
+  font-size: 34rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(29, 32, 35, 1);
+}
+
+.cont_body_img_text1 {
+  color: #e25520;
+}
+
+.cont_body_img_text1>text:nth-child(1) {
+  font-size: 24rpx;
+}
+
+.cont_body_img_text1>text:nth-child(2) {
+  font-size: 36rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: bold;
+}
+
+.cont_body_but {
+  display: flex;
+  width: 400rpx;
+  margin-left: 290rpx;
+  justify-content: space-around;
+  margin-top: 35rpx;
+}
+
+.cont_body_but1 {
+  width: 180rpx;
+  height: 60rpx;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 550;
+  font-size: 27rpx;
+}
+
+.cont_body_button1 {
+  border: 1px solid rgba(213, 213, 213, 1);
+  color: #999;
+  margin-right: 20rpx;
+}
+
+.cont_body_button2 {
+  border: 1px solid rgba(226, 85, 32, 1);
+  color: #e25520;
+}
+
+.cont_body_imgtext {
+  display: flex;
+  flex-direction: column;
+}
+
+.cont_body_imgtext text:nth-child(1) {
+  font-weight: 550;
+  font-size: 36rpx;
+  margin-bottom: 10rpx;
+}
+
+.cont_body_imgtext text:nth-child(2) {
+  font-size: 28rpx;
+  color: rgba(153, 153, 153, 1);
+}

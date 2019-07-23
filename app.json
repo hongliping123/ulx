@@ -1,16 +1,24 @@
 {
   "pages": [
     "pages/Hotel/Hotel",
+    "pages/share/share",
+    "pages/giftcard/giftcard",
+    "pages/Myquestions/Myquestions",
+    "pages/Strokedd/Strokedd",
+    "pages/Userarefund/Userarefund",
+    "pages/MerchantLogin/MerchantLogin",
+    "pages/sjrefund/sjrefund",
+    "pages/wdStroke/wdStroke",
     "pages/switch/switch",
     "pages/scenic/scenic",
     "pages/Introduction/Introduction",
     "pages/sjlineitem/sjlineitem",
+    "pages/Business/Business",
     "pages/sjadminister/sjadminister",
     "pages/sjrecord/sjrecord",
     "pages/cancel/cancel",
-    "pages/Business/Business",
-    "pages/MerchantLogin/MerchantLogin",
     "pages/index/index"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

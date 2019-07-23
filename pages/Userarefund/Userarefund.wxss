@@ -1,0 +1,148 @@
+/* pages/sjrefund/sjrefund.wxss */
+
+page {
+  background: #f5f5f5;
+}
+
+.cont_top {
+  height: 180rpx;
+  background: linear-gradient(90deg, rgba(226, 85, 32, 1) 0%, rgba(246, 159, 46, 1) 100%);
+  display: flex;
+  align-items: center;
+}
+
+.cont_top text {
+  font-size: 38rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 20rpx;
+}
+
+.cont_body {
+  background: #fff;
+  padding: 20rpx;
+}
+
+.cont_body_img {
+  display: flex;
+}
+
+.cont_body_img image {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 10rpx;
+}
+
+.cont_body_img_text {
+  margin-left: 40rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cont_body_img1 {
+  width: 130rpx;
+  height: 130rpx;
+}
+
+.cont_body_img_text>text:nth-child(1) {
+  font-size: 30rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+}
+
+.cont_body_img_text1 text {
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium;
+  color: rgba(226, 85, 32, 1);
+}
+
+.cont_body_img_text1>text:nth-child(2) {
+  font-weight: bold;
+  font-size: 36rpx;
+}
+
+.cont_body_text1 {
+  margin-top: 30rpx;
+}
+
+.cont_body_text1 text:nth-child(1) {
+  font-size: 28rpx;
+  font-family: PingFang-SC-Medium;
+  /* font-weight: bold; */
+  color: #606972;
+}
+
+.cont_body_text1 text:nth-child(2) {
+  font-size: 28rpx;
+  font-family: PingFang-SC-Regular;
+  color: rgba(153, 153, 153, 1);
+}
+
+/* .money {
+
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: bold;
+  color: rgba(226, 85, 32, 1) !important;
+} */
+
+.cont_but {
+  height: 177rpx;
+}
+
+.cont_but {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont_but_tail {
+  width: 690rpx;
+  height: 90rpx;
+  background: rgba(226, 85, 32, 1);
+  border-radius: 10rpx;
+  font-size: 32rpx;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont_but_judan {
+  width: 100%;
+  height: 90rpx;
+  background: rgba(226, 85, 32, 1);
+  border-radius: 10rpx;
+  font-size: 32rpx;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+}
+
+.cont_top_tk {
+  background: #fff;
+  margin-bottom: 20rpx;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20rpx;
+}
+
+.cont_top_tk text:nth-child(2) {
+  font-size: 26rpx;
+  color: rgba(226, 85, 32, 1);
+}
+
+.cont_body_xi {
+  margin-bottom: 20rpx;
+  font-size: 30rpx;
+  font-weight: 500;
+  color: rgba(29, 32, 35, 1);
+}
