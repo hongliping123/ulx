@@ -1,71 +1,31 @@
 <view class="top">
-  <view class="top_left">
-    <view class="top_score">
-      4.8
-      <text>分</text>
+  <image class="tx" src='/pages/img/50.png'></image>
+  <view class="right">
+    <text class="pin">商品评价</text>
+    <view class="item">
+      <image bindtap='starClick' src='{{item.lightImg}}' lazy-load='true' wx:for="{{stars}}" data-index='{{index}}' wx:key="index" wx:if="{{item.flag==1}}"></image>
+      <image bindtap='starClick' src='{{item.blackImg}}' lazy-load='true' data-index='{{index}}' wx:for="{{stars}}" wx:key="index" wx:if="{{item.flag==2}}"></image>
     </view>
-    <view class="top_left_dian">共70条用户点评</view>
-  </view>
-  <view class="top_right">
-    <view class="top_item">
-      <view class="top_list">
-        <text>非常棒</text>
-        <image src="../img/huixing.png" lazy-load='true'></image>
-        <progress class="pro" percent="71" show-info color="#E25520" active backgroundColor="#F1F1F1" />
-      </view>
-      <view class="top_list">
-        <text>非常棒</text>
-        <image src="../img/huixing.png" lazy-load='true'></image>
-        <progress class="pro" percent="71" show-info color="#E25520" active backgroundColor="#F1F1F1" />
-      </view>
-      <view class="top_list">
-        <text>非常棒</text>
-        <image src="../img/huixing.png" lazy-load='true'></image>
-        <progress class="pro" percent="71" show-info color="#E25520" active backgroundColor="#F1F1F1" />
-      </view>
-      <view class="top_list">
-        <text>非常棒</text>
-        <image src="../img/huixing.png" lazy-load='true'></image>
-        <progress class="pro" percent="71" show-info color="#E25520" active backgroundColor="#F1F1F1" />
-      </view>
-      <view class="top_list">
-        <text>非常棒</text>
-        <image src="../img/huixing.png" lazy-load='true'></image>
-        <progress class="pro" percent="71" show-info color="#E25520" active backgroundColor="#F1F1F1" />
-      </view>
-    </view>
+    <text class="pin1">{{score}}</text>
   </view>
 </view>
 <view class="mian">
-  <view class="mian_tab">
-    <view class="nav">全部 70</view>
-    <view class="nav1">最新</view>
-    <view class="nav1">好评 56</view>
-    <view class="nav1">有图 17</view>
-    <view class="nav2">差评 2</view>
-  </view>
-  <view class="list">
-    <view class="list_top">
-      <image src="../img/tx11.png" lazy-load='true'></image>
-      <view class="list_top_left">
-        <view class="list_top_left_a">雁玲</view>
-        <view class="list_top_left_b">2018-10-28 06:45</view>
-      </view>
-    </view>
-    <view class="list_conter">
-      最后定了靖港古镇一人游。除了价格贵以外度都挺好的。早上司机师傅联系我们，还不错。晚上我再次回到酒店最后定了靖港古镇一人游。除了价格贵以外度都挺好的。早上司机师傅联系我们，还不错。晚上我再次回到酒店最后定了靖港古镇一人游。除了价格贵以外度都挺好的。早上司机师傅联系我们，还不错。晚上我再次回到酒店
-    </view>
-    <view class="list_img">
-      <image src="../img/nongjia.png" lazy-load='true'></image>
-      <image src="../img/nongjia.png" lazy-load='true'></image>
-      <image src="../img/nongjia.png" lazy-load='true'></image>
-    </view>
-    <view class="list_zan">
-      <image src="../img/zan.png" lazy-load='true'></image>
+  <textarea bindinput="bindinput" placeholder='宝贝满足你的期待吗？说说你的使用心得，分享给想买的他们吧'></textarea>
+  <view class="image">
+   <view class='flutter'>
+        <view class="zp" wx:for="{{images}}" wx:key="index">
+          <view class="zp_1_1">
+              <icon class='ui_uploader_item_icon' bindtap='clearImg' data-index="{{index}}" type="clear" size="20" color="red"/>
+              <image src='{{item}}' bindtap='showImg'  data-index="{{index}}"></image>
+          </view>
+        </view>
+        <view class="zp" catchtap='chooseImage' wx:if="{{showUpload}}">
+          <view class="zp_1">
+          <image src='/pages/img/xj.png'></image>
+          <view class="tj">添加图片</view>
+          </view>
+        </view>
     </view>
   </view>
 </view>
-<view class="footer">
-  <image src="../img/dian.png" lazy-load='true'></image>
-  <text>写点评</text>
-</view>
+<view class="btn" bindtap='handBtn'>发表评论</view>
