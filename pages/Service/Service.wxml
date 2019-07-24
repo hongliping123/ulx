@@ -1,0 +1,46 @@
+<view class="top">
+  <view class="top_lr">
+    <image src="../img/tel1.png" lazy-load='true'></image>
+    <view class="aa">热线电话</view>
+    <view class="bb">07:00-21:00</view>
+  </view>
+  <view class="top_fr">
+    <image src="../img/tel1.png"></image>
+    <view class="aa">在线客服</view>
+    <view class="bb">07:00-21:00</view>
+  </view>
+</view>
+<view class="wenti">常见问题</view>
+<view class="item">
+  <view class="list">
+    <image class="list1" src="../img/list1.png" lazy-load='true'></image>
+    <text>购物指南</text>
+    <image class="right" src="../img/right.png" lazy-load='true'></image>
+  </view>
+  <view class="list">
+    <image class="list1" src="../img/list1.png" lazy-load='true'></image>
+    <text>购物指南</text>
+    <image class="right" src="../img/right.png" lazy-load='true'></image>
+  </view>
+  <view class="list">
+    <image class="list1" src="../img/list1.png" lazy-load='true'></image>
+    <text>购物指南</text>
+    <image class="right" src="../img/right.png" lazy-load='true'></image>
+  </view>
+  <view class="list" style='border:0;'>
+    <image class="list1" src="../img/list1.png" lazy-load='true'></image>
+    <text>购物指南</text>
+    <image class="right" src="../img/right.png" lazy-load='true'></image>
+  </view>
+</view>
+<view class="zzc" catchtouchmove='ture'>
+  <view class="zzc_box">
+    <view class="zzc_box_top">
+      400-088-1188
+    </view>
+    <view class="zzc_box_footer">
+      <view class="pop">取消</view>
+      <view class="ptp">呼叫</view>
+    </view>
+  </view>
+</view>

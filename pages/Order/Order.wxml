@@ -1,0 +1,68 @@
+<view class="db">
+  <view class="db_bg"></view>
+  <view class="top">
+    <view class="top_ding">
+      <view class="top_title">
+        长沙靖港古镇|三日游·免费登楼·免手续费|非常长沙靖港古镇|三日游·免费登楼·免手续费|非常...
+      </view>
+      <view class="top_date">
+        出行日期：2019-06-04
+      </view>
+    </view>
+    <view class="top_footer">
+      <image src='../img/tan.png' lazy-load='true'></image>
+      <text>数量：成人*1</text>
+    </view>
+  </view>
+  <view class="Trip">
+    <view class="Trip_title">出行信息</view>
+    <view class="item">
+      <view class="item_left">
+        出行人姓名
+      </view>
+      <input type='text' placeholder='请确保与您证件上的姓名一致' value=''></input>
+    </view>
+    <view class="item">
+      <view class="item_left">
+        身份证号码
+      </view>
+      <input type='text' placeholder='请输入正确的身份证号码' value=''></input>
+    </view>
+    <view class="item">
+      <view class="item_left">
+        联系电话
+      </view>
+      <input type='text' placeholder='当天出行的联系电话' value=''></input>
+    </view>
+  </view>
+  <view class="Trip">
+    <view class="Trip_title">出行信息</view>
+    <view class="item">
+      <view class="item_left">
+        出行人姓名
+      </view>
+      <input type='text' placeholder='请确保与您证件上的姓名一致' value=''></input>
+    </view>
+    <view class="item">
+      <view class="item_left">
+        身份证号码
+      </view>
+      <input type='text' placeholder='请输入正确的身份证号码' value=''></input>
+    </view>
+    <view class="item">
+      <view class="item_left">
+        联系电话
+      </view>
+      <input type='text' placeholder='当天出行的联系电话' value=''></input>
+    </view>
+  </view>
+  <view class="zzc_footer">
+    <view class="zzc_footer_left">
+      ¥
+      <text>118</text>
+    </view>
+    <view class="zzc_footer_right">
+      立即购买
+    </view>
+  </view>
+</view>

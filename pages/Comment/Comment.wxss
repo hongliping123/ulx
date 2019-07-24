@@ -1,0 +1,235 @@
+page {
+  background: #f1f1f1;
+}
+
+.top {
+  height: 250rpx;
+  width: 750rpx;
+  display: flex;
+}
+
+.top .top_left {
+  width: 42%;
+  position: relative;
+}
+
+.top .top_left .top_score {
+  width: 140rpx;
+  height: 76rpx;
+  font-size: 76rpx;
+  font-family: PingFang-SC-Heavy;
+  font-weight: 800;
+  color: rgba(255, 70, 1, 1);
+  display: flex;
+  line-height: 76rpx;
+  text-align: center;
+  transform: translateX(-50%);
+  position: absolute;
+  top: 54rpx;
+  left: 50%;
+}
+
+.top .top_left .top_score text {
+  font-size: 22rpx;
+  color: #a8a8a8;
+  line-height: 110rpx;
+}
+
+.top .top_left .top_left_dian {
+  text-align: center;
+  height: 23rpx;
+  margin-top: 166rpx;
+  line-height: 23rpx;
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(168, 168, 168, 1);
+}
+
+.top .top_right {
+  flex: 1;
+  margin-left: 30rpx;
+}
+
+.top .top_right .top_item {
+  padding-top: 40rpx;
+}
+
+.top .top_right .top_item .top_list {
+  display: flex;
+  margin-bottom: 14rpx;
+}
+
+.top .top_right .top_item .top_list text {
+  height: 22rpx;
+  font-size: 22rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(186, 186, 186, 1);
+  line-height: 22rpx;
+}
+
+.top .top_right .top_item .top_list image {
+  width: 22rpx;
+  height: 22rpx;
+  margin-left: 25rpx;
+}
+
+.top .top_right .top_item .top_list .pro {
+  width: 200rpx;
+  height: 22rpx;
+  font-size: 22rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(168, 168, 168, 1);
+  line-height: 22rpx;
+  margin-left: 25rpx;
+}
+
+.mian {
+  width: 692rpx;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 12rpx;
+  box-sizing: border-box;
+  padding: 30rpx 15rpx;
+  margin: 0 auto;
+}
+
+.mian .mian_tab {
+  display: flex;
+}
+
+.mian .mian_tab .nav {
+  padding: 0 20rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  background: #e25520;
+  margin-right: 20rpx;
+  border-radius: 25rpx;
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+
+.mian .mian_tab .nav1 {
+  padding: 0 20rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  background: rgba(219, 219, 219, 1);
+  margin-right: 20rpx;
+  border-radius: 25rpx;
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(94, 94, 94, 1);
+}
+
+.mian .mian_tab .nav2 {
+  padding: 0 20rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  background: rgba(220, 220, 220, 1);
+  border-radius: 25rpx;
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(94, 94, 94, 1);
+  margin-right: 0;
+}
+
+.mian .list_top {
+  display: flex;
+  margin-top: 40rpx;
+}
+
+.mian .list_top>image {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.mian .list_top .list_top_left {
+  flex: 1;
+  margin-left: 20rpx;
+}
+
+.mian .list_top .list_top_left .list_top_left_a {
+  height: 26rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+  line-height: 26rpx;
+}
+
+.mian .list_top .list_top_left .list_top_left_b {
+  height: 17rpx;
+  font-size: 22rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(158, 158, 158, 1);
+  line-height: 17rpx;
+  margin-top: 16rpx;
+}
+
+.mian .list_conter {
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  margin-top: 25rpx;
+}
+
+.mian .list_img {
+  display: flex;
+  margin-top: 37rpx;
+}
+
+.mian .list_img image {
+  width: 210rpx;
+  height: 210rpx;
+  margin-right: 16rpx;
+}
+
+.mian .list_img image:nth-child(3) {
+  margin-right: 0;
+}
+
+.mian .list_zan {
+  text-align: right;
+  margin-top: 25rpx;
+}
+
+.mian .list_zan image {
+  width: 50rpx;
+  height: 46rpx;
+}
+
+.footer {
+  width: 750rpx;
+  height: 100rpx;
+  background: #fff;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 5rpx 42rpx 12rpx rgba(133, 133, 133, 0.31);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer image {
+  width: 33rpx;
+  height: 32rpx;
+  margin-top: 36rpx;
+}
+
+.footer text {
+  height: 34rpx;
+  font-size: 36rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  line-height: 100rpx;
+  margin-left: 20rpx;
+}

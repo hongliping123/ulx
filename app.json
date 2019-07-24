@@ -1,5 +1,11 @@
 {
   "pages": [
+    "pages/Service/Service",
+    "pages/Strategy/Strategy",
+    "pages/Comment/Comment",
+    "pages/Order/Order",
+    "pages/scenic/scenic",
+    "pages/qbjd/qbjd",
     "pages/Hotel/Hotel",
     "pages/share/share",
     "pages/giftcard/giftcard",
@@ -10,7 +16,6 @@
     "pages/sjrefund/sjrefund",
     "pages/wdStroke/wdStroke",
     "pages/switch/switch",
-    "pages/scenic/scenic",
     "pages/Introduction/Introduction",
     "pages/sjlineitem/sjlineitem",
     "pages/Business/Business",
@@ -18,7 +23,6 @@
     "pages/sjrecord/sjrecord",
     "pages/cancel/cancel",
     "pages/index/index"
-    
   ],
   "window": {
     "backgroundTextStyle": "light",

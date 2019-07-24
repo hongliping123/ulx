@@ -1,0 +1,139 @@
+<view class="top">
+  <image src='../img/top_bg.png' lazy-load='true'></image>
+  <image src='../img/fenx.png' lazy-load='true'></image>
+</view>
+<view class="nav">
+  <view class=" nav_title">
+    <view class="nav_title_left">
+      中秋去哪儿？赣州，玩转乡 村版迪士尼A哆乡村
+    </view>
+    <view class="nav_title_right">
+      <image src='../img/shoucn.png' lazy-load='true'></image>
+      <text>加入收藏</text>
+    </view>
+  </view>
+  <view class="nav_item">
+    <view class="nav_list">
+      <view class="nav_list_top">形式</view>
+      <view class="nav_list_b">自由行</view>
+    </view>
+    <view class="nav_list">
+      <view class="nav_list_top">人群</view>
+      <view class="nav_list_b">亲子</view>
+    </view>
+    <view class="nav_list">
+      <view class="nav_list_top">出行天数</view>
+      <view class="nav_list_b">3</view>
+    </view>
+    <view class="nav_list">
+      <view class="nav_list_top1">人均花费</view>
+      <view class="nav_list_b">2000</view>
+    </view>
+  </view>
+</view>
+<view class="hhh"></view>
+<view class="mian">
+  <view class="mian_list">
+    <view class="mian_list_title">
+      前言
+    </view>
+    <view class="mian_list_text">
+      旅行的意义，你我皆有诠释，丫山景区，让你看到不一样的世界。这里，是一片远离尘扰，亲近自然的净土。山林泉瀑融为一体，人文底蕴醇厚，听虫鸟天籁，呼吸新鲜空气，看云卷云舒，感书香沁心，畅游生态、回味童趣、慰藉乡愁。丫山，人间仙境，养心圣地，一个来了不愿意离开的地方。
+    </view>
+  </view>
+  <view class="mian_list">
+    <view class="mian_list_title">
+      预告片
+    </view>
+    <view class="mian_list_img">
+      <image src='../img/cun.png' lazy-load='true'></image>
+      <image src='../img/cun.png' lazy-load='true'></image>
+      <image src='../img/cun.png' lazy-load='true'></image>
+      <image src='../img/cun.png' lazy-load='true'></image>
+    </view>
+  </view>
+  <view class="mian_list">
+    <view class="mian_list_title">
+      A哆乡村，梦里老家，回忆乡愁
+    </view>
+    <view class="mian_list_text">
+      旅行的意义，你我皆有诠释，丫山景区，让你看到不一样的世界。这里，是一片远离尘扰，亲近自然的净土。山林泉瀑融为一体，人文底蕴醇厚，听虫鸟天籁，呼吸新鲜空气，看云卷云舒，感书香沁心，畅游生态、回味童趣、慰藉乡愁。丫山，人间仙境，养心圣地，一个来了不愿意离开的地方。旅行的意义，你我皆有诠释，丫山景区，让你看到不一样的世界。这里，是一片远离尘扰，亲近自然的净土。山林泉瀑融为一体，人文底蕴醇厚，听虫鸟天籁，呼吸新鲜空气，看云卷云舒，感书香沁心，畅游生态、回味童趣、慰藉乡愁。丫山，人间仙境，养心圣地，一个来了不愿意离开的地方。旅行的意义，你我皆有诠释，丫山景区，让你看到不一样的世界。这里，是一片远离尘扰，亲近自然的净土。山林泉瀑融为一体，人文底蕴醇厚，听虫鸟天籁，呼吸新鲜空气，看云卷云舒，感书香沁心，畅游生态、回味童趣、慰藉乡愁。丫山，人间仙境，养心圣地，一个来了不愿意离开的地方。
+    </view>
+  </view>
+  <view class="mian_list">
+    <view class="mian_list_coco">
+      <image class="fj" src='../img/fj.png' lazy-load='true'></image>
+      <view class="mian_list_coco_conter">
+        <view class="mian_list_coco_conter_title">A哆村庄·乡村迪士尼</view>
+        <view class="text_a">
+          <text>148</text> 篇点评</view>
+        <view class="text_b">位于江西省·赣州市</view>
+      </view>
+      <view class="mian_list_coco_right">
+        <image src='../img/love1.png' lazy-load='true'></image>
+        <text>327</text>
+      </view>
+    </view>
+  </view>
+  <view class="mian_list">
+    <view class="mian_list_title">
+      交通攻略
+    </view>
+    <view class="mian_list_item">
+      <view class="mian_list_text1">
+        1.坐飞机或火车到赣州，然后坐景区直通车
+      </view>
+      <view class="mian_list_text1">
+        2.坐高铁到韶关站后乘车走高速1.5小时可到达景区。
+      </view>
+      <view class="mian_list_text1">
+        2.坐高铁到韶关站后乘车走高速1.5小时可到达景区。
+      </view>
+      <view class="mian_list_text1">
+        3.火车到大余火车站，坐公交车或者滴滴到达景区
+      </view>
+      <view class="mian_list_text1_title">自驾</view>
+      <view class="mian_list_text1">
+        1.江西地区：赣粤高速-三一枢纽-转向赣韶高速-青龙出口(下高速)-向大余县方向前行约15公里-进入丫山风景区
+      </view>
+      <view class="mian_list_text1">
+        2.江西地区：赣粤高速-三一枢纽-转向赣韶高速-青龙出口(下高速)-向大余县方向前行约15公里-进入丫山风景区
+      </view>
+    </view>
+  </view>
+  <view class="mian_list">
+    <view class="mian_list_title">
+      门票信息
+    </view>
+    <view class="mian_list_text">
+      丫山景区一票通门票：100元/人(一票通游丫山，门票含指定停车购票区至景区，以及景区内游览站点观光车交通)
+    </view>
+  </view>
+</view>
+<view class="hhh"></view>
+<view class="mian">
+  <view class="mian_list">
+    <view class="mian_list_title">
+      更多乡村攻略
+    </view>
+    <view class="mian_list_send">
+      <view class="left">
+        <image src='../img/send.png' lazy-load='true'></image>
+        <view>研学</view>
+      </view>
+      <view class="right">
+        <view class="right_title">
+          【研学】北京大学游-中高考考生 必须要去感受的一个地方
+        </view>
+        <view class="right_conter">
+          用户说：哈哈，去过北京大学的都说里面学习 气氛浓郁，感受千年学府的学习氛围亲临北京 大学感受历史的浓厚氛围，站在北京大学的校 门口，就能感受到...
+        </view>
+        <view class="right_zan">
+          <view class='ha'></view>
+          <image src='../img/aixin.png' lazy-load='true'></image>
+          <text>246</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
