@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/refund/refund",
     "pages/comment/comment",
     "pages/myorder/myorder",
     "pages/myorderform/myorderform",
@@ -21,7 +22,6 @@
     "pages/sjrecord/sjrecord",
     "pages/cancel/cancel",
     "pages/index/index"
-   
   ],
   "window": {
     "backgroundTextStyle": "light",

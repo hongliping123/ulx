@@ -1,0 +1,72 @@
+<!-- 退货 -->
+<view class="db">
+  <view class="conter">
+    <view class="list">
+      <image class="img1" src='../img/50.png' lazy-load='true'></image>
+      <view class="right">
+        <view class="title">
+          <view class="title_1">夏季新款反绒真皮裹带高跟鞋侧镂空宴会尖头细跟</view>
+          <text class="title_2">￥299</text>
+        </view>
+        <view class="title_sl">x1</view>
+      </view>
+      
+    </view>
+    <view class="item">
+      <view class="item_li">
+        <view class="left">
+          实际收款
+          <text>￥299</text>
+        </view>
+        <view class="right">
+        </view>
+      </view>
+
+      
+    </view>
+
+    <view class="item_img">
+      <view class="item_li">
+        <view class="left">
+          <text>退款原因</text>
+          <image src="../img/you.png"></image>
+        </view>
+        <view class="right">
+        </view>
+      </view>
+    </view>
+
+
+  </view>
+  <view class="pirce margin">
+    退款金额
+    <text>￥299</text>
+  </view>
+  <view class="explain">
+    退款金额最多￥299，含发货邮费￥0.00
+  </view>
+  <view class="pirce">
+    退款说明:
+    <input type='text' placeholder='选填' bindinput='content'></input>
+  </view>
+  <view class='footer'>
+    <view class="voucher">
+      上传凭证：
+    </view>
+    <view class='flutter'>
+        <view class="zp" wx:for="{{images}}" wx:key="index">
+          <view class="zp_1_1">
+              <icon class='ui_uploader_item_icon' bindtap='clearImg' data-index="{{index}}" type="clear" size="20" color="red"/>
+              <image src='{{item}}' bindtap='showImg'  data-index="{{index}}"></image>
+          </view>
+        </view>
+        <view class="zp" catchtap='chooseImage' wx:if="{{showUpload}}">
+          <view class="zp_1">
+          <image src='/pages/img/xj.png'></image>
+          <view class="tj">添加图片</view>
+          </view>
+        </view>
+    </view>
+  </view>
+  <view class="btn" bindtap='handTui'>申请</view>
+</view>
