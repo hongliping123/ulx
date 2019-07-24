@@ -1,25 +1,13 @@
-// pages/myorder/myorder.js
-var that
+// pages/share/share.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    menuTapCurrent:-1
-  },
-  menuTap(e){
-    that = this
-    that.setData({
-      menuTapCurrent: e.currentTarget.dataset.current
-    })
+
   },
 
-  gojump(){
-    wx.navigateTo({
-      url: '/pages/myorderform/myorderform',
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */

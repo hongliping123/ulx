@@ -1,2 +1,96 @@
-<!--pages/myorderform/myorderform.wxml-->
-<text>pages/myorderform/myorderform.wxml</text>
+<view class="container">
+  <view class="cont_top">
+      <text>买家已发货</text>
+      <text>剩余23小时59分自动关闭</text>
+  </view>
+  <view class="cont_body">
+      <view class="cont_body_wuliu cont_body_hei">
+          <view class="cont_body_wuliu_img">
+              <image src="../img/yifahuo.png"></image>
+              <view class="cont_body_wuliu_text">
+                <text>包裹正在等待揽收</text>
+                <text>2019-05-15  11:27:28</text>
+              </view>
+          </view>
+          <image src="../img/you.png"></image>
+      </view>
+      <view class="cont_body_dizhi cont_body_hei">
+          <view class="cont_body_dizhi_img">
+             <image src="../img/dizhi .png"></image>
+             <view class="cont_body_dizhi_img_text">
+                <text>湖南浣熊 13698254369</text>
+                <text>湖南省长沙市天心区雀园路创谷广告园</text>
+             </view>
+          </view>
+            <image src="../img/you.png"></image>
+      </view>
+  </view>
+  <view class="cont_body_gexian"></view>
+  <view class="whole_item">
+    <view class="whole_item_img">
+       <image src="../img/dianpu .png"></image>
+       <text>U老乡长沙馆</text>
+    </view>
+    <view class="whole">
+      <view class="t_2">
+        <view class="t_2_list">
+          <image class='coco' src='../img/50.png' lazy-load='true'></image>
+          <view class="right">
+            <view class="right_title">夏季新款反绒真皮裹带高跟鞋侧镂空宴会尖头细跟</view>
+            <!-- <view class="right_size">颜色分类：酒红色；尺码：36</view> -->
+            <view class="right_footer">
+              <view class="left">￥299</view>
+              <view class="right">x1</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="t_3_btn">
+        退款
+      </view>
+    </view>
+    <view class="freight">
+      <text>运费：</text>
+      <view class="pirce">
+        <text>￥</text>0</view>
+    </view>
+    <view class="freight_1">
+      <text>优惠卷：</text>
+      <view class="pirce">
+        <text>-￥</text>10</view>
+    </view>
+    <view class="freight_1">
+      <text>U币抵扣：</text>
+      <view class="pirce">
+        <text>-￥</text>10</view>
+    </view>
+    <view class="freight_1">
+      <text>实付款：</text>
+      <view class="pirce">
+        <text>￥</text>100</view>
+    </view>
+  </view>
+
+   <view class="xinxi">
+    <view class="xinxi_title">订单信息</view>
+    <view class="ddh">订单号：2654246524989516913</view>
+    <view class="ddh">创建时间：2018-11-18    13:16</view>
+    <view class="ddh">成交时间：2018-11-18    13:16</view>
+    <view class="dh" >
+      <view class="dh_btn">拨打电话</view>
+    </view>
+  </view>
+
+   <view class="send">
+    <view class="send_btn" catchtap="abolish">取消订单</view>
+    <view class="send_btn_1" bindtap='payment'>付款</view>
+  </view>
+  <view class="send" wx:if="{{orderStatus == 1}}">
+    <view class="send_btn">查看物流</view>
+    <view class="send_btn_1" bindtap='payment'>确认收货</view>
+  </view>
+  <view class="send" wx:if="{{orderStatus == 2}}">
+    <view class="send_btn_1" catchtap='handPinjia' data-num="{{index}}">评价</view>
+  </view>
+  <view style=" height: 80px;"></view>
+</view>

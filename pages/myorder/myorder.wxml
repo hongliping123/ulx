@@ -23,7 +23,7 @@
     <image class='coco' src='../img/coco11.png' lazy-load='true'></image>
     <view class="ttc">亲，你还没有相关订单哦～</view>
   </view> -->
-  <view class="whole ">
+  <view class="whole" bindtap="gojump">
      <view class="whole_text ">
       <view class="whole_text_img ">
           <image src="../img/dianpu .png "></image>
