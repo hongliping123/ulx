@@ -1,0 +1,31 @@
+<view class="top">
+  <image class="tx" src='/pages/img/50.png'></image>
+  <view class="right">
+    <text class="pin">商品评价</text>
+    <view class="item">
+      <image bindtap='starClick' src='{{item.lightImg}}' lazy-load='true' wx:for="{{stars}}" data-index='{{index}}' wx:key="index" wx:if="{{item.flag==1}}"></image>
+      <image bindtap='starClick' src='{{item.blackImg}}' lazy-load='true' data-index='{{index}}' wx:for="{{stars}}" wx:key="index" wx:if="{{item.flag==2}}"></image>
+    </view>
+    <text class="pin1">{{score}}</text>
+  </view>
+</view>
+<view class="mian">
+  <textarea bindinput="bindinput" placeholder='宝贝满足你的期待吗？说说你的使用心得，分享给想买的他们吧'></textarea>
+  <view class="image">
+   <view class='flutter'>
+        <view class="zp" wx:for="{{images}}" wx:key="index">
+          <view class="zp_1_1">
+              <icon class='ui_uploader_item_icon' bindtap='clearImg' data-index="{{index}}" type="clear" size="20" color="red"/>
+              <image src='{{item}}' bindtap='showImg'  data-index="{{index}}"></image>
+          </view>
+        </view>
+        <view class="zp" catchtap='chooseImage' wx:if="{{showUpload}}">
+          <view class="zp_1">
+          <image src='/pages/img/xj.png'></image>
+          <view class="tj">添加图片</view>
+          </view>
+        </view>
+    </view>
+  </view>
+</view>
+<view class="btn" bindtap='handBtn'>发表评论</view>
