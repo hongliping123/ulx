@@ -1,0 +1,78 @@
+<view class="container">
+  <view class="nav">
+    <view class="nav_list  {{menuTapCurrent==-1?'nav_list_color':''}}" data-current="-1" catchtap="menuTap">全部
+      <view class="{{menuTapCurrent==-1?'xian':''}}"></view>
+    </view>
+    <view class="nav_list {{menuTapCurrent==0?'nav_list_color':''}}" data-current="0" catchtap="menuTap">待付款
+      <view class="{{menuTapCurrent==0?'xian':''}}"></view>
+    </view>
+    <view class="nav_list {{menuTapCurrent==1?'nav_list_color':''}}" data-current="1" catchtap="menuTap">已发货
+      <view class="{{menuTapCurrent==1?'xian':''}}"></view>
+    </view>
+    <view class="nav_list {{menuTapCurrent==2?'nav_list_color':''}}" data-current="2" catchtap="menuTap">待取货
+      <view class="{{menuTapCurrent==2?'xian':''}}"></view>
+    </view>
+    <view class="nav_list {{menuTapCurrent==3?'nav_list_color':''}}" data-current="3" catchtap="menuTap">待评价
+      <view class="{{menuTapCurrent==3?'xian':''}}"></view>
+    </view>
+    <view class="nav_list {{menuTapCurrent==4?'nav_list_color':''}}" data-current="4" catchtap="menuTap">售后
+      <view class="{{menuTapCurrent==4?'xian':''}}"></view>
+    </view>
+  </view>
+  <!-- <view class="mian" >
+    <image class='coco' src='../img/coco11.png' lazy-load='true'></image>
+    <view class="ttc">亲，你还没有相关订单哦～</view>
+  </view> -->
+  <view class="whole ">
+     <view class="whole_text ">
+      <view class="whole_text_img ">
+          <image src="../img/dianpu .png "></image>
+          <text>U老乡长沙馆</text>
+      </view>
+      <view class="t_1 ">待付款</view>
+    </view>
+    <view class="t_2 ">
+      <view class="t_2_list ">
+        <image class='coco' src="../img/50.png " lazy-load='true'></image>
+        <view class="right ">
+          <view class="right_title ">夏季新款反绒真皮裹带高跟鞋侧镂空宴会尖头细跟</view>
+          <view class="right_size ">颜色分类：酒红色；尺码：36</view>
+          <view class="right_footer ">
+            <view class="left ">￥299</view>
+            <view class="right ">x1</view>
+          </view>
+          <!-- <view class="t_5 " wx:if="{{item.OrderStatus=='待退货' }} ">
+            <view class="t_5_btn ">评价</view>
+          </view> -->
+        </view>
+      </view>
+    </view>
+    <view class="t_3 ">
+      <text>运费：</text>
+      <view>
+        <text>￥</text>0</view>
+    </view>
+    <view class="t_4 ">
+      <view>
+        <text>￥</text>299</view>
+      <text class="t_4_1 ">共1件商品  合计：</text>
+    </view>
+    <view class="t_5 ">
+      <view class="t_5_btn " catchtap='payment'>付款</view>
+      <view class="t_5_btn " catchtap='abolish'>取消订单</view>
+    </view>
+    <!-- <view class="t_5 " wx:if="{{item.OrderStatus=='待收货' }} ">
+      <view class="t_5_btn " catchtap='payment'>确认收货</view>
+      <view class="t_5_btn " catchtap='cancel'>查看物流</view>
+    </view>
+    <view class="t_5 " wx:if="{{item.OrderStatus=='已收货' }} ">
+      <view class="t_5_btn " catchtap='payment'>确认收货</view>
+    </view>
+    <view class="t_5 " wx:if="{{item.OrderStatus=='待退货' }} ">
+      <view class="t_5_btn " catchtap='refund' data-OrderId='{{item.OrderId}}'>退款</view>
+    </view>
+    <view class="t_5 " wx:if="{{item.OrderStatus=='已退货' }} ">
+      <view class="t_5_btn " catchtap='handPinjia' data-num="{{index}} ">评价</view>
+    </view> -->
+  </view>
+</view>

@@ -1,13 +1,19 @@
-// pages/share/share.js
+// pages/myorder/myorder.js
+var that
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    menuTapCurrent:-1
   },
-
+  menuTap(e){
+    that = this
+    that.setData({
+      menuTapCurrent: e.currentTarget.dataset.current
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

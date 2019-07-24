@@ -1,8 +1,9 @@
 {
   "pages": [
-    "pages/share/share",
-    "pages/giftcard/giftcard",
+    "pages/myorderform/myorderform",
+    "pages/myorder/myorder",
     "pages/Myquestions/Myquestions",
+    "pages/giftcard/giftcard",
     "pages/Strokedd/Strokedd",
     "pages/Userarefund/Userarefund",
     "pages/MerchantLogin/MerchantLogin",
@@ -17,7 +18,6 @@
     "pages/sjrecord/sjrecord",
     "pages/cancel/cancel",
     "pages/index/index"
-    
   ],
   "window": {
     "backgroundTextStyle": "light",
