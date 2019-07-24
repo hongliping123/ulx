@@ -2,6 +2,8 @@
   "pages": [
     "pages/myorderform/myorderform",
     "pages/myorder/myorder",
+    "pages/Hotel/Hotel",
+    "pages/share/share",
     "pages/Myquestions/Myquestions",
     "pages/giftcard/giftcard",
     "pages/Strokedd/Strokedd",

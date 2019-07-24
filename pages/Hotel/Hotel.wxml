@@ -1,0 +1,367 @@
+<view class="slide">
+  <swiper class="swiper" indicator-dots="{{off}}">
+    <block>
+      <swiper-item>
+        <image class="slide_op" src='../img/slide.png' lazy-load='true'></image>
+      </swiper-item>
+      <swiper-item>
+        <image class="slide_op" src='../img/slide.png' lazy-load='true'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="address">
+  <view class="address_title">古色古香的生态院落</view>
+  <view class="address_tel">
+    <image class="wz" src='../img/wz.png' lazy-load='true'></image>
+    <view class="zj">
+      靖港古镇新开铺路960号(靖港古镇第八小学 斜对面)
+    </view>
+    <image class="tel" src='../img/tel.png' lazy-load='true'></image>
+  </view>
+</view>
+<view class="accommodation">
+  <view class="accommodation_date">
+    <view class="accommodation_date_li">入住</view>
+    <view class="accommodation_date_cc">6-27 周四</view>
+  </view>
+  <view class="accommodation_conter">3晚</view>
+  <view class="accommodation_date">
+    <view class="accommodation_date_li">入住</view>
+    <view class="accommodation_date_cc">6-27 周四</view>
+  </view>
+</view>
+
+<view class="tab">
+  <view class="{{num == 0?'tab_item1':'tab_item'}}" bindtap='handTab' data-index="0">
+    房型介绍
+    <view wx:if="{{num == 0}}"></view>
+  </view>
+  <view class="{{num == 1?'tab_item1':'tab_item'}}" bindtap='handTab' data-index="1">
+    酒店介绍
+    <view wx:if="{{num == 1}}"></view>
+  </view>
+  <view class="{{num == 2?'tab_item1':'tab_item'}}" bindtap='handTab' data-index="2">
+    入住须知
+    <view wx:if="{{num == 2}}"></view>
+  </view>
+  <view class="{{num == 3?'tab_item1':'tab_item'}}" bindtap='handTab' data-index="3">
+    旅游攻略
+    <view wx:if="{{num == 3}}"></view>
+  </view>
+</view>
+<view wx:if="{{num == 0}}">
+  <view class="tab_list1">
+    <view class="tab_list_fw">
+      <image src='../img/fw.png' lazy-load='true'></image>
+      <view class="tab_list1_x">28m² 2张1.35床位</view>
+      <view class="tab_list1_x1">渡壹 双人床</view>
+      <view class="tab_list1_pirce">¥428</view>
+    </view>
+    <view class="tab_list_fw">
+      <image src='../img/fw.png' lazy-load='true'></image>
+      <view class="tab_list1_x">28m² 2张1.35床位</view>
+      <view class="tab_list1_x1">渡壹 双人床</view>
+      <view class="tab_list1_pirce">¥428</view>
+    </view>
+  </view>
+  <view class="hhh"></view>
+  <view class="Tourist">
+    <view class="Tourist_title">
+      <text>住客点评</text>
+      <view class="Tourist_title_right">
+        <view>查看全部78评论</view>
+        <image lazy-load='true' src='../img/right1.png'></image>
+      </view>
+    </view>
+    <view class="Tourist_a">
+      <view class="Tourist_p">
+        <view class="Tourist_p1">
+          4.8
+        </view>
+        <view class="Tourist_p2">
+          非常好
+        </view>
+      </view>
+      <view class="view1">评分较高</view>
+    </view>
+    <view class="Tourist_lun">
+      <view class="Tourist_lun_p">
+        <image lazy-load='true' src='../img/tx312.png'></image>
+        <view class="Tourist_lun_right">
+          <view class="Tourist_name">雁玲</view>
+          <view class="Tourist_date">2018-10-28 06:45</view>
+        </view>
+      </view>
+      <view class="Tourist_pl">
+        最后定了靖港古镇一人游。除了价格贵以外度都挺好的。早上司机师傅联系我们，还不错。晚上我再次回到酒店... 最后定了靖港古镇一人游。除了价格贵以外度都挺好的。早上司机师傅联系我们，还不错。晚上我再次回到酒店...
+      </view>
+    </view>
+  </view>
+  <view class="hhh"></view>
+  <view class="Hotel">
+    <view class="Hotel_title">附近相似酒店</view>
+    <view class="Hotel_item">
+      <view class="Hotel_list">
+        <image class="tel" src='../img/hotel.png' lazy-load='true'></image>
+        <view class="Hotel_list_right">
+          <view class="Hotel_list_right_title">长沙靖港古镇维也纳国际酒店</view>
+          <view class="Hotel_list_right_lan">
+            <view class="Hotel_lan1">4.7分</view>
+            <view class="Hotel_lan2">非常好</view>
+            <view class="Hotel_lan2">102条点评</view>
+          </view>
+          <view class="Hotel_list_right_text">
+            距酒店直线1.4公里|靖港古镇第八小学斜对面
+          </view>
+          <view class="Hotel_list_right_text">
+            1天内441人浏览
+          </view>
+          <view class="Hotel_list_right_pirce">
+            <text>¥</text>
+            <text>288</text> /晚
+          </view>
+        </view>
+      </view>
+      <view class="Hotel_list" style='border:0;'>
+        <image class="tel" src='../img/hotel.png' lazy-load='true'></image>
+        <view class="Hotel_list_right">
+          <view class="Hotel_list_right_title">长沙靖港古镇维也纳国际酒店</view>
+          <view class="Hotel_list_right_lan">
+            <view class="Hotel_lan1">4.7分</view>
+            <view class="Hotel_lan2">非常好</view>
+            <view class="Hotel_lan2">102条点评</view>
+          </view>
+          <view class="Hotel_list_right_text">
+            距酒店直线1.4公里|靖港古镇第八小学斜对面
+          </view>
+          <view class="Hotel_list_right_text">
+            1天内441人浏览
+          </view>
+          <view class="Hotel_list_right_pirce">
+            <text>¥</text>
+            <text>288</text> /晚
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view wx:if="{{num == 1}}">
+  <view class="introduce">
+    <view class="introduce_item">
+      <view class="introduce_title">
+        <view>酒店介绍</view>
+        <text>房间数量7间</text>
+      </view>
+      <view class="introduce_list">
+        <view class="introduce_list_title">
+          位置介绍
+        </view>
+        <view class="introduce_list_conter">
+          酒店位于天心区新开铺路黑石铺960号（未来商业中心）；长郡学校近在咫尺,从酒店出发，往北接近湘府路立交桥、往南500米上临近绕城高速；往东临近湖南省文化厅和芙蓉南路、往西临近湘江江滨风光带。
+        </view>
+        <view class="introduce_list_title">
+          风格格局
+        </view>
+        <view class="introduce_list_conter">
+          格莱斯美酒店是一家集新中式、简欧式、日式、情趣时尚等多元化艺术空间为一体的精品设计师酒店，酒店楼高六层，大堂设在一楼，客房在四、五楼，六楼为写字楼、二楼为生活超市，一楼为商铺，酒店首批上市的客房有45余间，房间“优美、雅致”，设计风格彰显文化底蕴，产品集大床房、圆床房、双床房、麻将双人间、麻将套房、情侣房、榻榻米等多种功能的量身定设计产品线，是您商务活动、家庭接待、旅居星城的精途之选。
+        </view>
+        <view class="introduce_list_title">
+          特色服务
+        </view>
+        <view class="introduce_list_conter">
+          大厨私享菜单，绿蔬当天采摘，新鲜优质食材，提供本地特色小吃。
+        </view>
+        <view class='introduce_img'>
+          <image src='../img/jgxz1.png' lazy-load='true'></image>
+        </view>
+        <view class="introduce_title1">
+          <view class="introduce_title1_h1">设施与服务</view>
+          <view class="introduce_list_title">
+            公共设施
+          </view>
+          <view class="introduce_list1">
+            <view class="introduce_title1_list">
+              <view class="list">
+                无电话
+              </view>
+              <view class="list">
+                <text>免费</text>wifi
+              </view>
+              <view class="list">
+                公共区域上网
+              </view>
+              <view class="list">
+                无电话
+              </view>
+              <view class="list">
+                <text>免费</text>洗漱用品
+              </view>
+              <view class="list">
+                无电话
+              </view>
+              <view class="list">
+                无电话
+              </view>
+            </view>
+          </view>
+          <view class="introduce_list_title">
+            酒店服务
+          </view>
+          <view class="introduce_list1">
+            <view class="introduce_title1_list">
+              <view class="list">
+                无电话
+              </view>
+              <view class="list">
+                叫醒服务
+              </view>
+              <view class="list">
+                公共区域上网
+              </view>
+              <view class="list">
+                无电话
+              </view>
+              <view class="list">
+                24小时客房服务
+              </view>
+              <view class="list">
+                无电话
+              </view>
+              <view class="list">
+                24小时大堂经理
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view wx:if="{{num == 2}}">
+  <view class="introduce">
+    <view class="introduce_item">
+      <view class="introduce_title">
+        <view>入住须知</view>
+      </view>
+      <view class="introduce_list">
+        <view class="introduce_list_title">
+          入住/退房时间
+        </view>
+        <view class="introduce_list_conter">
+          入住时间为当天下午14:00-22:00，退房时间为离店当日中午12:00前。
+        </view>
+        <view class="introduce_list_title">
+          入住办理
+        </view>
+        <view class="introduce_list_conter">
+          凭会员订单信息,身份证原件入住，两项资料缺一不可。
+        </view>
+        <view class="introduce_list_title">
+          预订保证金
+        </view>
+        <view class="introduce_list_conter">
+          预定成功后须预付全额房费为保证金，办理离店手续后，将退回预付保证金。
+        </view>
+        <view class="introduce_list_title">
+          取消预订
+        </view>
+        <view class="introduce_list_conter">
+          预定成功后须预付全额房费为保证金，办理离店手续后，将退回预付保证金。预定成功后须预付全额房费为保证金，办理离店手续后，将退回预付保证金。预定成功后须预付全额房费为保证金，办理离店手续后，将退回预付保证金。
+        </view>
+        <view class="introduce_list_title">
+          儿童入住
+        </view>
+        <view class="introduce_list_conter">
+          预定成功后须预付全额房费为保证金，办理离店手续后，将退回预付保证金。预定成功后须预付全额房费为保证金，办理离店手续后，将退回预付保证金。预定成功后须预付全额房费为保证金，办理离店手续后，将退回预付保证金。
+        </view>
+        <view class="introduce_list_title">
+          膳食安排
+        </view>
+        <view class="introduce_list_conter">
+          提供免费早餐，每房间限2人，超过人数，费用请咨询商家
+        </view>
+        <view class="introduce_list_title">
+          宠物政策
+        </view>
+        <view class="introduce_list_conter">
+          不适合携带宠物。
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view wx:if="{{num == 3}}">
+  <view class="Introduction">
+    <view class="cover">
+      <view class="cover_kie">
+        <image src='../img/suz.png' lazy-load='true'></image>
+        <view class="cover_text">
+          <view>City</view>
+          <view>苏州</view>
+        </view>
+      </view>
+      <view class="cover_690">
+        <view class="cover_690_text">
+          上有天堂下有苏杭，苏州的江南秀美让前来的无数游客流连其中，不知归路。
+        </view>
+        <view class="cover_690_img">
+          <image src='../img/suz1.png' lazy-load='true'></image>
+        </view>
+        <view class="cover_690_title">
+          交通指南
+        </view>
+        <view class="cover_690_text1">
+          高铁/火车（长沙南站/长沙火车站)
+        </view>
+        <view class="cover_690_title">
+          推荐景点
+        </view>
+        <view class="cover_690_h3">
+          同里古镇
+        </view>
+        <view class="cover_690_h4">
+          票价0元/17点后入园免费
+        </view>
+        <view class="cover_690_img">
+          <image src='../img/suz1.png' lazy-load='true'></image>
+        </view>
+        <view class="cover_690_text11">
+          江南的湖泊与湿地，鲜活了这一方水土。古木葱茏的明清建筑，见证了这里的似水流年。恬淡悠然的同里人，还似当年一般守着这里的岁月静好。同里以自然之名为你留存千年故事。走进这一方水土，去寻觅，去体验属于你的生动故事
+        </view>
+        <view class="cover_690_h3">
+          同里古镇
+        </view>
+        <view class="cover_690_h4">
+          票价0元/17点后入园免费
+        </view>
+        <view class="cover_690_img">
+          <image src='../img/suz1.png' lazy-load='true'></image>
+        </view>
+        <view class="cover_690_text11">
+          江南的湖泊与湿地，鲜活了这一方水土。古木葱茏的明清建筑，见证了这里的似水流年。恬淡悠然的同里人，还似当年一般守着这里的岁月静好。同里以自然之名为你留存千年故事。走进这一方水土，去寻觅，去体验属于你的生动故事
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+
+<view class="footer">
+  <view class="footer_left">
+    <image src='../img/jbian.png' lazy-load='true'></image>
+    <view>立即预订</view>
+  </view>
+  <view class="footer_right">
+    <view class="shoucan">
+      <image src='../img/shou.png' lazy-load='true'></image>
+      <view>收藏</view>
+    </view>
+    <view class="shoucan">
+      <image src='../img/fenx1.png' lazy-load='true'></image>
+      <view>分享</view>
+    </view>
+  </view>
+</view>
