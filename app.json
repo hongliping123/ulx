@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/comment/comment",
     "pages/myorder/myorder",
     "pages/myorderform/myorderform",
     "pages/Hotel/Hotel",
@@ -20,6 +21,7 @@
     "pages/sjrecord/sjrecord",
     "pages/cancel/cancel",
     "pages/index/index"
+   
   ],
   "window": {
     "backgroundTextStyle": "light",
