@@ -709,3 +709,370 @@
   margin-top: 30rpx;
   line-height: 25rpx;
 }
+
+.zzc {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+  top: 0;
+  left: 0;
+}
+
+.Reserve {
+  width: 750rpx;
+  height: 1000rpx;
+  background: #fff;
+  margin-top: 118rpx;
+  overflow: scroll;
+}
+
+.Reserve .x {
+  width: 18rpx;
+  height: 18rpx;
+  position: absolute;
+  right: 42rpx;
+  top: 8rpx;
+}
+
+.Reserve .Reserve_title {
+  height: 32rpx;
+  font-size: 34rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: rgba(1, 1, 1, 1);
+  line-height: 32rpx;
+  margin-top: 35rpx;
+  text-align: center;
+  position: relative;
+}
+
+.Reserve .Reserve_date {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 45rpx;
+  width: 690rpx;
+  padding-bottom: 25rpx;
+}
+
+.Reserve .Reserve_date .Reserve_date_left {
+  display: flex;
+  flex: 1;
+}
+
+.Reserve .Reserve_date .Reserve_date_left .Reserve_date_left_fl {
+  flex: 1;
+}
+
+.Reserve .Reserve_date .Reserve_date_left .Reserve_date_left_fl .Reserve_date_left_fl_top {
+  text-align: center;
+  height: 26rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(179, 179, 179, 1);
+  line-height: 26rpx;
+}
+
+.Reserve .Reserve_date .Reserve_date_left .Reserve_date_left_fl .Reserve_date_left_fl_bottom {
+  height: 25rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  line-height: 28rpx;
+  text-align: center;
+  margin-top: 16rpx;
+}
+
+.Reserve .Reserve_date .Reserve_date_right {
+  display: flex;
+  flex: 1;
+  height: 24rpx;
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(0, 152, 248, 1);
+  line-height: 24rpx;
+  padding-top: 28rpx;
+}
+
+.Reserve .Reserve_date .Reserve_date_right text {
+  height: 24rpx;
+  line-height: 24rpx;
+  margin-left: 60rpx;
+}
+
+.Reserve .Reserve_date .Reserve_date_right image {
+  width: 11rpx;
+  height: 20rpx;
+  margin-left: 20rpx;
+}
+
+.Reserve .Reserve_date .Reserve_date_conter {
+  height: 32rpx;
+  border: 1px solid rgba(203, 203, 203, 1);
+  border-radius: 16rpx;
+  line-height: 32rpx;
+  padding: 0 18rpx;
+  margin-top: 30rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(179, 179, 179, 1);
+}
+
+.zzc .zzc_footer {
+  width: 750rpx;
+  height: 100rpx;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0px 5px 42px 12px rgba(133, 133, 133, 0.31);
+  display: flex;
+}
+
+.zzc .zzc_footer .zzc_footer_left {
+  width: 450rpx;
+  height: 100rpx;
+  font-size: 26rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: rgba(255, 70, 1, 1);
+  line-height: 100rpx;
+  padding-left: 30rpx;
+}
+
+.zzc .zzc_footer .zzc_footer_left text {
+  font-size: 46rpx;
+}
+
+.zzc .zzc_footer .zzc_footer_right {
+  width: 300rpx;
+  height: 100rpx;
+  background-image: url('http://a3.qpic.cn/psb?/V11QWGHg0l6wht/ZiVc6Jkxn*YRSYvUoC10ocBBmGrzFX.JHxQbVmlqg.I!/b/dFYBAAAAAAAA&ek=1&kp=1&pt=0&bo=WALEAAAAAAADF6w!&tl=1&vuin=1170645443&tm=1563933600&sce=60-2-2&rf=viewer_4');
+  background-size: 300rpx 100rpx;
+  background-repeat: no-repeat;
+  font-size: 36rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 100rpx;
+}
+
+.Reserve .tec {
+  padding: 0 60rpx 0 30rpx;
+  width: 750rpx;
+  box-sizing: border-box;
+}
+
+.Reserve .tec .tec_title {
+  height: 32rpx;
+  font-size: 34rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: rgba(1, 1, 1, 1);
+  line-height: 32rpx;
+  margin-top: 23rpx;
+}
+
+.Reserve .tec .tec_nav {
+  display: flex;
+  margin-top: 25rpx;
+}
+
+.Reserve .tec .tec_nav .tec_nav_list {
+  height: 32rpx;
+  border: 1px solid rgba(226, 85, 32, 1);
+  border-radius: 4rpx;
+  line-height: 32rpx;
+  padding: 0 10rpx;
+  font-size: 24rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: rgba(226, 85, 32, 1);
+  margin-right: 20rpx;
+}
+
+.Reserve .tec .tec_nav .tec_nav_list1 {
+  height: 32rpx;
+  border: 1px solid rgba(180, 180, 180, 1);
+  border-radius: 4rpx;
+  line-height: 32rpx;
+  padding: 0 10rpx;
+  font-size: 24rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: rgba(180, 180, 180, 1);
+  margin-right: 20rpx;
+}
+
+.Reserve .tec .tec_Room {
+  margin-top: 60rpx;
+  height: 30rpx;
+  font-size: 30rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  line-height: 30rpx;
+  text-align: center;
+}
+
+.Reserve .tec .tec_vb {
+  width: 241rpx;
+  height: 60rpx;
+  border: 1px solid rgba(229, 229, 229, 1);
+  border-radius: 4rpx;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 35rpx;
+}
+
+.Reserve .tec .tec_vb .tec_vb_conter {
+  flex: 1;
+  text-align: center;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  line-height: 60rpx;
+  font-size: 24rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+}
+
+.Reserve .tec .tec_vb .tec_vb_yun {
+  flex: 1;
+  position: relative;
+}
+
+.Reserve .tec .tec_vb .tec_vb_yun .jian {
+  width: 20rpx;
+  height: 2rpx;
+  position: absolute;
+  top: 30rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Reserve .tec .tec_vb .tec_vb_yun .jia {
+  width: 20rpx;
+  height: 20rpx;
+  position: absolute;
+  top: 20rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Reserve .tec .tec_icu {
+  margin-top: 40rpx;
+}
+
+.Reserve .tec .tec_icu .icu {
+  height: 86rpx;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+}
+
+.Reserve .tec .tec_icu .icu .icu_left {
+  font-size: 28rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(100, 100, 100, 1);
+  line-height: 86rpx;
+  width: 186rpx;
+}
+
+.Reserve .tec .tec_icu .icu input {
+  margin-top: 21rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(193, 193, 193, 1);
+  flex: 1;
+}
+
+.Reserve .tec .tec_icu .icu .icu_right {
+  display: flex;
+}
+
+.Reserve .tec .tec_icu .icu .icu_right text {
+  height: 22rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  line-height: 22rpx;
+  margin-top: 32rpx;
+  margin-right: 30rpx;
+}
+
+.Reserve .tyic {
+  display: flex;
+  width: 690rpx;
+  margin: 0 auto;
+  height: 80rpx;
+  justify-content: space-between;
+}
+
+.Reserve .tyic .tyic_left {
+  border-left: 8rpx solid #e25520;
+  height: 40rpx;
+  margin-top: 25rpx;
+  padding-left: 15rpx;
+  font-size: 30rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+}
+
+.Reserve .tyic text {
+  height: 25rpx;
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(131, 131, 131, 1);
+  line-height: 25rpx;
+  margin-top: 32rpx;
+}
+
+.careful {
+  width: 690rpx;
+  margin: 0 auto;
+}
+
+.careful .careful_title {
+  display: flex;
+  margin-top: 35rpx;
+}
+
+.careful .careful_title image {
+  width: 35rpx;
+  height: 35rpx;
+}
+
+.careful .careful_title text {
+  font-size: 26rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  line-height: 35rpx;
+  margin-left: 15rpx;
+}
+
+.careful .careful_content {
+  width: 630rpx;
+  margin-left: 50rpx;
+  margin-top: 20rpx;    
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(131, 131, 131, 1);
+}
+
+.diandi {
+  height: 100rpx;
+  width: 750rpx;
+}

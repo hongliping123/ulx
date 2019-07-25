@@ -1,0 +1,60 @@
+<view class="top">
+  <image src='../img/sss.png' lazy-load='true'></image>
+  <view class="top_left">
+    <view class="sneo">
+      智能客服-小U
+    </view>
+    <view class="sneo_a">
+      客服小U欢迎来撩哦~
+    </view>
+  </view>
+</view>
+<view class="mian">
+  <view class="news">
+    <image class="gou_h" src='../img/gou_h.png' lazy-load='true'></image>
+    <view class="news_text">
+      亲，小U猜你想咨询以下问题？你也可以描述 你的问题，小U来帮你解答，比如“小U长沙附 近有什么好玩的乡村吗？”
+    </view>
+  </view>
+  <view class="news">
+    <image class="gou_h" src='../img/gou_h.png' lazy-load='true'></image>
+    <view class="news_text">
+      <view class="news_text_title">
+        下面是大家常问的问题哟
+      </view>
+      <view class="news_text_a">
+        <text>信息问题（发布、不展示）</text>
+        <image src='../img/bottom.png' lazy-load='true'></image>
+      </view>
+      <view class="news_text_a">
+        <text>信息问题（发布、不展示）</text>
+        <image src='../img/bottom.png' lazy-load='true'></image>
+      </view>
+      <view class="news_text_a">
+        <text>信息问题（发布、不展示）</text>
+        <image src='../img/bottom.png' lazy-load='true'></image>
+      </view>
+    </view>
+  </view>
+  <view class="news1">
+    <image class="gou_b" src='../img/gou_b.png' lazy-load='true'></image>
+    <view class="news_text1">
+      如何申请退款？
+    </view>
+  </view>
+  <view class="news">
+    <image class="gou_h" src='../img/gou_h.png' lazy-load='true'></image>
+    <view class="news_text">
+      点击我的-订单-找到对应的订单，点击退款 按钮即可退款申请，等待平台审核，审核过 会原路退还您的账户哦！
+    </view>
+  </view>
+</view>
+<view class="footer">
+  <view class="input">
+    <input type='text' placeholder='输入您的问题吧~'></input>
+    <image src='../img/cocos.png' lazy-load='true'></image>
+  </view>
+  <view class="footer_right">
+    <image src='../img/jia.png' lazy-load='true'></image>
+  </view>
+</view>

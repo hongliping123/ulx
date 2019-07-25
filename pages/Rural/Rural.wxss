@@ -1,0 +1,237 @@
+page {
+  background: #f4f4f4;
+}
+
+.top {
+  width: 700rpx;
+  height: 358rpx;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  box-shadow: 0px 2px 4px 0px rgba(191, 191, 191, 1);
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 12rpx;
+}
+
+.top .top_top {
+  display: flex;
+  margin-top: 22rpx;
+}
+
+.top .top_top text {
+  font-size: 32rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  line-height: 56rpx;
+}
+
+.top .top_top .top_input {
+  margin-left: 22rpx;
+  position: relative;
+}
+
+.top .top_top .top_input input {
+  width: 370rpx;
+  height: 56rpx;
+  border: 1px solid rgba(167, 167, 167, 1);
+  border-radius: 28rpx;
+  font-size: 22rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(153, 153, 153, 1);
+  padding-left: 65rpx;
+  padding-right: 20rpx;
+  box-sizing: border-box;
+}
+
+.top .top_top .top_input image {
+  position: absolute;
+  width: 30rpx;
+  height: 30rpx;
+  left: 20rpx;
+  top: 15rpx;
+}
+
+.top .top_top .top_right {
+  display: flex;
+}
+
+.top .top_top .top_right .top_xx {
+  position: relative;
+}
+
+.top .top_top .top_right .top_xx .xx {
+  width: 41rpx;
+  height: 45rpx;
+  margin-top: 8rpx;
+  margin-left: 40rpx;
+}
+
+.top .top_top .top_right .xx1 {
+  width: 40rpx;
+  height: 46rpx;
+  margin-left: 50rpx;
+  margin-top: 8rpx;
+}
+
+.top .top_top .top_right .top_xx view {
+  width: 36rpx;
+  height: 26rpx;
+  background: rgba(226, 85, 32, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 26rpx;
+  font-size: 22rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: -13rpx;
+  right: -22rpx;
+}
+
+.top .top_item {
+  display: flex;
+  margin-top: 33rpx;
+}
+
+.top .top_item .top_list {
+  position: relative;
+  margin-right: 28rpx;
+}
+
+.top .top_item .top_list:nth-child(3) {
+  margin-right: 0;
+}
+
+.top .top_item .top_list image {
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.top .top_item .top_list .region {
+  height: 26rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  line-height: 26rpx;
+  position: absolute;
+  top: 100rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.top .top_item .top_list .cot {
+  width: 149rpx;
+  height: 36rpx;
+  background: rgba(226, 85, 32, 0.8);
+  border-radius: 18rpx;
+  font-size: 20rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 36rpx;
+  position: absolute;
+  left: 50%;
+  top: 149rpx;
+  transform: translateX(-50%);
+}
+
+.title_h2 {
+  width: 690rpx;
+  margin: 0 auto;
+  margin-top: 45rpx;
+  height: 29rpx;
+  font-size: 30rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  line-height: 29rpx;
+}
+
+.item {
+  width: 690rpx;
+  margin: 0 auto;
+  margin-top: 25rpx;
+}
+
+.item .list {
+  position: relative;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.58) 37%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 12rpx;
+  overflow: hidden;
+  margin-bottom: 35rpx;
+}
+
+.item .list image {
+  width: 690rpx;
+  height: 380rpx;
+}
+
+.item .list .list_mian {
+  width: 404rpx;
+  position: absolute;
+  top: 28rpx;
+  left: 22rpx;
+}
+
+.item .list .list_mian .list_mian_title {
+  font-size: 36rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  height: 80rpx;
+}
+
+.item .list .list_mian .list_mian_h4 {
+  height: 25rpx;
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 25rpx;
+  margin-top: 34rpx;
+}
+
+.item .list .list_mian .list_mian_footer {
+  width: 230rpx;
+  height: 32rpx;
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item .list .list_mian .list_mian_footer view {
+  height: 32rpx;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 6rpx;
+  width: 106rpx;
+  font-size: 22rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(46, 47, 50, 1);
+  text-align: center;
+  line-height: 32rpx;
+}
+
+.item .list .right {
+  width: 82rpx;
+  height: 80rpx;
+  background: rgba(226, 85, 32, 1);
+  border-radius: 0px 0px 39rpx 39rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  right: 38rpx;
+  top:0;
+}

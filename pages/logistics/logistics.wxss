@@ -1,0 +1,94 @@
+.db {
+  width: 750rpx;
+  border-top: 1px solid #eee;
+}
+
+.db .top {
+  width: 690rpx;
+  margin: 0 auto;
+}
+
+.db .top .top_1 {
+  height: 100rpx;
+  border-bottom: 1rpx solid #eee;
+  font-size: 26rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: rgba(29, 32, 35, 1);
+  line-height: 100rpx;
+}
+
+.db .top .title {
+  height: 31rpx;
+  font-size: 32rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: rgba(29, 32, 35, 1);
+  line-height: 31rpx;
+  margin-top: 35rpx;
+}
+
+.db .top .item {
+  margin-top: 60rpx;
+}
+
+.db .top .item .list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.db .top .item .list .left {
+  width: 45rpx;
+  position: relative;
+  border-left: 1px solid #eee;
+  margin-left: 15rpx;
+}
+
+.db .top .item .list .left .o_1 {
+  width: 22rpx;
+  height: 22rpx;
+  border-radius: 50%;
+  background-color: rgba(226,85,32,1);
+  border: 4rpx solid rgba(226,85,32,1);
+  position: absolute;
+  top: 0;
+  left: -15rpx;
+  margin-top: 2rpx;
+}
+
+.db .top .item .list .right {
+  flex: 1;
+  padding-bottom: 60rpx;
+}
+
+.db .top .item .list .right .right_text {
+  font-size: 24rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color:rgba(226,85,32,1);
+  line-height: 24rpx;
+}
+
+.db .top .item .list .right .right_text>text {
+  color:rgba(226,85,32,1);
+}
+
+.db .top .item .list .right .right_time {
+  height: 19rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color:rgba(226,85,32,1);
+  margin-top: 20rpx;
+  line-height: 19rpx;
+}
+
+.hui {
+  color: #606972 !important;
+}
+
+.hui_1 {
+  background-color: #eee !important;
+  border: 0 !important;
+  left: -12rpx !important;
+}

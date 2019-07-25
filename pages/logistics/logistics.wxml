@@ -1,0 +1,42 @@
+<!-- 物流查询 -->
+<view class="db">
+  <view class="top">
+    <view class="top_1">
+      快递公司：百世汇通 快递号：846846984123456789
+    </view>
+    <view class="title">物流信息：</view>
+    <view class="item">
+      <view class="list">
+        <view class="left">
+          <view class="o_1"></view>
+        </view>
+        <view class="right">
+          <view class="right_text">客户已签收，感谢使用百世汇通，期待再次为您服务 </view>
+          <view class="right_time">2019-5-14 16:48</view>
+        </view>
+      </view>
+      <view class="list">
+        <view class="left">
+          <view class="o_1 hui_1"></view>
+        </view>
+        <view class="right">
+          <view class="right_text hui">陕西省西安市南郊二部公司(点击查询电话)高**派件中，派件员话：
+            <text>15112345678</text>
+          </view>
+          <view class="right_time hui">2019-5-14 16:48</view>
+        </view>
+      </view>
+      <!-- <view class="list">
+        <view class="left">
+          <view class="o_1 hui_1"></view>
+        </view>
+        <view class="right">
+          <view class="right_text hui">陕西省西安市南郊二部公司(点击查询电话)高**派件中，派件员话：陕西省西安市南郊二部公司(点击查询电话)高**派件中，派件员话：陕西省西安市南郊二部公司(点击查询电话)高**派件中，派件员话：
+            <text>15112345678</text>
+          </view>
+          <view class="right_time hui">2019-5-14 16:48</view>
+        </view>
+      </view> -->
+    </view>
+  </view>
+</view>

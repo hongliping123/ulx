@@ -1,5 +1,14 @@
 {
   "pages": [
+    "pages/Questions/Questions",
+    "pages/Destination/Destination",
+    "pages/Rural/Rural",
+    "pages/logistics/logistics",
+    "pages/Hotel/Hotel",
+    "pages/Popular/Popular",
+    "pages/index/index",
+    "pages/news/news",
+    "pages/Intelligence/Intelligence",
     "pages/Service/Service",
     "pages/Strategy/Strategy",
     "pages/Comment/Comment",
@@ -10,7 +19,6 @@
     "pages/comment/comment",
     "pages/myorder/myorder",
     "pages/myorderform/myorderform",
-    "pages/Hotel/Hotel",
     "pages/share/share",
     "pages/Myquestions/Myquestions",
     "pages/giftcard/giftcard",
@@ -25,8 +33,7 @@
     "pages/Business/Business",
     "pages/sjadminister/sjadminister",
     "pages/sjrecord/sjrecord",
-    "pages/cancel/cancel",
-    "pages/index/index"
+    "pages/cancel/cancel"
   ],
   "window": {
     "backgroundTextStyle": "light",
