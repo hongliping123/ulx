@@ -1,0 +1,75 @@
+page {
+  background-color: #F5F5F5;
+}
+
+.db {
+  border-top: 1px solid #ccc;
+}
+
+.db .from {
+  /* width: 750rpx; */
+  height: 100rpx;
+  padding: 0 30rpx;
+  display: flex;
+  line-height: 100rpx;
+  justify-content: space-between;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+  
+.db .from>text {
+  font-size: 30rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: rgba(29, 32, 35, 1);
+ 
+}
+
+.db .from>image {
+  width: 36rpx;
+  height: 36rpx;
+  margin-top: 32rpx;
+}
+
+.btn {
+  width: 690rpx;
+  height: 80rpx;
+  background: #E25520;
+  border-radius: 10rpx;
+  margin: 0 auto;
+  margin-top: 60rpx;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 32rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+
+checkbox {
+  /* width: 240rpx; */
+  /* height: 90rpx; */
+}
+/*checkbox 选项框大小  */
+checkbox .wx-checkbox-input {
+  width: 36rpx;
+  border-radius: 50%;
+  height: 36rpx;
+}
+/*checkbox选中后样式  */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  background: #E25520;
+}
+/*checkbox选中后图标样式  */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+  width: 28rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+  text-align: center;
+  font-size: 22rpx;
+  color: #fff;
+  background: transparent;
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+}

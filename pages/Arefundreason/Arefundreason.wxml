@@ -1,0 +1,20 @@
+<!-- 退款原因 -->
+<view class="db">
+  <view class="from">
+    <text>未按约定时间发货</text>
+    <checkbox/>
+  </view>
+  <view class="from">
+    <text>未按约定时间发货</text>
+    <checkbox />
+  </view>
+  <view class="from">
+    <text>未按约定时间发货</text>
+  <checkbox/>
+  </view>
+  <view class="from">
+    <text>其他</text>
+    <checkbox/>
+  </view>
+  <view class="btn" bindtap='handTkcg'>确定</view>
+</view>

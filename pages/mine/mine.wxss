@@ -1,0 +1,276 @@
+page {
+  background: #efeff4;
+}
+
+.cont_top {
+  background: url('http://m.qpic.cn/psb?/V103fdTR0PY8oM/g4uKAFOE*zltlO2Ie.pgRX0bRhym1OKxaTdPynWcJ6k!/b/dLgAAAAAAAAA&bo=7gJoAe4CaAEDCSw!&rf=viewer_4') no-repeat;
+  height: 360rpx;
+  background-size: 100% 360rpx;
+  position: relative;
+}
+
+.cont_tx {
+  /* display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40rpx; */
+  padding: 40rpx 20rpx;
+}
+
+.tx {
+  border-radius: 50%;
+  width: 140rpx;
+  height: 140rpx;
+}
+
+.cont_text {
+  color: #fff;
+  margin-left: 40rpx;
+  font-size: 36rpx;
+}
+
+.cont_Myorder {
+  margin: 0 20rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  position: absolute;
+  bottom: -281rpx;
+  width: 95%;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.1);
+  height: 295rpx;
+}
+
+.cont_Myorder_text {
+  padding: 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.cont_Myorder_text image {
+  width: 21rpx;
+  height: 21rpx;
+}
+
+.cont_Myorder_text text {
+  color: #3f454b;
+  font-size: 30rpx;
+}
+
+.cont_Myorder_text1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cont_Myorder_coin {
+  border-bottom: 1px solid #efeff4;
+  margin-top: 15rpx;
+}
+
+.cont_Myorder_list {
+  display: flex;
+  flex-direction: column;
+  width: 16%;
+  align-items: center;
+}
+
+.cont_Myorder_list image {
+  width: 48rpx;
+  height: 48rpx;
+  margin-bottom: 20rpx;
+}
+
+.cont_Myorder_list text {
+  font-size: 26rpx;
+  color: #3f454b;
+  margin-top: 10rpx;
+}
+
+.cont_Myorder_list1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60rpx;
+}
+
+/* 退出账户 */
+
+.cont_Signout {
+  background: #fff;
+  padding: 0 20rpx;
+  margin-top: 310rpx;
+  margin-bottom: 31rpx;
+}
+
+.cont_Signout:nth-child(3) {
+  margin-top: 30rpx;
+}
+
+.cont_Signout_text1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28rpx 0;
+}
+
+.cont_Signout_text1>image {
+  width: 12rpx;
+  height: 22rpx;
+}
+
+.cont_Signout_text text {
+  font-size: 30rpx;
+  color: #333;
+
+}
+
+.cont_Signout_text {
+  display: flex;
+  align-items: center;
+}
+
+.cont_Signout_text image {
+  width: 46rpx;
+  height: 46rpx;
+  margin-right: 40rpx;
+}
+
+.cont_Signout_coso {
+  border-bottom: 1px solid #efeff4;
+}
+
+.cont_quit {
+  background: #fff;
+  font-size: 32rpx;
+  color: #1d2023;
+  margin: 0 20rpx;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rpx 0;
+}
+
+.cont_high {
+  height: 20rpx;
+}
+
+.cont_tx_img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cont_tx_bj {
+  width: 150rpx;
+  height: 58rpx;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 29px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24rpx;
+}
+
+.cont_tx_bj image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+
+.cont_tx_text {
+  display: flex;
+  align-items: center;
+}
+
+.cont_top_text {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30rpx;
+}
+
+.cont_top_text1 {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33.333%;
+}
+
+.cont_top_text1 text:nth-child(1) {
+  font-size: 38rpx;
+}
+
+.cont_top_text1 text:nth-child(2) {
+  font-size: 28rpx;
+}
+
+.cont_Myorder_img text {
+  font-size: 26rpx;
+  color: rgba(153, 153, 153, 1);
+}
+
+.cont_Myorder_img image {
+  width: 12rpx;
+  height: 22rpx;
+  margin-left: 20rpx;
+}
+
+
+.cont_Myorder_mydd text{
+  font-size:32rpx;
+  color:rgba(153,153,153,1);
+  font-weight: 500;
+}
+
+.cont_Myorder_mydd text:nth-child(1){
+  margin-right: 20rpx;
+}
+
+.Medium{
+  color: #333 !important;
+}
+
+
+.cont_Signout_img1{
+  width: 42rpx !important;
+  height: 50rpx !important;
+}
+
+.cont_Signout_img2{
+  width: 42rpx !important;
+  height: 49rpx !important;
+}
+
+.cont_Signout_img3{
+  width: 50rpx !important;
+  height: 35rpx !important;
+}
+
+.cont_Signout_img4{
+  width: 50rpx !important;
+  height: 34rpx !important;
+}
+
+.cont_Signout_img5{
+  width: 46rpx !important;
+  height:46rpx !important;
+}
+
+.cont_Signout_img1{
+  width: 46rpx !important;
+  height: 46rpx !important;
+}
+
+.cont_Signout_img1{
+  width: 50rpx !important;
+  height: 46rpx !important;
+}
+
+.cont_wenda image{
+  width: 124rpx;
+  height: 124rpx;
+  position: fixed;
+  bottom: 81rpx;
+  right: 25rpx;
+}

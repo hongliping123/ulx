@@ -1,2 +1,3 @@
-<!--pages/share/share.wxml-->
-<text>pages/share/share.wxml</text>
+<view class="container">
+  <view class="cont_but">立即分享</view>
+</view>

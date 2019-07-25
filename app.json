@@ -1,15 +1,18 @@
 {
   "pages": [
+    "pages/mine/mine",
+    "pages/video/video",
+    "pages/share/share",
+    "pages/Arefundreason/Arefundreason",
+    "pages/Userarefund/Userarefund",
     "pages/refund/refund",
     "pages/comment/comment",
     "pages/myorder/myorder",
     "pages/myorderform/myorderform",
     "pages/Hotel/Hotel",
-    "pages/share/share",
     "pages/Myquestions/Myquestions",
     "pages/giftcard/giftcard",
     "pages/Strokedd/Strokedd",
-    "pages/Userarefund/Userarefund",
     "pages/MerchantLogin/MerchantLogin",
     "pages/sjrefund/sjrefund",
     "pages/wdStroke/wdStroke",
@@ -21,7 +24,8 @@
     "pages/sjadminister/sjadminister",
     "pages/sjrecord/sjrecord",
     "pages/cancel/cancel",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/Arefundafter/Arefundafter"
   ],
   "window": {
     "backgroundTextStyle": "light",
