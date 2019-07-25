@@ -1,272 +1,393 @@
-<view class="top">
-  <image class="top_bg" src='../img/jggz.png' lazy-load='true'></image>
-  <image class="top_fen" src='../img/fenx.png' lazy-load='true'></image>
-</view>
-<view class="Collection">
-  <view class="Collection_title">
-    <text>靖港古镇</text>
-    <view>
-      <image class="top_fen" src='../img/xing1.png' lazy-load='true'></image>
-      <text>加入收藏</text>
+<view class="db">
+  <view class="top">
+    <image class="top_bg" src='../img/jggz.png' lazy-load='true'></image>
+    <image class="top_fen" src='../img/fenx.png' lazy-load='true'></image>
+  </view>
+  <view class="Collection">
+    <view class="Collection_title">
+      <text>靖港古镇</text>
+      <view>
+        <image class="top_fen" src='../img/xing1.png' lazy-load='true'></image>
+        <text>加入收藏</text>
+      </view>
+    </view>
+    <view class="brief">
+      <view class="left">
+        ·靖港原名芦江，又名沩港，系沩水入湘江口。曾 ·靖港原名芦江，又名沩港，系沩水入湘江口。曾...
+      </view>
+      <text>展开</text>
+    </view>
+    <view class="brief">
+      <view class="brief_left">
+        地址
+      </view>
+      <view class="right">湖南省长沙市望城区西北</view>
+    </view>
+    <view class="brief">
+      <view class="brief_left">
+        便捷信息
+      </view>
+      <view class="right">00：00-24：00</view>
     </view>
   </view>
-  <view class="brief">
-    <view class="left">
-      ·靖港原名芦江，又名沩港，系沩水入湘江口。曾 ·靖港原名芦江，又名沩港，系沩水入湘江口。曾...
-    </view>
-    <text>展开</text>
-  </view>
-  <view class="brief">
-    <view class="brief_left">
-      地址
-    </view>
-    <view class="right">湖南省长沙市望城区西北</view>
-  </view>
-  <view class="brief">
-    <view class="brief_left">
-      便捷信息
-    </view>
-    <view class="right">00：00-24：00</view>
-  </view>
-</view>
-<view class="spot">
-  <view class="spot_title">
-    <image src='../img/piao.png' lazy-load='true'></image>
-    <image src='../img/jdmp.png' lazy-load='true'></image>
-  </view>
-  <view class="spot_item">
-    <view class="spot_item_left">
-      <view class="piao">门票</view>
-      <view class="piao_num">已售198</view>
-    </view>
-    <view class="spot_item_right">
-      <text>¥</text>81.7
-    </view>
-  </view>
-  <view class="spot_item">
-    <view class="spot_item_left">
-      <view class="piao">门票</view>
-      <view class="piao_num">已售198</view>
-    </view>
-    <view class="spot_item_right">
-      <text>¥</text>81.7
-    </view>
-  </view>
-</view>
-<view class="nearby">
-  <view class="nearby_title">
-    <view class="nearby_title_left">
+  <view class="spot">
+    <view class="spot_title">
       <image src='../img/piao.png' lazy-load='true'></image>
-      <image src='../img/fjjd.png' lazy-load='true'></image>
+      <image src='../img/jdmp.png' lazy-load='true'></image>
     </view>
-    <view class="nearby_title_right">
-      <text>全部酒店</text>
-      <image src='../img/right.png' lazy-load='true'></image>
-    </view>
-  </view>
-  <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex;margin-top: 25rpx;">
-    <view class="send">
-      <image src='../img/send1.png' lazy-load='true'></image>
-      <view class="send_footer">
-        <view class="send_title">靖港土楼见晴小筑 主题客栈</view>
-        <view class="send_distance">距离靖港古镇约9.1Km</view>
-        <view class="send_pirce">¥
-          <text>118</text>
-          <text>起</text>
-        </view>
+    <view class="spot_item">
+      <view class="spot_item_left">
+        <view class="piao">门票</view>
+        <view class="piao_num">已售198</view>
+      </view>
+      <view class="spot_item_right">
+        <text>¥</text>81.7
       </view>
     </view>
-    <view class="send">
-      <image src='../img/send1.png' lazy-load='true'></image>
-      <view class="send_footer">
-        <view class="send_title">靖港土楼见晴小筑 主题客栈</view>
-        <view class="send_distance">距离靖港古镇约9.1Km</view>
-        <view class="send_pirce">¥
-          <text>118</text>
-          <text>起</text>
-        </view>
+    <view class="spot_item">
+      <view class="spot_item_left">
+        <view class="piao">门票</view>
+        <view class="piao_num">已售198</view>
       </view>
-    </view>
-    <view class="send">
-      <image src='../img/send1.png' lazy-load='true'></image>
-      <view class="send_footer">
-        <view class="send_title">靖港土楼见晴小筑 主题客栈</view>
-        <view class="send_distance">距离靖港古镇约9.1Km</view>
-        <view class="send_pirce">¥
-          <text>118</text>
-          <text>起</text>
-        </view>
-      </view>
-    </view>
-  </scroll-view>
-</view>
-<view class="nearby">
-  <view class="nearby_title">
-    <view class="nearby_title_left">
-      <image src='../img/nong.png' lazy-load='true'></image>
-      <image src='../img/jghh.png' lazy-load='true'></image>
-    </view>
-    <view class="nearby_title_right">
-      <text>查看更多好货</text>
-      <image src='../img/right.png' lazy-load='true'></image>
-    </view>
-  </view>
-  <view class="quality">
-    <view class="quality_list">
-      <image src='../img/putao.png' lazy-load='true'></image>
-      <view class="quality_center">
-        <view>靖港特产-蜜甜南瓜</view>
-        <view>月售904</view>
-      </view>
-      <view class="quality_right">
-        <view class="weight">
-          <text>¥</text>
-          <text>118</text>/5Kg
-        </view>
-        <view class="quality_btn">立即购买</view>
-      </view>
-    </view>
-    <view class="quality_list">
-      <image src='../img/putao.png' lazy-load='true'></image>
-      <view class="quality_center">
-        <view>靖港特产-蜜甜南瓜</view>
-        <view>月售904</view>
-      </view>
-      <view class="quality_right">
-        <view class="weight">
-          <text>¥</text>
-          <text>118</text>/5Kg
-        </view>
-        <view class="quality_btn">立即购买</view>
-      </view>
-    </view>
-    <view class="quality_list" style='border:0;'>
-      <image src='../img/putao.png' lazy-load='true'></image>
-      <view class="quality_center">
-        <view>靖港特产-蜜甜南瓜</view>
-        <view>月售904</view>
-      </view>
-      <view class="quality_right">
-        <view class="weight">
-          <text>¥</text>
-          <text>118</text>/5Kg
-        </view>
-        <view class="quality_btn">立即购买</view>
+      <view class="spot_item_right">
+        <text>¥</text>81.7
       </view>
     </view>
   </view>
-</view>
+  <view class="nearby">
+    <view class="nearby_title">
+      <view class="nearby_title_left">
+        <image src='../img/piao.png' lazy-load='true'></image>
+        <image src='../img/fjjd.png' lazy-load='true'></image>
+      </view>
+      <view class="nearby_title_right">
+        <text>全部酒店</text>
+        <image src='../img/right.png' lazy-load='true'></image>
+      </view>
+    </view>
+    <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex;margin-top: 25rpx;">
+      <view class="send">
+        <image src='../img/send1.png' lazy-load='true'></image>
+        <view class="send_footer">
+          <view class="send_title">靖港土楼见晴小筑 主题客栈</view>
+          <view class="send_distance">距离靖港古镇约9.1Km</view>
+          <view class="send_pirce">¥
+            <text>118</text>
+            <text>起</text>
+          </view>
+        </view>
+      </view>
+      <view class="send">
+        <image src='../img/send1.png' lazy-load='true'></image>
+        <view class="send_footer">
+          <view class="send_title">靖港土楼见晴小筑 主题客栈</view>
+          <view class="send_distance">距离靖港古镇约9.1Km</view>
+          <view class="send_pirce">¥
+            <text>118</text>
+            <text>起</text>
+          </view>
+        </view>
+      </view>
+      <view class="send">
+        <image src='../img/send1.png' lazy-load='true'></image>
+        <view class="send_footer">
+          <view class="send_title">靖港土楼见晴小筑 主题客栈</view>
+          <view class="send_distance">距离靖港古镇约9.1Km</view>
+          <view class="send_pirce">¥
+            <text>118</text>
+            <text>起</text>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="nearby">
+    <view class="nearby_title">
+      <view class="nearby_title_left">
+        <image src='../img/nong.png' lazy-load='true'></image>
+        <image src='../img/jghh.png' lazy-load='true'></image>
+      </view>
+      <view class="nearby_title_right">
+        <text>查看更多好货</text>
+        <image src='../img/right.png' lazy-load='true'></image>
+      </view>
+    </view>
+    <view class="quality">
+      <view class="quality_list">
+        <image src='../img/putao.png' lazy-load='true'></image>
+        <view class="quality_center">
+          <view>靖港特产-蜜甜南瓜</view>
+          <view>月售904</view>
+        </view>
+        <view class="quality_right">
+          <view class="weight">
+            <text>¥</text>
+            <text>118</text>/5Kg
+          </view>
+          <view class="quality_btn">立即购买</view>
+        </view>
+      </view>
+      <view class="quality_list">
+        <image src='../img/putao.png' lazy-load='true'></image>
+        <view class="quality_center">
+          <view>靖港特产-蜜甜南瓜</view>
+          <view>月售904</view>
+        </view>
+        <view class="quality_right">
+          <view class="weight">
+            <text>¥</text>
+            <text>118</text>/5Kg
+          </view>
+          <view class="quality_btn">立即购买</view>
+        </view>
+      </view>
+      <view class="quality_list" style='border:0;'>
+        <image src='../img/putao.png' lazy-load='true'></image>
+        <view class="quality_center">
+          <view>靖港特产-蜜甜南瓜</view>
+          <view>月售904</view>
+        </view>
+        <view class="quality_right">
+          <view class="weight">
+            <text>¥</text>
+            <text>118</text>/5Kg
+          </view>
+          <view class="quality_btn">立即购买</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="nearby">
+    <view class="nearby_title">
+      <view class="nearby_title_left">
+        <image src='../img/ms.png' lazy-load='true'></image>
+        <image src='../img/fjms.png' lazy-load='true'></image>
+      </view>
+      <view class="nearby_title_right">
+        <text>更多美食</text>
+        <image src='../img/right.png' lazy-load='true'></image>
+      </view>
+    </view>
+    <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex;margin-top: 25rpx;">
+      <view class="send1">
+        <image src='../img/send1.png' lazy-load='true'></image>
+        <view class="send_footer">
+          <view class="send_title">靖港土楼见晴小筑 主题客栈</view>
+          <view class="send_pirce">
+            <text>¥</text>
+            <text>140</text>
+            <text>/人均</text>
+          </view>
+        </view>
+      </view>
+      <view class="send1">
+        <image src='../img/send1.png' lazy-load='true'></image>
+        <view class="send_footer">
+          <view class="send_title">靖港土楼见晴小筑 主题客栈</view>
+          <view class="send_pirce">
+            <text>¥</text>
+            <text>140</text>
+            <text>/人均</text>
+          </view>
+        </view>
+      </view>
+      <view class="send1">
+        <image src='../img/send1.png' lazy-load='true'></image>
+        <view class="send_footer">
+          <view class="send_title">靖港土楼见晴小筑 主题客栈</view>
+          <view class="send_pirce">
+            <text>¥</text>
+            <text>140</text>
+            <text>/人均</text>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="nearby">
+    <view class="nearby_title">
+      <view class="nearby_title_left">
+        大家的点评
+      </view>
+      <view class="nearby_title_right">
+        <text>全部评论</text>
+        <image src='../img/right.png' lazy-load='true'></image>
+      </view>
+    </view>
+    <view class="Comment">
+      <view class="Comment_title">
+        <image src='../img/tx11.png' lazy-load='true'></image>
+        <view>雁玲</view>
+      </view>
+      <view class="Comment_text">
+        最后定了靖港古镇一人游。除了价格贵以外度都挺好的。早上8:15司机师傅联系我们，还不错。除了我们...
+      </view>
+      <view class="Comment_list">
+        <image src='../img/xss.png' lazy-load='true'></image>
+        <image src='../img/xss.png' lazy-load='true'></image>
+        <image src='../img/xss.png' lazy-load='true'></image>
+      </view>
+      <view class="Comment_footer">
+        <text>4个月前发布</text>
+        <image src='../img/love3.png' lazy-load='true'></image>
+      </view>
+    </view>
+    <view class="Comment">
+      <view class="Comment_title">
+        <image src='../img/tx11.png' lazy-load='true'></image>
+        <view>雁玲</view>
+      </view>
+      <view class="Comment_text">
+        最后定了靖港古镇一人游。除了价格贵以外度都挺好的。早上8:15司机师傅联系我们，还不错。除了我们...
+      </view>
+      <view class="Comment_list">
+        <image src='../img/xss.png' lazy-load='true'></image>
+        <image src='../img/xss.png' lazy-load='true'></image>
+        <image src='../img/xss.png' lazy-load='true'></image>
+      </view>
+      <view class="Comment_footer">
+        <text>4个月前发布</text>
+        <image src='../img/love3.png' lazy-load='true'></image>
+      </view>
+    </view>
+  </view>
+  <view class="footer">
+    <input type='text' placeholder='快来写点评吧'></input>
+    <view class="footer_right">
+      <view class="footer_list">
+        <image src='../img/love33.png' lazy-load='true'></image>
+        <text>246</text>
+      </view>
+      <view class="footer_list">
+        <image src='../img/xing2.png' lazy-load='true'></image>
+        <text>246</text>
+      </view>
+      <view class="footer_list">
+        <image src='../img/qd.png' lazy-load='true'></image>
+        <text></text>
+      </view>
+    </view>
+  </view>
+  <view class="zzc" catchtouchmove='ture'>
+    <view class="Reserve">
+      <view class="Reserve_title">
+        预订须知
+        <image src='../img/x.png' lazy-load='true'></image>
+      </view>
+      <view class="Reserve_a">
+        <view class="Reserve_h2">预订须知</view>
+        <view class="Reserve_list">
+          <text>随心退</text>
+          <text class="Reserve_text">无需换票</text>
+        </view>
+      </view>
+      <view class="Reserve_conter">
+        <view class="Reserve_conter_h3">
+          <view></view>
+          <text>预订须知</text>
+        </view>
+        <view class="Reserve_Explain">
+          <view class="Reserve_Explain_list">
+            <view class="Reserve_Explain_left">
+              预订时间：
+            </view>
+            <view class="Reserve_Explain_right">
+              00:00点前可订今日票，出票后可入园
+            </view>
+          </view>
+          <view class="Reserve_Explain_list">
+            <view class="Reserve_Explain_left">
+              有效期：
+            </view>
+            <view class="Reserve_Explain_right">
+              从您选择的该日起1日内可用
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="Reserve_conter">
+        <view class="Reserve_conter_h3">
+          <view></view>
+          <text>费用说明</text>
+        </view>
+        <view class="Reserve_Explain">
+          <view class="Reserve_Explain_list">
+            <view class="Reserve_Explain_left">
+              费用包含：
+            </view>
+            <view class="Reserve_Explain_right">
+              景区内入园门票，大型游乐项目(请至少提前一 天预订)
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="Reserve_conter">
+        <view class="Reserve_conter_h3">
+          <view></view>
+          <text>使用说明</text>
+        </view>
+        <view class="Reserve_Explain">
+          <view class="Reserve_Explain_list">
+            <view class="Reserve_Explain_left">
+              使用方法：
+            </view>
+            <view class="Reserve_Explain_right">
+              无需换票，出票后可立即入园，请凭二维码或身 份证入园
+            </view>
+          </view>
+          <view class="Reserve_Explain_list">
+            <view class="Reserve_Explain_left">
+              使用地址：
+            </view>
+            <view class="Reserve_Explain_right">
+              金字塔正大门
+            </view>
+          </view>
+        </view>
 
-<view class="nearby">
-  <view class="nearby_title">
-    <view class="nearby_title_left">
-      <image src='../img/ms.png' lazy-load='true'></image>
-      <image src='../img/fjms.png' lazy-load='true'></image>
-    </view>
-    <view class="nearby_title_right">
-      <text>更多美食</text>
-      <image src='../img/right.png' lazy-load='true'></image>
-    </view>
-  </view>
-  <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex;margin-top: 25rpx;">
-    <view class="send1">
-      <image src='../img/send1.png' lazy-load='true'></image>
-      <view class="send_footer">
-        <view class="send_title">靖港土楼见晴小筑 主题客栈</view>
-        <view class="send_pirce">
-          <text>¥</text>
-          <text>140</text>
-          <text>/人均</text>
+      </view>
+      <view class="Reserve_conter">
+        <view class="Reserve_conter_h3">
+          <view></view>
+          <text>退款说明</text>
+        </view>
+        <view class="Reserve_Explain">
+          <view class="Reserve_Explain_list">
+            <view class="Reserve_Explain_left">
+              退款规则：
+            </view>
+            <view class="Reserve_Explain_right">
+              门票未使用，随时可退，退票无需支持手续费
+            </view>
+          </view>
         </view>
       </view>
-    </view>
-    <view class="send1">
-      <image src='../img/send1.png' lazy-load='true'></image>
-      <view class="send_footer">
-        <view class="send_title">靖港土楼见晴小筑 主题客栈</view>
-        <view class="send_pirce">
-          <text>¥</text>
-          <text>140</text>
-          <text>/人均</text>
+      <view class="Reserve_conter">
+        <view class="Reserve_conter_h3">
+          <view></view>
+          <text>补充说明</text>
+        </view>
+        <view class="Reserve_Explain">
+          <view class="Reserve_Explain_list">
+            <view class="Reserve_Explain_left">
+              详细说明：
+            </view>
+            <view class="Reserve_Explain_right">
+              1、门票未使用，随时可退，退票无需支持手续费
+            </view>
+          </view>
         </view>
       </view>
+      <view class="zzc_c"></view>
     </view>
-    <view class="send1">
-      <image src='../img/send1.png' lazy-load='true'></image>
-      <view class="send_footer">
-        <view class="send_title">靖港土楼见晴小筑 主题客栈</view>
-        <view class="send_pirce">
-          <text>¥</text>
-          <text>140</text>
-          <text>/人均</text>
-        </view>
+    <view class="zzc_footer">
+      <view class="zzc_footer_left">
+        ¥
+        <text>118</text>
       </view>
-    </view>
-  </scroll-view>
-</view>
-
-<view class="nearby">
-  <view class="nearby_title">
-    <view class="nearby_title_left">
-      大家的点评
-    </view>
-    <view class="nearby_title_right">
-      <text>全部评论</text>
-      <image src='../img/right.png' lazy-load='true'></image>
-    </view>
-  </view>
-  <view class="Comment">
-    <view class="Comment_title">
-      <image src='../img/tx11.png' lazy-load='true'></image>
-      <view>雁玲</view>
-    </view>
-    <view class="Comment_text">
-      最后定了靖港古镇一人游。除了价格贵以外度都挺好的。早上8:15司机师傅联系我们，还不错。除了我们...
-    </view>
-    <view class="Comment_list">
-      <image src='../img/xss.png' lazy-load='true'></image>
-      <image src='../img/xss.png' lazy-load='true'></image>
-      <image src='../img/xss.png' lazy-load='true'></image>
-    </view>
-    <view class="Comment_footer">
-      <text>4个月前发布</text>
-      <image src='../img/love3.png' lazy-load='true'></image>
-    </view>
-  </view>
-  <view class="Comment">
-    <view class="Comment_title">
-      <image src='../img/tx11.png' lazy-load='true'></image>
-      <view>雁玲</view>
-    </view>
-    <view class="Comment_text">
-      最后定了靖港古镇一人游。除了价格贵以外度都挺好的。早上8:15司机师傅联系我们，还不错。除了我们...
-    </view>
-    <view class="Comment_list">
-      <image src='../img/xss.png' lazy-load='true'></image>
-      <image src='../img/xss.png' lazy-load='true'></image>
-      <image src='../img/xss.png' lazy-load='true'></image>
-    </view>
-    <view class="Comment_footer">
-      <text>4个月前发布</text>
-      <image src='../img/love3.png' lazy-load='true'></image>
-    </view>
-  </view>
-</view>
-
-<view class="footer">
-  <input type='text' placeholder='快来写点评吧'></input>
-  <view class="footer_right">
-    <view class="footer_list">
-      <image src='../img/love33.png' lazy-load='true'></image>
-      <text>246</text>
-    </view>
-    <view class="footer_list">
-      <image src='../img/xing2.png' lazy-load='true'></image>
-      <text>246</text>
-    </view>
-        <view class="footer_list">
-      <image src='../img/qd.png' lazy-load='true'></image>
-      <text></text>
+      <view class="zzc_footer_right">
+        立即购买
+      </view>
     </view>
   </view>
 </view>

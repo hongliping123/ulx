@@ -1,0 +1,323 @@
+.top {
+  width: 750rpx;
+  height: 380rpx;
+  position: relative;
+  z-index: -1;
+}
+
+.top image {
+  width: 750rpx;
+  height: 380rpx;
+}
+
+.top image:nth-child(2) {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  right: 34rpx;
+  top: 18rpx;
+}
+
+.nav {
+  width: 750rpx;
+  border-radius: 20rpx 20rpx 0px 0px;
+  margin-top: -14rpx;
+  background: #fff;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+
+.nav .nav_title {
+  display: flex;
+  margin-top: 38rpx;
+}
+
+.nav .nav_title .nav_title_left {
+  width: 450rpx;
+  font-size: 38rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(29, 32, 35, 1);
+}
+
+.nav .nav_title .nav_title_right {
+  width: 200rpx;
+  height: 54rpx;
+  background: rgba(226, 85, 32, 1);
+  border-radius: 27rpx;
+  display: flex;
+}
+
+.nav .nav_title .nav_title_right image {
+  width: 32rpx;
+  height: 32rpx;
+  margin-top: 11rpx;
+  margin-left: 27rpx;
+}
+
+.nav .nav_title .nav_title_right text {
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 54rpx;
+  margin-left: 10rpx;
+}
+
+.nav .nav_item {
+  display: flex;
+  margin-top: 50rpx;
+  padding-bottom: 25rpx;
+}
+
+.nav .nav_item .nav_list {
+  flex: 1;
+}
+
+.nav .nav_item .nav_list .nav_list_top {
+  text-align: center;
+  border-right: 1px solid #ccc;
+  height: 37rpx;
+  line-height: 37rpx;
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(174, 174, 174, 1);
+}
+
+.nav .nav_item .nav_list .nav_list_top1 {
+  text-align: center;
+  height: 37rpx;
+  line-height: 37rpx;
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(174, 174, 174, 1);
+}
+
+.nav .nav_item .nav_list .nav_list_b {
+  height: 25rpx;
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(67, 67, 67, 1);
+  line-height: 25rpx;
+  text-align: center;
+  margin-top: 17rpx;
+}
+
+.hhh {
+  width: 750rpx;
+  height: 20rpx;
+  background: rgba(234, 234, 234, 1);
+}
+
+.mian {
+  width: 690rpx;
+  margin: 0 auto;
+  padding-bottom: 45rpx;
+}
+
+.mian .mian_list {
+  margin-top: 50rpx;
+}
+
+.mian .mian_list .mian_list_title {
+  border-left: 4rpx solid #e25520;
+  height: 46rpx;
+  line-height: 46rpx;
+  text-indent: 30rpx;
+  font-size: 36rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+}
+
+.mian .mian_list .mian_list_text {
+  margin-top: 30rpx;
+  font-size: 30rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+}
+
+.mian .mian_list .mian_list_text1 {
+  margin-top: 40rpx;
+}
+
+.mian .mian_list .mian_list_text1_title {
+  font-size: 30rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  line-height: 50px;
+  margin-top: 122rpx;
+  margin-bottom: 20rpx;
+}
+
+.mian .mian_list .mian_list_img {
+  margin-top: 30rpx;
+}
+
+.mian .mian_list .mian_list_img image {
+  width: 690rpx;
+  height: 400rpx;
+  margin-bottom: 15rpx;
+}
+
+.mian .mian_list .mian_list_coco {
+  width: 690rpx;
+  height: 178rpx;
+  background-image: url('http://a4.qpic.cn/psb?/V11QWGHg0l6wht/tVH4BUhDzGeerloODRefbdGdj*l8iaT*9G5CAoI.JXo!/b/dL8AAAAAAAAA&ek=1&kp=1&pt=0&bo=ngVoAQAAAAADF8A!&tl=1&vuin=1170645443&tm=1563955200&sce=60-2-2&rf=viewer_4');
+  background-repeat: no-repeat;
+  background-size: 690rpx 180rpx;
+  background-position: 0 0;
+  display: flex;
+}
+
+.mian .mian_list .mian_list_coco .fj {
+  width: 110rpx;
+  height: 110rpx;
+  margin-left: 30rpx;
+  margin-top: 33rpx;
+}
+
+.mian .mian_list .mian_list_coco .mian_list_coco_conter {
+  margin-left: 35rpx;
+  flex: 1;
+  margin-top: 24rpx;
+}
+
+.mian .mian_list .mian_list_coco .mian_list_coco_conter .mian_list_coco_conter_title {
+  font-size: 28rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  height: 28rpx;
+  line-height: 28rpx;
+  margin-top: 8rpx;
+}
+
+.mian .mian_list .mian_list_coco .mian_list_coco_conter .text_a {
+  height: 23rpx;
+  font-size: 24rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: #868686;
+  line-height: 23rpx;
+  margin-top: 14rpx;
+}
+
+.mian .mian_list .mian_list_coco .mian_list_coco_conter .text_a text {
+  color: #4a4a4a;
+}
+
+.mian .mian_list .mian_list_coco .mian_list_coco_conter .text_b {
+  height: 22rpx;
+  font-size: 22rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(134, 134, 134, 1);
+  margin-top: 24rpx;
+}
+
+.mian .mian_list .mian_list_coco .mian_list_coco_right {
+  display: flex;
+  flex-direction: column;
+  margin-right: 34rpx;
+  width: 100rpx;
+}
+
+.mian .mian_list .mian_list_coco .mian_list_coco_right image {
+  width: 34rpx;
+  height: 30rpx;
+  margin: 0 auto;
+  margin-top: 50rpx;
+}
+
+.mian .mian_list .mian_list_coco .mian_list_coco_right text {
+  text-align: center;
+  margin-top: 8rpx;
+  font-size: 26rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+}
+
+.mian .mian_list .mian_list_send {
+  display: flex;
+  padding-bottom: 35rpx;
+  border-bottom: 1px solid #ccc;
+  padding-top: 40rpx;
+}
+
+.mian .mian_list .mian_list_send .left {
+  position: relative;
+}
+
+.mian .mian_list .mian_list_send .left image {
+  width: 220rpx;
+  height: 220rpx;
+}
+
+.mian .mian_list .mian_list_send .left view {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+
+.mian .mian_list .mian_list_send .right {
+  margin-left: 15rpx;
+}
+
+.mian .mian_list .mian_list_send .right .right_title {
+  font-size: 30rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.mian .mian_list .mian_list_send .right .right_conter {
+  font-size: 22rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: bold;
+  color: rgba(167, 167, 167, 1);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  margin-top: 16rpx;
+}
+
+.mian .mian_list .mian_list_send .right .right_zan {
+  display: flex;
+  margin-top: 10rpx;
+}
+
+.mian .mian_list .mian_list_send .right .right_zan image {
+  width: 26rpx;
+  height: 22rpx;
+}
+
+.mian .mian_list .mian_list_send .right .right_zan text {
+  height: 19rpx;
+  font-size: 24rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(226, 85, 32, 1);
+  margin-left: 12rpx;
+  line-height: 19rpx;
+}
+
+.ha {
+  flex: 1;
+}

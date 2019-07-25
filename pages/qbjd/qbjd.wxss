@@ -1,0 +1,180 @@
+.top {
+  width: 690rpx;
+  margin: auto;
+  display: flex;
+}
+
+.top .top_input {
+  width: 510rpx;
+  height: 56rpx;
+  margin-top: 16rpx;
+  position: relative;
+}
+
+.top .top_input input {
+  width: 510rpx;
+  height: 56rpx;
+  background: rgba(233, 233, 233, 1);
+  border-radius: 12rpx;
+  padding-left: 216rpx;
+  box-sizing: border-box;
+  padding-right: 30rpx;
+  font-size: 22rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(121, 121, 121, 1);
+}
+
+.top .top_input .top_box {
+  width: 100rpx;
+  height: 48rpx;
+  position: absolute;
+  top: 5rpx;
+  left: 15rpx;
+}
+
+.top .top_input .top_box .top_box_wen {
+  font-size: 22rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(153, 153, 153, 1);
+  height: 24rpx;
+  line-height: 24rpx;
+}
+
+.top .top_input .top_box .top_box_wen text {
+  color: #e25520;
+}
+
+.top .top_input .top_xian {
+  width: 2rpx;
+  height: 40rpx;
+  background: rgba(201, 201, 201, 1);
+  position: absolute;
+  top: 8rpx;
+  left: 130rpx;
+}
+
+.top .top_input image {
+  width: 30rpx;
+  height: 30rpx;
+  position: absolute;
+  left: 166rpx;
+  top: 15rpx;
+}
+
+.top .top_right {
+  display: flex;
+  flex: 1;
+  margin-left: 24rpx;
+}
+
+.top .top_right image {
+  width: 27rpx;
+  height: 35rpx;
+  margin-top: 28rpx;
+}
+
+.top .top_right text {
+  height: 29rpx;
+  font-size: 30rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(52, 52, 52, 1);
+  line-height: 29rpx;
+  margin-top: 31rpx;
+  margin-left: 10rpx;
+}
+
+.Hotel_item .Hotel_list {
+  display: flex;
+  padding-bottom: 30rpx;
+  margin-top: 30rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  height: 300rpx;
+  border-bottom: 20rpx solid #F6F6F6;
+}
+
+.Hotel_item .Hotel_list image {
+  width: 158rpx;
+  height: 229rpx;
+}
+
+.Hotel_item .Hotel_list .Hotel_list_right {
+  flex: 1;
+  margin-left: 24rpx;
+}
+
+.Hotel_item .Hotel_list .Hotel_list_right .Hotel_list_right_title {
+  height: 29rpx;
+  font-size: 30rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  line-height: 29rpx;
+  margin-top: 7rpx;
+}
+
+.Hotel_item .Hotel_list .Hotel_list_right .Hotel_list_right_lan {
+  display: flex;
+  height: 28rpx;
+  margin-top: 28rpx;
+}
+
+.Hotel_item .Hotel_list .Hotel_list_right .Hotel_list_right_lan .Hotel_lan1 {
+  font-size: 28rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  line-height: 27rpx;
+}
+
+.Hotel_item .Hotel_list .Hotel_list_right .Hotel_list_right_lan .Hotel_lan2 {
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  margin-left: 15rpx;
+}
+
+.Hotel_item .Hotel_list .Hotel_list_right .Hotel_list_right_lan .Hotel_lan3 {
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(157, 157, 157, 1);
+  margin-left: 15rpx;
+}
+
+.Hotel_item .Hotel_list .Hotel_list_right .Hotel_list_right_text {
+  height: 25rpx;
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(157, 157, 157, 1);
+  margin-top: 25rpx;
+  line-height: 25rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.Hotel_item .Hotel_list .Hotel_list_right .Hotel_list_right_pirce {
+  text-align: right;
+  height: 28rpx;
+  font-size: 22rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: #9e9e9e;
+  line-height: 28rpx;
+}
+
+.Hotel_item .Hotel_list .Hotel_list_right .Hotel_list_right_pirce text {
+  font-size: 22rpx;
+  color: #ff4601;
+}
+
+.Hotel_item .Hotel_list .Hotel_list_right .Hotel_list_right_pirce text:nth-child(2) {
+  font-size: 28rpx;
+  color: #ff4601;
+}

@@ -1,0 +1,212 @@
+page {
+  background-color: #efeff4;
+}
+
+.top {
+  width: 750rpx;
+  background-color: #fff;
+  height: 180rpx;
+  border-top: 1px solid #eee;
+  display: flex;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+
+.top .tx {
+  width: 125rpx;
+  height: 125rpx;
+  margin-top: 28rpx;
+}
+
+.top .right {
+  margin-left: 30rpx;
+  height: 180rpx;
+  line-height: 180rpx;
+  display: flex;
+}
+
+.top .right .pin {
+  font-size: 30rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: rgba(63, 69, 75, 1);
+  margin-right: 20rpx;
+}
+
+.top .right .pin1 {
+  font-size: 32rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #E25520;
+}
+
+.top .right .xing {
+  width: 42rpx;
+  height: 42rpx;
+  margin-right: 20rpx;
+  margin-top: 69rpx;
+}
+
+.mian {
+  width: 750rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin-top: 20rpx;
+  overflow: hidden;
+  padding-bottom: 50rpx;
+}
+
+.mian textarea {
+  width: 100%;
+  font-size: 28rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  height: 136rpx;
+  margin-top: 30rpx;
+}
+
+.mian .image {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mian .image .list {
+  position: relative;
+  width: 180rpx;
+  margin-top: 30rpx;
+  margin-right: 24rpx;
+}
+
+.mian .image .list .img1 {
+  width: 180rpx;
+  height: 180rpx;
+}
+
+.mian .image .list .del {
+  width: 36rpx;
+  height: 36rpx;
+  position: absolute;
+  right: -18rpx;
+  top: -18rpx;
+}
+
+.btn {
+  width: 690rpx;
+  height: 80rpx;
+  background: #E25520;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 32rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  margin: 0 auto;
+  margin-top: 70rpx;
+}
+
+.flutter .zp {
+  display: flex;
+  justify-content: space-between;
+  /* width: 33.33333%; */
+  position: relative;
+  margin-left: 20rpx;
+}
+
+.flutter .zp .zp_1 {
+  width: 180rpx;
+  height: 180rpx;
+  background: rgba(239, 239, 239, 1);
+  border: 1px solid rgba(238, 238, 238, 1);
+  border-radius: 10rpx;
+  margin-top: 67rpx;
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: 20rpx;
+}
+
+.flutter .zp .zp_1_1 {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 10rpx;
+  margin-top: 67rpx;
+  box-sizing: border-box;
+  text-align: center;
+  /* margin-left: 20rpx; */
+}
+
+.flutter .zp .zp_1_1 image {
+  width: 100%;
+  height: 100%;
+  margin-left: 20rpx;
+}
+
+.flutter .zp .zp_1 image {
+  width: 61rpx;
+  height: 55rpx;
+  margin-top: 36rpx;
+}
+
+.flutter .zp .zp_1 .tj {
+  height: 23rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  margin-top: 30rpx;
+  line-height: 23rpx;
+  text-align: center;
+}
+
+.flutter {
+  display: flex;
+  /* justify-content: spa */
+  flex-wrap: wrap;
+}
+
+.ui_uploader_item_icon {
+  position: absolute;
+  left: 175rpx;
+  top: 41rpx;
+}
+
+.item image {
+  width: 42rpx;
+  height: 42rpx;
+}
+
+.flutter .zp .zp_1 .tj {
+  height: 23rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  margin-top: 30rpx;
+  line-height: 23rpx;
+  text-align: center;
+}
+
+.flutter {
+  display: flex;
+  /* justify-content: spa */
+  flex-wrap: wrap;
+}
+
+.ui_uploader_item_icon {
+  position: absolute;
+  left: 175rpx;
+  top: 41rpx;
+}
+
+.item image {
+  width: 42rpx;
+  height: 42rpx;
+}
+.item {
+  display: flex;
+  padding-top: 65rpx;
+  margin-right: 20rpx;
+}
