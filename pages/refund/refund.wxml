@@ -10,7 +10,6 @@
         </view>
         <view class="title_sl">x1</view>
       </view>
-      
     </view>
     <view class="item">
       <view class="item_li">
@@ -25,7 +24,7 @@
       
     </view>
 
-    <view class="item_img">
+    <view class="item_img" catchtap="gojump">
       <view class="item_li">
         <view class="left">
           <text>退款原因</text>

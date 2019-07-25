@@ -1,31 +1,17 @@
-// pages/myorder/myorder.js
-var that
+// pages/Arefundreason/Arefundreason.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    menuTapCurrent:-1
-  },
-  menuTap(e){
-    that = this
-    that.setData({
-      menuTapCurrent: e.currentTarget.dataset.current
-    })
+
   },
 
-  gojump(){
+  // 跳转到退款
+  handTkcg(){
     wx.navigateTo({
-      url: '/pages/myorderform/myorderform',
-    })
-  },
-  /**
-   * 退款跳转
-   */
-  paytk(){
-    wx.navigateTo({
-      url: '/pages/refund/refund',
+      url: '/pages/Userarefund/Userarefund',
     })
   },
   /**

@@ -1,4 +1,4 @@
-// pages/myorder/myorder.js
+// pages/coupon/coupon.js
 var that
 Page({
 
@@ -6,28 +6,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    menuTapCurrent:-1
-  },
-  menuTap(e){
-    that = this
-    that.setData({
-      menuTapCurrent: e.currentTarget.dataset.current
-    })
+    current:0
   },
 
-  gojump(){
-    wx.navigateTo({
-      url: '/pages/myorderform/myorderform',
-    })
-  },
-  /**
-   * 退款跳转
-   */
-  paytk(){
-    wx.navigateTo({
-      url: '/pages/refund/refund',
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -35,6 +16,12 @@ Page({
 
   },
 
+  getDataAttr(e){
+    that = this
+    this.setData({
+      current: e.currentTarget.dataset.current
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

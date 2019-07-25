@@ -1,0 +1,23 @@
+<view class="container">
+  <view class="cont_top">
+      <view class="cont_top_img" catchtap="receivedpraise">
+          <image src="../img/shoudoadezhang.png"></image>
+          <text>收到的赞</text>
+      </view>
+
+      <view class="cont_top_img">
+          <image src="../img/shouchang.png"></image>
+          <text>新增收藏</text>
+      </view>
+  </view>
+
+  <view class="cont_body">
+      <view class="cont_body_img" wx:for="{{3}}" wx:key="{{4}}">
+          <image src="../img/tx.png"></image>
+          <view class="cont_body_img_text">
+              <text>好看的恐龙</text>
+              <text>好看的恐龙赞了你</text>
+          </view>
+      </view>
+  </view>
+</view>

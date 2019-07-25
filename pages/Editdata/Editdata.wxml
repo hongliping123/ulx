@@ -1,0 +1,49 @@
+<view class="container">
+    <view class="cont_top">
+        编辑资料
+    </view>
+
+    <view class="cont_body">
+      <view class="cont_body_title">
+
+        <view class="cont_body_img">
+            <image src="../img/tx312.png"></image>
+            <text>修改头像</text>
+        </view>
+        
+        <view class="cont_body_text1">
+          <text class="cont_body_text_sex sex_left">昵称</text>
+          <input placeholder="请输入您要修改的昵称"></input>
+        </view>
+
+        <view class="cont_body_text">
+          <text class="cont_body_text_sex">性别</text>
+          <view class="cont_body_text_img">
+            <text>女</text>
+            <image src="../img/you.png"></image>
+          </view>
+        </view>
+
+
+
+        <view class="cont_body_text">
+          <text class="cont_body_text_sex">生日</text>
+          <view class="cont_body_text_img">
+            <text>1995-5-09</text>
+            <image src="../img/you.png"></image>
+          </view>
+        </view>
+
+        <view class="cont_body_text">
+          <text class="cont_body_text_sex">地区</text>
+          <view class="cont_body_text_img">
+            <text>长沙</text>
+            <image src="../img/you.png"></image>
+          </view>
+        </view>
+
+      </view>
+    </view>
+
+    <view class="cont_but">保存</view>
+</view>

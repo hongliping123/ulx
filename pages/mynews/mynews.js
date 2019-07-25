@@ -1,4 +1,4 @@
-// pages/myorder/myorder.js
+// pages/mynews/mynews.js
 var that
 Page({
 
@@ -6,26 +6,15 @@ Page({
    * 页面的初始数据
    */
   data: {
-    menuTapCurrent:-1
-  },
-  menuTap(e){
-    that = this
-    that.setData({
-      menuTapCurrent: e.currentTarget.dataset.current
-    })
+
   },
 
-  gojump(){
+  /** 
+   * 跳转到收到的赞
+  */
+  receivedpraise(){
     wx.navigateTo({
-      url: '/pages/myorderform/myorderform',
-    })
-  },
-  /**
-   * 退款跳转
-   */
-  paytk(){
-    wx.navigateTo({
-      url: '/pages/refund/refund',
+      url: '/pages/Receivedpraise/Receivedpraise',
     })
   },
   /**

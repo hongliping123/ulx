@@ -1,0 +1,15 @@
+ <view class="cont_body">
+      <view class="cont_body_img" wx:for="{{3}}" wx:key="index">
+        <view class="cont_body_img1">
+          <image src="../img/tx.png"></image>
+          <view class="cont_body_img_text">
+             <view>
+                 <text class="text">好看的恐龙</text>
+                 <text>赞了你</text>
+             </view>
+              <text>好看的恐龙赞了你</text>
+          </view>
+        </view>
+        <image src="../img/50.png"></image>
+      </view>
+  </view>

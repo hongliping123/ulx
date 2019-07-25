@@ -1,9 +1,7 @@
 <view class="container">
   <view class="cont_top">
-    <!-- <text>退款中</text>
-   <text>商家正在核实退款中</text> -->
-   <text>退款成功</text>
-   <text>2019-05-26  10:28</text>
+    <text>用户发起退款</text>
+     <text>商家正在核实退款中</text>
   </view>
 
   <view class="cont_top_tk">
@@ -39,6 +37,7 @@
           <text>申请时间：</text>
          <text>2019年6月18日 14:00</text>
       </view>
+      
        <view class="cont_body_text1">
           <text>退款编号：</text>
          <text class="money">3213211312313</text>

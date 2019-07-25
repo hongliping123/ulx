@@ -60,6 +60,13 @@ Page({
       current: that.data.images[e.currentTarget.dataset.index]
     })
   },
+
+// 跳到退款原因
+  gojump(){
+    wx.navigateTo({
+      url: '/pages/Arefundreason/Arefundreason',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

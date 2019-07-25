@@ -8,8 +8,7 @@ page {
   height: 180rpx;
   background: linear-gradient(90deg, rgba(226, 85, 32, 1) 0%, rgba(246, 159, 46, 1) 100%);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 
 .cont_top text {
@@ -19,9 +18,7 @@ page {
   color: rgba(255, 255, 255, 1);
   margin-left: 20rpx;
 }
-.cont_top text:nth-child(2){
-  font-size:26rpx;
-}
+
 .cont_body {
   background: #fff;
   padding: 20rpx;
@@ -141,7 +138,6 @@ page {
 .cont_top_tk text:nth-child(2) {
   font-size: 26rpx;
   color: rgba(226, 85, 32, 1);
-  font-weight: bold;
 }
 
 .cont_body_xi {

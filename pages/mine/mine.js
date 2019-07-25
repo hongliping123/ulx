@@ -1,4 +1,4 @@
-// pages/myorder/myorder.js
+// pages/mine/mine.js
 var that
 Page({
 
@@ -6,26 +6,78 @@ Page({
    * 页面的初始数据
    */
   data: {
-    menuTapCurrent:-1
+    utrr:0
   },
-  menuTap(e){
+
+
+  gomydd(e){
     that = this
     that.setData({
-      menuTapCurrent: e.currentTarget.dataset.current
+      utrr: e.currentTarget.dataset.utrr
     })
   },
 
-  gojump(){
+
+  /**
+   * 判断用户选这我的订单话说行程订单逻辑跳转
+   */
+  gojumpck(){
+    that = this
+    if(that.data.utrr == 1){
+      wx.navigateTo({
+        url: '/pages/Strokedd/Strokedd',
+      })
+    } else {
+      wx.navigateTo({
+        url: '/pages/myorder/myorder',
+      })
+    }
+  },
+
+  
+  /**
+   * 跳转到商家中心
+   */
+  handsjzongx(){
     wx.navigateTo({
-      url: '/pages/myorderform/myorderform',
+      url: '/pages/MerchantLogin/MerchantLogin',
+    })
+  },
+
+
+  /**
+   * 跳转到优惠劵
+   */
+  handTgm(){
+    wx.navigateTo({
+      url: '/pages/coupon/coupon',
     })
   },
   /**
-   * 退款跳转
+   * 跳转到我的分享
    */
-  paytk(){
+  
+  handYhka(){
     wx.navigateTo({
-      url: '/pages/refund/refund',
+      url: '/pages/share/share',
+    })
+  },
+   
+   /**
+    * 跳转到我的消息
+    */
+  handWdtg(){
+    wx.navigateTo({
+      url: '/pages/mynews/mynews',
+    })
+  },
+
+  /**
+   * 跳转到编辑页面
+   */
+  gojumpbj(){
+    wx.navigateTo({
+      url: '/pages/Editdata/Editdata',
     })
   },
   /**
