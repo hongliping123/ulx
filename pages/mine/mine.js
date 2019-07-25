@@ -62,7 +62,15 @@ Page({
       url: '/pages/share/share',
     })
   },
-  
+   
+   /**
+    * 跳转到我的消息
+    */
+  handWdtg(){
+    wx.navigateTo({
+      url: '/pages/mynews/mynews',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

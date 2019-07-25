@@ -1,5 +1,4 @@
-// pages/mynews/mynews.js
-var that
+// pages/Receivedpraise/Receivedpraise.js
 Page({
 
   /**
@@ -9,14 +8,6 @@ Page({
 
   },
 
-  /** 
-   * 跳转到收到的赞
-  */
-  receivedpraise(){
-    wx.navigateTo({
-      url: '/pages/Receivedpraise/Receivedpraise',
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */
