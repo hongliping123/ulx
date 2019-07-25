@@ -36,12 +36,11 @@
             <text catchtap="gomydd" data-utrr="1" class="{{utrr==1?'Medium':''}}">行程订单</text>
           </view>
           <view class="cont_Myorder_img">
-            <text>查看更多</text>
+            <text catchtap="gojumpck">查看更多</text>
             <image src='../img/you.png' bindtap='handJump'></image>
           </view>
         </view>
-        <!-- <view class='cont_Myorder_coin'></view> -->
-        <view class='cont_Myorder_list1'>
+        <view class='cont_Myorder_list1' wx:if="{{utrr==0}}">
           <view class='cont_Myorder_list' data-current="0" bindtap='handTarget'>
             <image src='../img/fukuang.png'></image>
             <text>待付款</text>
@@ -67,8 +66,59 @@
             <text>退款售后</text>
           </view>
         </view>
+         <view class='cont_Myorder_list1' wx:if="{{utrr==1}}">
+          <view class='cont_Myorder_list' data-current="0" bindtap='handTarget'>
+            <image src='../img/fukuang.png'></image>
+            <text>待付款</text>
+          </view>
+
+          <view class='cont_Myorder_list' data-current="1" bindtap='handTarget'>
+            <image src='../img/daichuli.png'></image>
+            <text>待处理</text>
+          </view>
+
+          <view class='cont_Myorder_list' data-current="2" bindtap='handTarget'>
+            <image src='../img/pingja.png'></image>
+            <text>待评价</text>
+          </view>
+
+          <view class='cont_Myorder_list' data-current="3" bindtap='handTarget'>
+            <image src='../img/shouhou.png'></image>
+            <text>退款售后</text>
+          </view>
+        </view>
       </view>
     </view>
+
+
+    <!-- <view class='cont_Myorder'>
+      <view class='cont_Myorder_text'>
+          <view class='cont_Myorder_list1'>
+
+            <view class='cont_Myorder_list' data-current="0" bindtap='handTarget'>
+              <image src='../img/fukuang.png'></image>
+              <text>待付款</text>
+            </view>
+
+            <view class='cont_Myorder_list' data-current="1" bindtap='handTarget'>
+              <image src='../img/daichuli.png'></image>
+              <text>待处理</text>
+            </view>
+
+            <view class='cont_Myorder_list' data-current="2" bindtap='handTarget'>
+              <image src='../img/pingja.png'></image>
+              <text>待评价</text>
+            </view>
+
+            <view class='cont_Myorder_list' data-current="3" bindtap='handTarget'>
+              <image src='../img/shouhou.png'></image>
+              <text>退款售后</text>
+            </view>
+
+          </view>
+        </view>
+    </view> -->
+
   </view>
 
   <!-- 退出账户 -->
@@ -117,8 +167,8 @@
       <image src='../img/you.png'></image>
     </view>
     <view class='cont_Signout_coso'></view>
-  
-     <view class='cont_Signout_text1' bindtap='handYhka'>
+
+    <view class='cont_Signout_text1' bindtap='handkefu'>
       <view class='cont_Signout_text'>
         <image src='../img/kefuzhongx.png' class="cont_Signout_img6"></image>
         <text>客服中心</text>
@@ -127,7 +177,7 @@
     </view>
 
     <view class='cont_Signout_coso'></view>
-     <view class='cont_Signout_text1' bindtap='handYhka'>
+    <view class='cont_Signout_text1' bindtap='handsjzongx'>
       <view class='cont_Signout_text'>
         <image src='../img/shangjiazhongx.png' class="cont_Signout_img7"></image>
         <text>商家中心</text>
@@ -139,6 +189,6 @@
 
   <!-- 问答 -->
   <view class="cont_wenda">
-      <image src="../img/wenda.png"></image>
+    <image src="../img/wenda.png"></image>
   </view>
 </view>

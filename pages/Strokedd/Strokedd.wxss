@@ -101,10 +101,8 @@ page {
 
 .cont_body_but {
   display: flex;
-  width: 400rpx;
-  margin-left: 290rpx;
-  justify-content: space-around;
-  margin-top: 35rpx;
+
+  flex-direction: row-reverse;
 }
 
 .cont_body_but1 {

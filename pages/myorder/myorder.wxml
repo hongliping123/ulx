@@ -58,8 +58,9 @@
       <text class="t_4_1 ">共1件商品  合计：</text>
     </view>
     <view class="t_5 ">
-      <view class="t_5_btn " catchtap='payment'>付款</view>
-      <view class="t_5_btn " catchtap='abolish'>取消订单</view>
+      <!-- <view class="t_5_btn " catchtap='payment'>付款</view> -->
+       <view class="t_5_btn " catchtap='paytk'>退款</view>
+      <!-- <view class="t_5_btn " catchtap='abolish'>取消订单</view> -->
     </view>
     <!-- <view class="t_5 " wx:if="{{item.OrderStatus=='待收货' }} ">
       <view class="t_5_btn " catchtap='payment'>确认收货</view>

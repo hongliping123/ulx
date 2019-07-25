@@ -229,6 +229,7 @@ page {
 
 .Medium{
   color: #333 !important;
+  font-weight: bold !important;
 }
 
 

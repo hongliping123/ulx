@@ -1,4 +1,4 @@
-// pages/mine/mine.js
+// pages/coupon/coupon.js
 var that
 Page({
 
@@ -6,63 +6,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    utrr:0
+    current:0
   },
 
-
-  gomydd(e){
-    that = this
-    that.setData({
-      utrr: e.currentTarget.dataset.utrr
-    })
-  },
-
-
-  /**
-   * 判断用户选这我的订单话说行程订单逻辑跳转
-   */
-  gojumpck(){
-    that = this
-    if(that.data.utrr == 1){
-      wx.navigateTo({
-        url: '/pages/Strokedd/Strokedd',
-      })
-    } else {
-      wx.navigateTo({
-        url: '/pages/myorder/myorder',
-      })
-    }
-  },
-
-  
-  /**
-   * 跳转到商家中心
-   */
-  handsjzongx(){
-    wx.navigateTo({
-      url: '/pages/MerchantLogin/MerchantLogin',
-    })
-  },
-
-
-  /**
-   * 跳转到优惠劵
-   */
-  handTgm(){
-    wx.navigateTo({
-      url: '/pages/coupon/coupon',
-    })
-  },
-  /**
-   * 跳转到我的分享
-   */
-  
-  handYhka(){
-    wx.navigateTo({
-      url: '/pages/share/share',
-    })
-  },
-  
   /**
    * 生命周期函数--监听页面加载
    */
@@ -70,6 +16,12 @@ Page({
 
   },
 
+  getDataAttr(e){
+    that = this
+    this.setData({
+      current: e.currentTarget.dataset.current
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

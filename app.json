@@ -1,11 +1,13 @@
 {
   "pages": [
     "pages/mine/mine",
+    "pages/coupon/coupon",
+    "pages/refund/refund",
+    "pages/sjrefund/sjrefund",
     "pages/video/video",
     "pages/share/share",
     "pages/Arefundreason/Arefundreason",
     "pages/Userarefund/Userarefund",
-    "pages/refund/refund",
     "pages/comment/comment",
     "pages/myorder/myorder",
     "pages/myorderform/myorderform",
@@ -14,7 +16,6 @@
     "pages/giftcard/giftcard",
     "pages/Strokedd/Strokedd",
     "pages/MerchantLogin/MerchantLogin",
-    "pages/sjrefund/sjrefund",
     "pages/wdStroke/wdStroke",
     "pages/switch/switch",
     "pages/scenic/scenic",
@@ -25,7 +26,8 @@
     "pages/sjrecord/sjrecord",
     "pages/cancel/cancel",
     "pages/index/index",
-    "pages/Arefundafter/Arefundafter"
+    "pages/Arefundafter/Arefundafter",
+    "pages/mynews/mynews"
   ],
   "window": {
     "backgroundTextStyle": "light",

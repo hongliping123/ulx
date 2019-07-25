@@ -1,0 +1,36 @@
+<view class="container">
+  <view class="cont_top">
+    <view class="cont_top_text1">
+      <view class="cont_top_text" data-current="0" catchtap="getDataAttr">
+        <text>可用优惠劵</text>
+        <view class="{{current==0?'cont_icon_botton':''}}"></view>
+      </view>
+      <view class="cont_icon"></view>
+      <view class="cont_top_text" data-current="1" catchtap="getDataAttr">
+        <text>历史优惠劵</text>
+        <view class="{{current==1?'cont_icon_botton':''}}"></view>
+      </view>
+    </view>
+
+  </view>
+
+  <view class="cont_body">
+      <view class="cont_body_yhj" wx:for="{{3}}" wx:key="index">
+          <view class="cont_body_yhj_money">
+              <view class="cont_body_yhj_money1">
+                <text>￥</text>
+                <text>10</text>
+              </view>
+              <view class="cont_body_yhj_text">抵扣券</view>
+          </view>
+          <view class="cont_body_yhj_title">
+              <text class="cont_body_yhj_title_text1">注册红包</text>
+              <text class="cont_body_yhj_title_text2">新用户可用</text>
+              <text class="cont_body_yhj_title_text3">2019.06.18-2019-06-30</text>
+          </view>
+          <view class="cont_body_yhj_ljsy">立即使用</view>
+      </view>
+
+      
+  </view>
+</view>
