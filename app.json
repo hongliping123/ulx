@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/comment/Comment",
     "pages/mine/mine",
     "pages/coupon/coupon",
     "pages/Service/Service",
@@ -13,7 +14,7 @@
     "pages/share/share",
     "pages/Arefundreason/Arefundreason",
     "pages/Userarefund/Userarefund",
-    "pages/comment/comment",
+    
     "pages/myorder/myorder",
     "pages/myorderform/myorderform",
     "pages/Hotel/Hotel",
