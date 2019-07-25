@@ -7,7 +7,7 @@
           <image src='../img/touxiang.png' class='tx'></image>
           <view class='cont_text'>麦兜啊</view>
         </view>
-        <view class="cont_tx_bj">
+        <view class="cont_tx_bj" catchtap="gojumpbj">
           <image src="../img/tx_bianji.png"></image>
           <text>编辑</text>
         </view>

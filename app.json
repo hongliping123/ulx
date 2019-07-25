@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/Editdata/Editdata",
     "pages/mine/mine",
     "pages/mynews/mynews",
     "pages/comment/Comment",

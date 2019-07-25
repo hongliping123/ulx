@@ -71,6 +71,15 @@ Page({
       url: '/pages/mynews/mynews',
     })
   },
+
+  /**
+   * 跳转到编辑页面
+   */
+  gojumpbj(){
+    wx.navigateTo({
+      url: '/pages/Editdata/Editdata',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
