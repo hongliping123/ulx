@@ -1,0 +1,19 @@
+image {
+  width: 360rpx;
+  height: 310rpx;
+  position: absolute;
+  left: 50%;
+  top: 200rpx;
+  transform: translateX(-50%);
+}
+
+view {
+  height: 30rpx;
+  font-size: 32rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(153, 153, 153, 1);
+  text-align: center;
+  margin-top: 567rpx;
+  line-height: 30rpx;
+}

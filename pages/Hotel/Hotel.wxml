@@ -365,3 +365,103 @@
     </view>
   </view>
 </view>
+
+<view class="zzc" catchtouchmove='ture'>
+  <view class="Reserve">
+    <view class="Reserve_title">
+      订单填写
+      <image class="x" src='../img/x.png' lazy-load='true'></image>
+    </view>
+    <view class="Reserve_date">
+      <view class="Reserve_date_left">
+        <view class="Reserve_date_left_fl">
+          <view class="Reserve_date_left_fl_top">入住</view>
+          <view class="Reserve_date_left_fl_bottom">6-27 周四</view>
+        </view>
+      </view>
+      <view class="Reserve_date_conter">
+        3晚
+      </view>
+      <view class="Reserve_date_left">
+        <view class="Reserve_date_left_fl">
+          <view class="Reserve_date_left_fl_top">离店</view>
+          <view class="Reserve_date_left_fl_bottom">6-27 周四</view>
+        </view>
+      </view>
+      <view class="Reserve_date_right">
+        <text>修改日期</text>
+        <image src='../img/right_l.png' lazy-load='true'></image>
+      </view>
+    </view>
+    <view class="hhh"></view>
+    <view class="tec">
+      <view class="tec_title">价格包含：</view>
+      <view class="tec_nav">
+        <view class="tec_nav_list">随心退</view>
+        <view class="tec_nav_list1">随时入住</view>
+      </view>
+      <view class="tec_Room">
+        选择您需要的房间数
+      </view>
+      <view class="tec_vb">
+        <view class="tec_vb_yun">
+          <image class="jian" src='../img/jian.png' lazy-load='true'></image>
+        </view>
+        <view class="tec_vb_conter">2间</view>
+        <view class="tec_vb_yun">
+          <image class="jia" src='../img/jia2.png' lazy-load='true'></image>
+        </view>
+      </view>
+      <view class="tec_icu">
+        <view class="icu">
+          <view class="icu_left">
+            入住人数
+          </view>
+          <input type='text' placeholder='4人'></input>
+        </view>
+        <view class="icu">
+          <view class="icu_left">
+            入住人
+          </view>
+          <input type='text' placeholder='填写实际入住人姓名'></input>
+        </view>
+        <view class="icu" style='border:0;'>
+          <view class="icu_left">
+            手机号
+          </view>
+          <view class="icu_right">
+            <text>+86</text>
+            <input type='text' placeholder='填写实际入住人姓名'></input>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="hhh"></view>
+    <view class="tyic">
+      <view class="tyic_left">
+        发票
+      </view>
+      <text>此订单收据由酒店前台开具</text>
+    </view>
+    <view class="hhh"></view>
+    <view class="careful">
+      <view class="careful_title">
+        <image src='../img/time.png' lazy-load='true'></image>
+        <text>注意事项</text>
+      </view>
+      <view class="careful_content">
+        此订单只是预定房间订单，付款金额为预付金额，不代 表实际消费金额,此金额会在实际消费完场后进行抵扣实 际付款！
+      </view>
+    </view>
+    <view class="diandi"></view>
+  </view>
+  <view class="zzc_footer">
+    <view class="zzc_footer_left">
+      ¥
+      <text>118</text>
+    </view>
+    <view class="zzc_footer_right">
+      立即购买
+    </view>
+  </view>
+</view>

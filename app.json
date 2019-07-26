@@ -1,6 +1,14 @@
 {
   "pages": [
+    "pages/news/news",
     "pages/video/video",
+    "pages/Questions/Questions",
+    "pages/Destination/Destination",
+    "pages/Rural/Rural",
+    "pages/logistics/logistics",
+    "pages/Popular/Popular",
+    
+    "pages/Intelligence/Intelligence",
     "pages/mine/mine",
     "pages/myUToken/myUToken",
     "pages/mycollect/mycollect",
@@ -20,6 +28,7 @@
     "pages/Userarefund/Userarefund",
     "pages/myorder/myorder",
     "pages/myorderform/myorderform",
+    "pages/share/share",
     "pages/Hotel/Hotel",
     "pages/Myquestions/Myquestions",
     "pages/giftcard/giftcard",

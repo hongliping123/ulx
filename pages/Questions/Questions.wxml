@@ -1,0 +1,64 @@
+<view class="top">
+  <view class="top_left">
+    <image src='../img/wei.png' lazy-load='true'></image>
+    <text>长沙</text>
+  </view>
+  <view class="top_conter">
+    <image src='../img/fdj.png' lazy-load='true'></image>
+    <input type='text' placeholder='搜索问题'></input>
+  </view>
+  <view class="top_right">
+    <view class="top_right_xx">
+      <image src='../img/xx.png' lazy-load='true'></image>
+      <view>12</view>
+    </view>
+    <image class="duo" src='../img/duo.png' lazy-load='true'></image>
+  </view>
+</view>
+<view class="nav">
+  <view class="nav_list">
+    <text class="text1">精华</text>
+    <image src='../img/xiantiao.png' lazy-load='true'></image>
+  </view>
+  <view class="nav_list">
+    <text>最新</text>
+  </view>
+</view>
+<view class="item">
+  <view class="item_list">
+    <view class="item_list_title">长沙周边哪有好玩的乡村，有特色一点的，希 望各路好汉前来推荐</view>
+    <view class="item_send">
+      <view class="item_send_left">
+        <view class="item_send_left_name">
+          <image src='../img/wxtx.png' lazy-load='true'></image>
+          <text>小K-KKday</text>
+        </view>
+        <view class="item_send_left_text">
+          想知道几个长沙周边好玩一点，有特色一点的乡村、古镇都可以，突然在某一天在微博上看到了乡村的天空，什.......么不去乡村感受一下蓝蓝的 天空，呼吸一下纯净的空气呢。有了这个想法那就说走就走，可是突然发现自己不知道去哪呀，所以就来问问U老乡上的各位大神们，有没有推荐呀！
+        </view>
+      </view>
+      <view class="item_send_right">
+        <image src='../img/send1.png' lazy-load='true'></image>
+      </view>
+    </view>
+    <view class="item_list_footer">4593浏览·45回答·378赞</view>
+  </view>
+  <view class="item_list">
+    <view class="item_list_title">长沙周边哪有好玩的乡村，有特色一点的，希 望各路好汉前来推荐</view>
+    <view class="item_send">
+      <view class="item_send_left">
+        <view class="item_send_left_name">
+          <image src='../img/wxtx.png' lazy-load='true'></image>
+          <text>小K-KKday</text>
+        </view>
+        <view class="item_send_left_text">
+          想知道几个长沙周边好玩一点，有特色一点的乡村、古镇都可以，突然在某一天在微博上看到了乡村的天空，什.......么不去乡村感受一下蓝蓝的 天空，呼吸一下纯净的空气呢。有了这个想法那就说走就走，可是突然发现自己不知道去哪呀，所以就来问问U老乡上的各位大神们，有没有推荐呀！
+        </view>
+      </view>
+    </view>
+    <view class="item_list_footer">4593浏览·45回答·378赞</view>
+  </view>
+</view>
+<view class="wen">
+问
+</view>

@@ -1,0 +1,88 @@
+<view class="top">
+  <view class="top_list">
+    <text>湖南省</text>
+    <image src='../img/bottom11.png' lazy-load='true'></image>
+  </view>
+  <view class="top_list">
+    <text>长沙市</text>
+    <image src='../img/bottom11.png' lazy-load='true'></image>
+  </view>
+  <view class="top_list">
+    <text>天心区</text>
+    <image src='../img/bottom11.png' lazy-load='true'></image>
+  </view>
+</view>
+<view class="mian">
+  <view class="mian_left">
+    <view class="mian_left_list1">周边游</view>
+    <view class="mian_left_list">热门</view>
+    <view class="mian_left_list">地区</view>
+  </view>
+  <view class="mian_right">
+    <view class="mian_right_item">
+      <view class="mian_right_list">
+        <view class="mian_right_list_img">
+          <image src='../img/list_i.png' lazy-load='true'></image>
+          <view class="mian_right_list_img_footer">郴州</view>
+        </view>
+        <view class="mian_right_list_img">
+          <image src='../img/list_i.png' lazy-load='true'></image>
+          <view class="mian_right_list_img_footer">郴州</view>
+        </view>
+        <view class="mian_right_list_img">
+          <image src='../img/list_i.png' lazy-load='true'></image>
+          <view class="mian_right_list_img_footer">郴州</view>
+        </view>
+        <view class="mian_right_list_img">
+          <image src='../img/list_i.png' lazy-load='true'></image>
+          <view class="mian_right_list_img_footer">郴州</view>
+        </view>
+      </view>
+    </view>
+    <view class="mian_title">
+      <text>热门地区</text>
+      <image src='../img/top.png' lazy-load='true'></image>
+    </view>
+    <view class="mian_right_item1">
+      <view class="mian_right_list">
+        <view class="mian_right_list_img">
+          <image src='../img/list_img.png' lazy-load='true'></image>
+          <view class="mian_right_list_img_footer">郴州</view>
+        </view>
+      </view>
+      <view class="mian_right_list">
+        <view class="mian_right_list_img">
+          <image src='../img/list_img.png' lazy-load='true'></image>
+          <view class="mian_right_list_img_footer">郴州</view>
+        </view>
+      </view>
+      <view class="mian_right_list">
+        <view class="mian_right_list_img">
+          <image src='../img/list_img.png' lazy-load='true'></image>
+          <view class="mian_right_list_img_footer">郴州</view>
+        </view>
+      </view>
+      <view class="mian_right_list">
+        <view class="mian_right_list_img">
+          <image src='../img/list_img.png' lazy-load='true'></image>
+          <view class="mian_right_list_img_footer">郴州</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="icu">
+  <view class="icu_title">
+    选择省份
+    <image src='../img/x.png' lazy-load='true'></image>
+  </view>
+  <view class="icu_item">
+    <view class="icu_list1">湖南省</view>
+    <view class="icu_list">湖南省</view>
+    <view class="icu_list">湖南省</view>
+    <view class="icu_list">湖南省</view>
+    <view class="icu_list">湖南省</view>
+    <view class="icu_list">湖南省</view>
+  </view>
+</view>
+Questions

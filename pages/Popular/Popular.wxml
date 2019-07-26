@@ -1,0 +1,40 @@
+<view class="top">
+  <image src="../img/gub.png" lazy-load='true'></image>
+  <view class="top_text1">#拥抱夏日</view>
+  <view class="top_text2">你的夏天是怎样的？阳光大海还是空调西瓜？</view>
+</view>
+<view class="item">
+  <view class="list">
+    <image class="img1" lazy-load='true' src='../img/list_img.png'></image>
+    <view class="list_title">
+      My2018年旅行记忆，走过山和海洋。在宿务遇... My2018年旅行记忆，走过山和海洋。在宿务遇...
+    </view>
+    <view class="list_footer">
+      <view class="list_la">
+        <image lazy-load='true' src='../img/tx.png'></image>
+        <view>果果在厦门</view>
+      </view>
+      <view class="Fabulous">
+        <image class="img1" lazy-load='true' src='../img/love.png'></image>
+        <view>246</view>
+      </view>
+    </view>
+  </view>
+  <view class="list">
+    <image class="img1" lazy-load='true' src='../img/list_img.png'></image>
+    <image class="img11" lazy-load='true' src='../img/bf.png'></image>
+    <view class="list_title">
+      My2018年旅行记忆，走过山和海洋。在宿务遇... My2018年旅行记忆，走过山和海洋。在宿务遇...
+    </view>
+    <view class="list_footer">
+      <view class="list_la">
+        <image lazy-load='true' src='../img/tx.png'></image>
+        <view>果果在厦门</view>
+      </view>
+      <view class="Fabulous">
+        <image class="img1" lazy-load='true' src='../img/love.png'></image>
+        <view>246</view>
+      </view>
+    </view>
+  </view>
+</view>

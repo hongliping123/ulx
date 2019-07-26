@@ -1,0 +1,59 @@
+<view class="top">
+  <view class="top_top">
+    <text>目的地</text>
+    <view class="top_input">
+      <input type='text' placeholder='这里输入你想搜索的内容'></input>
+      <image src="../img/fdj.png" lazy-load='true'></image>
+    </view>
+    <view class="top_right">
+      <view class="top_xx">
+        <image class="xx" src="../img/xx.png" lazy-load='true'></image>
+        <view>12</view>
+      </view>
+      <image class="xx1" src="../img/kf.png" lazy-load='true'></image>
+    </view>
+  </view>
+  <view class="top_item">
+    <view class="top_list">
+      <image src="../img/fj.png" lazy-load='true'></image>
+      <view class="region">江苏</view>
+      <view class="cot">江南水乡世界</view>
+    </view>
+    <view class="top_list">
+      <image src="../img/fj.png" lazy-load='true'></image>
+      <view class="region">江苏</view>
+      <view class="cot">江南水乡世界</view>
+    </view>
+    <view class="top_list">
+      <image src="../img/fj.png" lazy-load='true'></image>
+      <view class="region">江苏</view>
+      <view class="cot">江南水乡世界</view>
+    </view>
+  </view>
+</view>
+<view class="title_h2">
+  热门推荐
+</view>
+<view class="item">
+  <view class="list">
+    <image src="../img/jgxz1.png" lazy-load='true'></image>
+    <view class="list_mian">
+      <view class="list_mian_title">48小时新疆游玩，认识一 个不一样的新疆</view>
+    </view>
+    <view class="right">研学</view>
+  </view>
+  <view class="list">
+    <image src="../img/jgxz1.png" lazy-load='true'></image>
+    <view class="list_mian">
+      <view class="list_mian_title">48小时新疆游玩，认识一 个不一样的新疆</view>
+      <view class="list_mian_h4">
+        适宜5-10月|全程12个景点
+      </view>
+      <view class="list_mian_footer">
+        <view>牧羊人民</view>
+        <view>牧羊人民</view>
+      </view>
+    </view>
+    <view class="right">研学</view>
+  </view>
+</view>
