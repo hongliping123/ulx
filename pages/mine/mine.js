@@ -80,6 +80,24 @@ Page({
       url: '/pages/Editdata/Editdata',
     })
   },
+
+  /**
+   * 跳转到我的收藏页面
+   */
+  mycollect(){
+    wx.navigateTo({
+      url: '/pages/mycollect/mycollect',
+    })
+  },
+
+  /**
+   * 跳转到我的U币
+   */
+  myUToken(){
+    wx.navigateTo({
+      url: '/pages/myUToken/myUToken',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
