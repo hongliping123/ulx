@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="cont_top">
+    <text>我的U币</text>
+    <text>100</text>
+  </view>
+  <view class="cont_body">
+      <view class="cont_body_title">
+          <text>U币记录</text>
+      </view>
+      <view class="cont_body_list" wx:for="{{3}}" wx:key="index">
+          <view class="cont_body_list_text">
+              <text>连续1天签到</text>
+              <text>2019-06-18  09:20:32</text>
+          </view>
+          <view class="cont_body_list_money">+50</view>
+      </view>
+  </view>
+</view>

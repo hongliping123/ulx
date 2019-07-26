@@ -1,7 +1,10 @@
 {
   "pages": [
-    "pages/Editdata/Editdata",
+    "pages/video/video",
     "pages/mine/mine",
+    "pages/myUToken/myUToken",
+    "pages/mycollect/mycollect",
+    "pages/Editdata/Editdata",
     "pages/mynews/mynews",
     "pages/comment/Comment",
     "pages/coupon/coupon",
@@ -12,7 +15,6 @@
     "pages/qbjd/qbjd",
     "pages/refund/refund",
     "pages/sjrefund/sjrefund",
-    "pages/video/video",
     "pages/share/share",
     "pages/Arefundreason/Arefundreason",
     "pages/Userarefund/Userarefund",
