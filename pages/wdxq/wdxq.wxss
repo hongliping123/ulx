@@ -1,0 +1,297 @@
+page {
+  background: #ededed;
+}
+
+.item {
+  padding-bottom: 100rpx;
+}
+
+.item .list {
+  background: #fff;
+  margin-bottom: 20rpx;
+  overflow: hidden;
+  width: 750rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  padding-bottom: 40rpx;
+}
+
+.item .list .list_title {
+  font-size: 38rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  margin-top: 30rpx;
+}
+
+.item .list .list_name {
+  display: flex;
+  height: 50rpx;
+  margin-top: 30rpx;
+}
+
+.item .list .list_name image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.item .list .list_name text {
+  font-size: 24rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+  line-height: 50rpx;
+  margin-left: 30rpx;
+}
+
+.item .list .list_text {
+  font-size: 24rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: bold;
+  color: rgba(73, 73, 73, 1);
+  margin-top: 35rpx;
+}
+
+.item .list .wld {
+  display: flex;
+  height: 38rpx;
+  margin-top: 30rpx;
+}
+
+.item .list .wld image {
+  width: 38rpx;
+  height: 38rpx;
+}
+
+.item .list .wld text {
+  font-size: 28rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(255, 70, 1, 1);
+  line-height: 27rpx;
+  height: 27rpx;
+  margin-top: 7rpx;
+  margin-left: 16rpx;
+}
+
+.item .list .list_date {
+  height: 23rpx;
+  font-size: 24rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: bold;
+  color: rgba(215, 215, 215, 1);
+  line-height: 23rpx;
+  margin-top: 26rpx;
+}
+
+.item .tiwen {
+  width: 750rpx;
+  height: 120rpx;
+  padding: 0 40rpx;
+  margin-bottom: 20rpx;
+  background: #fff;
+  box-sizing: border-box;
+  display: flex;
+  padding-top: 40rpx;
+}
+
+.item .tiwen .cocos {
+  width: 43rpx;
+  height: 40rpx;
+  margin-top: 3rpx;
+}
+
+.item .tiwen text {
+  margin-left: 30rpx;
+  height: 29rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 11rpx;
+  line-height: 29rpx;
+  flex: 1;
+}
+
+.item .tiwen .tiwen_right {
+  position: relative;
+}
+
+.item .tiwen .tiwen_right image {
+  width: 120rpx;
+  height: 46rpx;
+}
+
+.item .tiwen .tiwen_right view {
+  font-size: 26rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 6rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.item .list1 {
+  background: #fff;
+  overflow: hidden;
+  width: 750rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  padding-bottom: 10rpx;
+}
+
+.item .list1 .list_title {
+  font-size: 38rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  margin-top: 30rpx;
+}
+
+.item .list1 .list_name {
+  display: flex;
+  height: 50rpx;
+  margin-top: 30rpx;
+}
+
+.item .list1 .list_name image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.item .list1 .list_name text {
+  font-size: 24rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+  line-height: 50rpx;
+  margin-left: 30rpx;
+}
+
+.item .list1 .list_text {
+  font-size: 24rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: bold;
+  color: rgba(73, 73, 73, 1);
+  margin-top: 35rpx;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 40rpx;
+}
+
+.item .list1 .wld {
+  display: flex;
+  height: 38rpx;
+  margin-top: 30rpx;
+}
+
+.item .list1 .wld image {
+  width: 38rpx;
+  height: 38rpx;
+}
+
+.item .list1 .wld text {
+  font-size: 28rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(255, 70, 1, 1);
+  line-height: 27rpx;
+  height: 27rpx;
+  margin-top: 7rpx;
+  margin-left: 16rpx;
+}
+
+.item .list1 .list_date {
+  height: 23rpx;
+  font-size: 24rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: bold;
+  color: rgba(215, 215, 215, 1);
+  line-height: 23rpx;
+  margin-top: 26rpx;
+}
+
+.footer {
+  width: 750rpx;
+  height: 100rpx;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0px 5px 42px 12px rgba(133, 133, 133, 0.31);
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.footer input {
+  width: 380rpx;
+  height: 52rpx;
+  background: rgba(233, 233, 233, 1);
+  border-radius: 26rpx;
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(89, 89, 89, 1);
+  margin-top: 23rpx;
+  padding-left: 40rpx;
+}
+
+.footer .footer_right {
+  display: flex;
+  margin-left: 47rpx;
+}
+
+.footer .footer_right .footer_xx {
+  position: relative;
+}
+
+.footer .footer_right .footer_xx image {
+  width: 33rpx;
+  height: 31rpx;
+  margin-top: 40rpx;
+}
+
+.footer .footer_right .footer_xx text {
+  height: 17rpx;
+  font-size: 22rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  line-height: 17rpx;
+  position: absolute;
+  top: 20rpx;
+  right: -34rpx;
+}
+
+.footer .footer_right .footer_xx1 {
+  margin-left: 85rpx;
+  position: relative;
+}
+
+.footer .footer_right .footer_xx1 image {
+  width: 32rpx;
+  height: 32rpx;
+  margin-top: 36rpx;
+}
+
+.footer .footer_right .footer_xx1 text {
+  height: 17rpx;
+  font-size: 22rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  line-height: 17rpx;
+  position: absolute;
+  top: 20rpx;
+  right: -34rpx;
+}

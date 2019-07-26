@@ -12,7 +12,27 @@
       <image src='../img/xx.png' lazy-load='true'></image>
       <view>12</view>
     </view>
-    <image class="duo" src='../img/duo.png' lazy-load='true'></image>
+    <view class="tan">
+      <image class="duo" src='../img/duo.png' lazy-load='true' bindtap='handOff'></image>
+      <image class="jian" wx:if="{{off}}" src='../img/jian1.png' lazy-load='true'></image>
+      <view class="tan_img" wx:if="{{off}}">
+        <view class="tan_img_list">
+          我来解答
+        </view>
+        <view class="tan_img_list">
+          我的提问
+        </view>
+        <view class="tan_img_list">
+          我的回答
+        </view>
+        <view class="tan_img_list">
+          草稿箱
+        </view>
+        <view class="tan_img_list">
+          指路有理
+        </view>
+      </view>
+    </view>
   </view>
 </view>
 <view class="nav">
@@ -60,5 +80,5 @@
   </view>
 </view>
 <view class="wen">
-问
+  问
 </view>

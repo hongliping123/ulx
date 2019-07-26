@@ -1,0 +1,98 @@
+<view class="db">
+  <view class="top">
+    <view class="top_input">
+      <input type='text' placeholder='这里输入你想搜索的内容' value=''></input>
+      <image src='../img/fdj.png' lazy-load='true'></image>
+    </view>
+    <view class="top_right">
+      <image src='../img/wei.png' lazy-load='true'></image>
+      <text>靖港古镇</text>
+    </view>
+  </view>
+  <view class="Hotel_item">
+    <view class="Hotel_list">
+      <image class="tel" src='../img/hotel.png' lazy-load='true'></image>
+      <view class="Hotel_list_right">
+        <view class="Hotel_list_right_title">长沙靖港古镇维也纳国际酒店</view>
+        <view class="Hotel_list_right_lan">
+          <view class="Hotel_lan1">4.7分</view>
+          <view class="Hotel_lan2">非常好</view>
+          <view class="Hotel_lan2">102条点评</view>
+        </view>
+        <view class="Hotel_list_right_text">
+          距酒店直线1.4公里|靖港古镇第八小学斜对面
+        </view>
+        <view class="Hotel_list_right_text">
+          1天内441人浏览
+        </view>
+        <view class="Hotel_list_right_pirce">
+          <text>¥</text>
+          <text>288</text> /晚
+        </view>
+      </view>
+    </view>
+    <view class="Hotel_list">
+      <image class="tel" src='../img/hotel.png' lazy-load='true'></image>
+      <view class="Hotel_list_right">
+        <view class="Hotel_list_right_title">长沙靖港古镇维也纳国际酒店</view>
+        <view class="Hotel_list_right_lan">
+          <view class="Hotel_lan1">4.7分</view>
+          <view class="Hotel_lan2">非常好</view>
+          <view class="Hotel_lan2">102条点评</view>
+        </view>
+        <view class="Hotel_list_right_text">
+          距酒店直线1.4公里|靖港古镇第八小学斜对面
+        </view>
+        <view class="Hotel_list_right_text">
+          1天内441人浏览
+        </view>
+        <view class="Hotel_list_right_pirce">
+          <text>¥</text>
+          <text>288</text> /晚
+        </view>
+      </view>
+    </view>
+    <view class="Hotel_list">
+      <image class="tel" src='../img/hotel.png' lazy-load='true'></image>
+      <view class="Hotel_list_right">
+        <view class="Hotel_list_right_title">长沙靖港古镇维也纳国际酒店</view>
+        <view class="Hotel_list_right_lan">
+          <view class="Hotel_lan1">4.7分</view>
+          <view class="Hotel_lan2">非常好</view>
+          <view class="Hotel_lan2">102条点评</view>
+        </view>
+        <view class="Hotel_list_right_text">
+          距酒店直线1.4公里|靖港古镇第八小学斜对面
+        </view>
+        <view class="Hotel_list_right_text">
+          1天内441人浏览
+        </view>
+        <view class="Hotel_list_right_pirce">
+          <text>¥</text>
+          <text>288</text> /晚
+        </view>
+      </view>
+    </view>
+    <view class="Hotel_list">
+      <image class="tel" src='../img/hotel.png' lazy-load='true'></image>
+      <view class="Hotel_list_right">
+        <view class="Hotel_list_right_title">长沙靖港古镇维也纳国际酒店</view>
+        <view class="Hotel_list_right_lan">
+          <view class="Hotel_lan1">4.7分</view>
+          <view class="Hotel_lan2">非常好</view>
+          <view class="Hotel_lan2">102条点评</view>
+        </view>
+        <view class="Hotel_list_right_text">
+          距酒店直线1.4公里|靖港古镇第八小学斜对面
+        </view>
+        <view class="Hotel_list_right_text">
+          1天内441人浏览
+        </view>
+        <view class="Hotel_list_right_pirce">
+          <text>¥</text>
+          <text>288</text> /晚
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

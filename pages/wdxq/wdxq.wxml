@@ -1,0 +1,91 @@
+<view class="item">
+  <view class="list">
+    <view class="list_title">
+      长沙周边哪有好玩的乡村，有特色一点的 ，希望各路好汉前来推荐
+    </view>
+    <view class="list_name">
+      <image src="../img/wxtx.png" lazy-load='true'></image>
+      <text>小K-KKday</text>
+    </view>
+    <view class="list_text">
+      想知道几个长沙周边好玩一点，有特色一点的乡村、古镇都可以，最近一直呆在纸醉金迷的都市，吃着大鱼大肉。突然在某一天在微博上看到了乡村的天空，突然脑海中闪现出为什么不去乡村感受一下蓝蓝的 天空，呼吸一下纯净的空气呢。有了这个想法那就说走就走，可是突然发现自己不知道去哪呀，所以就来问问U老乡上的各位大神们，有没有推荐呀！
+    </view>
+    <view class="wld">
+      <image src="../img/hui.png" lazy-load='true'></image>
+      <text>我来答</text>
+    </view>
+  </view>
+  <view class="list">
+    <view class="list_name">
+      <image src="../img/wxtx.png" lazy-load='true'></image>
+      <text>小K-KKday</text>
+    </view>
+    <view class="list_text">
+      想知道几个长沙周边好玩一点，有特色一点的乡村、古镇都可以，最近一直呆在纸醉金迷的都市，吃着大鱼大肉。突然在某一天在微博上看到了乡村的天空，突然脑海中闪现出为什么不去乡村感受一下蓝蓝的 天空，呼吸一下纯净的空气呢。有了这个想法那就说走就走，可是突然发现自己不知道去哪呀，所以就来问问U老乡上的各位大神们，有没有推荐呀！
+    </view>
+    <view class="list_date">发表于 2019-05-23</view>
+  </view>
+  <view class="tiwen">
+    <image class="cocos" src="../img/wen1.png" lazy-load='true'></image>
+    <text>十分钟内有问必答，快来提问。</text>
+    <view class="tiwen_right">
+      <image src="../img/btn.png" lazy-load='true'></image>
+      <view>提问</view>
+    </view>
+  </view>
+  <view class="list1">
+    <view class="list_title">
+      全部回答 264
+    </view>
+    <view class="list_name">
+      <image src="../img/wxtx.png" lazy-load='true'></image>
+      <text>小K-KKday</text>
+    </view>
+    <view class="list_text">
+      想知道几个长沙周边好玩一点，有特色一点的乡村、古镇都可以，最近一直呆在纸醉金迷的都市，吃着大鱼大肉。突然在某一天在微博上看到了乡村的天空，突然脑海中闪现出为什么不去乡村感受一下蓝蓝的 天空，呼吸一下纯净的空气呢。有了这个想法那就说走就走，可是突然发现自己不知道去哪呀，所以就来问问U老乡上的各位大神们，有没有推荐呀！
+    </view>
+  </view>
+  <view class="list1">
+    <view class="list_name">
+      <image src="../img/wxtx.png" lazy-load='true'></image>
+      <text>小K-KKday</text>
+    </view>
+    <view class="list_text">
+      想知道几个长沙周边好玩一点，有特色一点的乡村、古镇都可以，最近一直呆在纸醉金迷的都市，吃着大鱼大肉。突然在某一天在微博上看到了乡村的天空，突然脑海中闪现出为什么不去乡村感受一下蓝蓝的 天空，呼吸一下纯净的空气呢。有了这个想法那就说走就走，可是突然发现自己不知道去哪呀，所以就来问问U老乡上的各位大神们，有没有推荐呀！
+    </view>
+  </view>
+  <view class="list1">
+    <view class="list_name">
+      <image src="../img/wxtx.png" lazy-load='true'></image>
+      <text>小K-KKday</text>
+    </view>
+    <view class="list_text">
+      想知道几个长沙周边好玩一点，有特色一点的乡村、古镇都可以，最近一直呆在纸醉金迷的都市，吃着大鱼大肉。突然在某一天在微博上看到了乡村的天空，突然脑海中闪现出为什么不去乡村感受一下蓝蓝的 天空，呼吸一下纯净的空气呢。有了这个想法那就说走就走，可是突然发现自己不知道去哪呀，所以就来问问U老乡上的各位大神们，有没有推荐呀！
+    </view>
+  </view>
+  <view class="list1">
+    <view class="list_name">
+      <image src="../img/wxtx.png" lazy-load='true'></image>
+      <text>小K-KKday</text>
+    </view>
+    <view class="list_text">
+      想知道几个长沙周边好玩一点，有特色一点的乡村、古镇都可以，最近一直呆在纸醉金迷的都市，吃着大鱼大肉。突然在某一天在微博上看到了乡村的天空，突然脑海中闪现出为什么不去乡村感受一下蓝蓝的 天空，呼吸一下纯净的空气呢。有了这个想法那就说走就走，可是突然发现自己不知道去哪呀，所以就来问问U老乡上的各位大神们，有没有推荐呀！
+    </view>
+  </view>
+</view>
+<view class='footer'>
+  <input type='text' placeholder='幸福千万事，评论第一件'></input>
+  <view class="footer_right">
+    <view class="footer_xx">
+      <image src="../img/xx1.png" lazy-load='true'></image>
+      <text>246</text>
+    </view>
+    <view class="footer_xx1">
+      <image src="../img/dianz.png" lazy-load='true'></image>
+      <text>2</text>
+    </view>
+    <view class="footer_xx1">
+      <image src="../img/fen11.png" lazy-load='true'></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,18 @@
+<view class="top">
+  <view class="top_text">
+    <input type='text' placeholder='请输入问题（5~49字）'></input>
+  </view>
+  <view class="top_footer">
+    0/49
+  </view>
+</view>
+<view class="mian">
+  <textarea type="text" placeholder='对问题补充说明，更快获得优质回答'></textarea>
+  <view class="mian_img">
+    <image src='../img/tianjia.png' lazy-load='true'></image>
+  </view>
+</view>
+<view class="footer">
+  <image src='../img/fbu.png' lazy-load='true'></image>
+  <text>发布问题</text>
+</view>
