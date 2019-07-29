@@ -1,0 +1,85 @@
+.top {
+  width: 750rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1px solid #ccc;
+}
+
+.top .top_text {
+  width: 690rpx;
+  margin: 0 auto;
+  font-size: 48rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(201, 201, 201, 1);
+  margin-top: 38rpx;
+}
+
+.top .top_text input {
+  width: 100%;
+  height: 46rpx;
+}
+
+.top .top_footer {
+  width: 690rpx;
+  margin: 0 auto;
+  height: 25rpx;
+  text-align: right;
+  margin-top: 10rpx;
+  font-size: 26rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: rgba(201, 201, 201, 1);
+}
+
+.mian {
+  width: 690rpx;
+  margin: 0 auto;
+  padding-top: 45rpx;
+}
+
+.mian textarea {
+  width: 100%;
+  height: 300rpx;
+}
+
+.mian .mian_img {
+  display: flex;
+  margin-top: 200rpx;
+}
+
+.mian .mian_img image {
+  width: 220rpx;
+  height: 220rpx;
+}
+
+.footer {
+  position: fixed;
+  width: 750rpx;
+  height: 100rpx;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 5rpx 42rpx 12rpx rgba(133, 133, 133, 0.31);
+  bottom: 0;
+  left: 0;
+  display: flex;
+  box-sizing: border-box;
+  padding-top: 32rpx;
+  justify-content: center;
+}
+
+.footer image {
+  width: 40rpx;
+  height: 34rpx;
+}
+
+.footer text {
+  height: 34rpx;
+  font-size: 36rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(255, 70, 1, 1);
+  background: linear-gradient(0deg, rgba(254, 161, 27, 1) 0%, rgba(226, 85, 32, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 34rpx;
+  margin-left: 30rpx;
+}

@@ -1,0 +1,178 @@
+<view class="top">
+  <view class="top_Atlas">
+    <image class="top_Atlas_fl" src="../img/ao.png" lazy-load='true'></image>
+    <view class="top_Atlas_fr">
+      <view class="top_Atlas_fr_s">
+        <image class="top_Atlas_fl" src="../img/ao1.png" lazy-load='true'></image>
+      </view>
+      <view class="top_Atlas_fr_x">
+        <image class="top_Atlas_fl" src="../img/ao1.png" lazy-load='true'></image>
+        <view>88图</view>
+      </view>
+    </view>
+  </view>
+  <view class="top_footer">
+    <view class="top_footer_left">
+      <view class="top_footer_left_title">喜来登天之廊</view>
+      <view class="top_footer_left_dz">
+        <image src="../img/wei.png" lazy-load='true'></image>
+        <view class="top_footer_left_dz_right">
+          靖港古镇新开铺路960号(靖港古镇 第八小学斜对面)
+        </view>
+      </view>
+      <view class="top_footer_left_java">
+        <text>西餐咖啡甜点·二楼中餐</text>
+        <text>营业时间：周一到周日15:00~18:00</text>
+      </view>
+    </view>
+    <view class="top_footer_right">
+      <view class="top_footer_right_btn">
+        <image src="../img/btn11.png" lazy-load='true'></image>
+        <view>预订餐厅</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="meal">
+  <view class="meal_item">
+    <view class="meal_item_title">招牌套餐</view>
+    <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex;margin-top: 35rpx;">
+      <view class="send">
+        <image src="../img/niup.png" lazy-load='true'></image>
+        <view class="send_title">云端精致牛排晚餐</view>
+        <view class="send_h4">
+          独享66折
+        </view>
+        <view class="send_pirce">196元/位</view>
+      </view>
+      <view class="send">
+        <image src="../img/niup.png" lazy-load='true'></image>
+        <view class="send_title">云端精致牛排晚餐</view>
+        <view class="send_h4">
+          独享66折
+        </view>
+        <view class="send_pirce">196元/位</view>
+      </view>
+    </scroll-view>
+  </view>
+</view>
+<view class='Restaurant'>
+  <view class="Restaurant_item">
+    <view class="Restaurant_item_title">关于餐厅</view>
+    <view class="Restaurant_item_text">
+      天之廊位于喜来登酒店36楼，走进天之廊，一面是180度无遮挡的全景落地窗，是极目远眺一江之隔的渝中半岛的最佳位置。廊内金碧辉煌
+    </view>
+    <view class="Restaurant_item_list">
+      南岸区南滨路79号喜来登酒店36楼
+    </view>
+    <view class="Restaurant_item_list">
+      023-62777777
+    </view>
+  </view>
+</view>
+<view class="msdp">
+  <view class="msdp_item">
+    <view class="msdp_item_title">
+      <view class="msdp_item_title_fr">
+        美食点评
+      </view>
+      <view class="msdp_item_title_fl">
+        <text>查看全部78评论</text>
+        <image src="../img/right_l.png" lazy-load='true'></image>
+      </view>
+    </view>
+    <view class="msdp_item_ping">
+      <view class="msdp_item_ping_fr">
+        <view class="msdp_item_ping_fr_a">
+          4.8
+        </view>
+        <view class="msdp_item_ping_fr_b">
+          非常好
+        </view>
+      </view>
+      <text>高于附近75%的舒适型酒店</text>
+    </view>
+    <view class="msdp_item_name">
+      <image src="../img/tx11.png" lazy-load='true'></image>
+      <view class="msdp_item_name_fr">
+        <view class="msdp_item_name_fr_fr">雁玲</view>
+        <view class="msdp_item_name_fr_fl">2018-10-28 06:45</view>
+      </view>
+    </view>
+    <view class="msdp_item_content">
+      最后定了靖港古镇一人游。除了价格贵以外度都挺好的。早上司机师傅联系我们，还不错。晚上我再次回到酒店...
+    </view>
+  </view>
+</view>
+<view class="Recommend">
+  <view class="Recommend_item">
+    <view class="Recommend_title">其他餐厅推荐</view>
+    <view class="Recommend_coco">
+      <view class="Recommend_list">
+        <image src="../img/jyc.png" lazy-load='true'></image>
+        <view class="Recommend_cot">
+          曼谷料理
+        </view>
+        <view class="Recommend_cot1">
+          东南亚菜·南滨路
+        </view>
+        <view class="Recommend_cot2">
+          109元/位
+        </view>
+      </view>
+      <view class="Recommend_list">
+        <image src="../img/jyc.png" lazy-load='true'></image>
+        <view class="Recommend_cot">
+          曼谷料理
+        </view>
+        <view class="Recommend_cot1">
+          东南亚菜·南滨路
+        </view>
+        <view class="Recommend_cot2">
+          109元/位
+        </view>
+      </view>
+    </view>
+    <view class="Recommend_coco">
+      <view class="Recommend_list">
+        <image src="../img/jyc.png" lazy-load='true'></image>
+        <view class="Recommend_cot">
+          曼谷料理
+        </view>
+        <view class="Recommend_cot1">
+          东南亚菜·南滨路
+        </view>
+        <view class="Recommend_cot2">
+          109元/位
+        </view>
+      </view>
+      <view class="Recommend_list">
+        <image src="../img/jyc.png" lazy-load='true'></image>
+        <view class="Recommend_cot">
+          曼谷料理
+        </view>
+        <view class="Recommend_cot1">
+          东南亚菜·南滨路
+        </view>
+        <view class="Recommend_cot2">
+          109元/位
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="footer">
+  <view class="footer_left">
+    预订餐厅
+  </view>
+  <view class="footer_right">
+    <view class="footer_right_shou">
+      <image src="../img/xing2.png" lazy-load='true'></image>
+      <view>收藏</view>
+    </view>
+    <view class="footer_right_fen">
+      <image src="../img/fen11.png" lazy-load='true'></image>
+      <view>收藏</view>
+    </view>
+  </view>
+</view>

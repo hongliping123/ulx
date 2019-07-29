@@ -1,0 +1,76 @@
+page {
+  background: #f1f1f1;
+}
+
+.item {
+  width: 750rpx;
+}
+
+.item .list {
+  width: 100%;
+  background: #fff;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 26rpx;
+  padding-bottom: 30rpx;
+}
+
+.item .list .list_fl {
+  width: 410rpx;
+}
+
+.item .list .list_fl .list_fl_title {
+  height: 31rpx;
+  font-size: 32rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(29, 32, 35, 1);
+  line-height: 31rpx;
+}
+
+.item .list .list_fl .list_fl_date {
+  height: 20rpx;
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(180, 180, 180, 1);
+  line-height: 20rpx;
+  margin-top: 20rpx;
+}
+
+.item .list .list_fl .list_fl_footer {
+  height: 27rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(29, 32, 35, 1);
+  margin-top: 20rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 27rpx;
+}
+
+.item .list .list_fr {
+  width: 100rpx;
+}
+
+.item .list .list_fr .list_fr_btn {
+  width: 100rpx;
+  height: 46rpx;
+  border: 1px solid rgba(219, 219, 219, 1);
+  text-align: center;
+  line-height: 46rpx;
+  font-size: 26rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: rgba(150, 150, 150, 1);
+}
+.item .list .list_fr image{
+  width: 28rpx;
+  height: 28rpx;
+  margin-left: 45rpx;
+  margin-top: 50rpx;
+}

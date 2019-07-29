@@ -1,21 +1,13 @@
-// pages/Questions/Questions.js
-var that;
+// pages/qbct/qbct.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    off:true
+
   },
-  handOff:function(){
-    that = this;
-    var a = that.data.off;
-    a = !a;
-    that.setData({
-      off: a
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

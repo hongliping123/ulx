@@ -1,0 +1,30 @@
+<view class="tiw">
+  <view class="item">
+    <view class="item_left">问</view>
+    <view class="item_right">
+      <view class="item_right_title">广州比较小的众的景点有哪些呀？求推荐适合拍照的地方</view>
+      <view class="item_right_text">
+        广州塔矗立在广州城市新中轴线与珠江景观线的交汇处，与海心沙亚运公园和珠江新城隔江相望，与广州歌剧院、广东省博物馆、广州图书馆、广州
+      </view>
+      <view class="item_dz">
+        <view class="dz">
+          广州
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="item">
+    <view class="item_left">问</view>
+    <view class="item_right">
+      <view class="item_right_title">广州比较小的众的景点有哪些呀？求推荐适合拍照的地方</view>
+      <view class="item_right_text">
+        广州塔矗立在广州城市新中轴线与珠江景观线的交汇处，与海心沙亚运公园和珠江新城隔江相望，与广州歌剧院、广东省博物馆、广州图书馆、广州
+      </view>
+      <view class="item_dz">
+        <view class="dz">
+          广州
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

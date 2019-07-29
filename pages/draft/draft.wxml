@@ -1,0 +1,13 @@
+<view class="item">
+  <view class="list">
+    <view class="list_fl">
+      <view class="list_fl_title">发起提问</view>
+      <view class="list_fl_date">06-24 10:54</view>
+      <view class="list_fl_footer">长沙周边有什么好玩的地方呢？...</view>
+    </view>
+    <view class="list_fr">
+      <view class="list_fr_btn">重发</view>
+      <image lazy-load='true' src='../img/del.png'></image>
+    </view>
+  </view>
+</view>
