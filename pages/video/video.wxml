@@ -24,12 +24,21 @@
       <cover-view class="cont_top_bottom_tx">
           <cover-image src="../img/tx.png" class="cont_top_bottom_tx_img"></cover-image>
           <cover-view class="cont_top_bottom_tx_title">老鼠爱上猫</cover-view>
-          <cover-view class="cont_top_bottom_but">
+          <!-- <cover-view class="cont_top_bottom_but">
               <cover-image src="../img/guanzhu .png" class="cont_top_bottom_but_img"></cover-image>
               <cover-view class="cont_top_bottom_but_text">关注</cover-view>
-          </cover-view>
+          </cover-view> -->
       </cover-view>
       <cover-view class="cont_top_bottom_img_text">又酷又甜韩国女团妆容  了解一下？无敌上镜！这么画放大双眼的效果真的超级好！！喜欢就别忘了点赞支持哦~ </cover-view> 
    </cover-view>
+
+
+   <!-- 评论 -->
+    <view class="cont_top_pl">
+      <view class="cont_top_pl_title">
+          <view class="cont_top_pl_title_text">共650条评论</view>
+          <image src="../img/guanbi.png"></image>
+      </view>
+    </view>
   </view>    
 </view>

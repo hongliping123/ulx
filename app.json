@@ -1,13 +1,12 @@
 {
   "pages": [
-    "pages/news/news",
     "pages/video/video",
+    "pages/news/news",
     "pages/Questions/Questions",
     "pages/Destination/Destination",
     "pages/Rural/Rural",
     "pages/logistics/logistics",
     "pages/Popular/Popular",
-    
     "pages/Intelligence/Intelligence",
     "pages/mine/mine",
     "pages/myUToken/myUToken",
@@ -23,7 +22,6 @@
     "pages/qbjd/qbjd",
     "pages/refund/refund",
     "pages/sjrefund/sjrefund",
-    "pages/share/share",
     "pages/Arefundreason/Arefundreason",
     "pages/Userarefund/Userarefund",
     "pages/myorder/myorder",
