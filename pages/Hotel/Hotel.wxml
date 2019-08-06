@@ -69,7 +69,7 @@
   <view class="Tourist">
     <view class="Tourist_title">
       <text>住客点评</text>
-      <view class="Tourist_title_right">
+      <view class="Tourist_title_right" bindtap='yhdp'>
         <view>查看全部78评论</view>
         <image lazy-load='true' src='../img/right1.png'></image>
       </view>

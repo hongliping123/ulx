@@ -23,6 +23,11 @@ Page({
   onLoad: function(options) {
 
   },
+  yhdp:function(){
+    wx.navigateTo({
+      url: '',
+    })
+  },
   qbjd: function(){
     wx.navigateTo({
       url: '../qbjd/qbjd',
