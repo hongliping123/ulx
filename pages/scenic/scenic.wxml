@@ -268,7 +268,7 @@
       </view>
     </view>
   </view>
-  <!-- <view class="zzc" catchtouchmove='ture'>
+  <view class="zzc" catchtouchmove='ture'>
     <view class="Reserve">
       <view class="Reserve_title">
         预订须知
@@ -385,9 +385,9 @@
         ¥
         <text>118</text>
       </view>
-      <view class="zzc_footer_right">
+      <view class="zzc_footer_right" bindtap='ljgm'>
         立即购买
       </view>
     </view>
-  </view> -->
+  </view>
 </view>

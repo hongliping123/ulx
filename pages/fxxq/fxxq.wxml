@@ -1,0 +1,48 @@
+<view class="top">
+  <view class="top_left">
+    <image src='../img/nvtx.png' lazy-load='true'></image>
+    <view class="name">湖南浣熊</view>
+    <view class="proposal">采纳成功</view>
+  </view>
+  <view class="top_right">
+    <image src='../img/bianji.png' lazy-load='true'></image>
+    <text>编辑</text>
+  </view>
+</view>
+<view class="slide">
+  <swiper class="swiper" autoplay indicator-dots indicator-color="red" indicator-active-color="#fff">
+    <block>
+      <swiper-item>
+        <image class="slide_op" src='../img/slide.png' lazy-load='true'></image>
+      </swiper-item>
+      <swiper-item>
+        <image class="slide_op" src='../img/slide.png' lazy-load='true'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="text">湖南省·长沙市·天心区</view>
+<view class="Article">
+  <view class="Article_title">江南水乡</view>
+  <view class="Article_text">
+    “江南好，风景旧曾谙；日出江花红胜火，春来江水绿如蓝。能不忆江南？”这首诗，总是把人们的思绪牵到风景如画的江南。江南，自古就享有人间天堂之美誉。这里河湖交错，水网纵横，小桥流水、古镇小城、田园村舍如诗如画。江南水乡是安乡第一个江景楼盘，项目地址位于原建材厂地块，南临安乡大桥，东临书院洲渔场，四面沿河，不但可以观赏到松滋河江景，并且有38米宽的沿河风光带，项目总用地面积100亩，是一个景色怡人的高建筑品质住宅精品小区，在现代都市在造江南水乡的生活意境。 江南，字面上的含义为江的南面，但作为一个典型的历史地理概念，江南本意指长江以南的地区，在古代，江南往往代表着繁荣发达的文化教育和美丽富庶的水乡，区域大致划分为长江中下游南岸的地区，江南代表了中国人对美好生活的无限向往与希望。
+    南京为中国四大古都之一，现存的明朝都城南京应天府城,不仅是世界规模最大的古城，也是中国仅存的古都城垣。明洪武十九年(1368)在元代府城的基础上建筑，根据地理条件和军事防守的需要，在基本保留和利用旧城的同时又增辟新区，使城池和道路系统呈不规则形状。全部城墙为砖石结构，周长为33.676公里(现存21.35公里)，高14-18米，上宽7-12米，下宽10-18米，城门13座，其中聚宝(中华)等四门保持至今，聚宝门规模最大。1982年被国务院公布为历史文化名城之后，南京市发布通告，严禁损坏城墙，并将周围环境保护列入规划控制区。
+  </view>
+</view>
+<view class="Label">
+  <view class="Label_item">
+    农趣
+    <image src='../img/huati.png' lazy-load='true'></image>
+  </view>
+</view>
+<view class="hhh"></view>
+<view class="Reply">
+  <view class="Reply_title">回复</view>
+  <view class="Reply_list">
+    <image src='../img/touxiang.png' lazy-load='true'></image>
+    <view class="Reply_right">
+      <view class="Reply_name">U老乡官方</view>
+      <view class="Reply_text">恭喜您的攻略已通过平台审核！</view>
+    </view>
+  </view>
+</view>

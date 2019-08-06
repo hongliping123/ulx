@@ -9,6 +9,12 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
+  lyxq:function(){
+    console.log(1);
+    wx.navigateTo({
+      url: '../Introduction/Introduction',
+    })
+  },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({

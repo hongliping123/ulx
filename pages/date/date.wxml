@@ -1,0 +1,10 @@
+<view class="top">
+  <view class="top_fl">
+    <view class="Check">入住日期</view>
+    <view class="Month">03月07日</view>
+    <view class="week">周四</view>
+  </view>
+  <view class="top_conter">
+  
+  </view>
+</view>

@@ -31,7 +31,7 @@
         <view class="Popular_list1"># 最美中国乡村</view>
       </view>
     </view>
-    <view class="list">
+    <view class="list" bindtap='lyxq'>
       <image class="img1" lazy-load='true' src='../img/list_img.png'></image>
       <image class="img11" lazy-load='true' src='../img/bf.png'></image>
       <view class="list_title">

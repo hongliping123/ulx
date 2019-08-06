@@ -1,0 +1,149 @@
+.top {
+  padding: 36rpx 30px 4rpx 30rpx;
+  width: 750rpx;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+}
+
+.top input {
+  width: 100%;
+  height: 46rpx;
+  font-size: 48rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(201, 201, 201, 1);
+}
+
+.top .top_footer {
+  text-align: right;
+}
+
+.mian {
+  width: 690rpx;
+  margin: 0 auto;
+  padding-top: 45rpx;
+}
+
+.mian textarea {
+  height: 250rpx;
+  width: 100%;
+  font-size: 30rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(201, 201, 201, 1);
+}
+
+.mian .mian_img {
+  display: flex;
+  margin-top: 30rpx;
+  margin-bottom: 62rpx;
+}
+
+.mian .mian_img image {
+  width: 220rpx;
+  height: 220rpx;
+  margin-right: 20rpx;
+}
+
+.mian .mian_cocos {
+  display: flex;
+  margin-top: 20rpx;
+}
+
+.mian .mian_cocos .tb {
+  width: 32rpx;
+  height: 37rpx;
+}
+
+.mian .mian_cocos view {
+  font-size: 28rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  line-height: 37rpx;
+  height: 37rpx;
+  margin-left: 24rpx;
+}
+
+.mian .mian_java {
+  display: flex;
+  margin-top: 35rpx;
+}
+
+.mian .mian_java .mian_list {
+  background: rgba(226, 85, 32, 0.3);
+  border-radius: 22rpx;
+  height: 44rpx;
+  display: flex;
+  padding: 0 14rpx;
+  margin-right: 30rpx;
+}
+
+.mian .mian_java .mian_list image {
+  width: 31rpx;
+  height: 31rpx;
+  margin-top: 7rpx;
+}
+
+.mian .mian_java .mian_list text {
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(226, 85, 32, 1);
+  line-height: 44rpx;
+  margin-left: 12rpx;
+}
+
+.mian .mian_java .mian_list1 {
+  background: rgba(238, 238, 238, 1);
+  border-radius: 22rpx;
+  height: 44rpx;
+  display: flex;
+  padding: 0 14rpx;
+  margin-right: 30rpx;
+}
+
+.mian .mian_java .mian_list1 image {
+  width: 31rpx;
+  height: 31rpx;
+  margin-top: 7rpx;
+}
+
+.mian .mian_java .mian_list1 text {
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(153, 153, 153, 1);
+  line-height: 44rpx;
+  margin-left: 12rpx;
+}
+
+.footer {
+  width: 750rpx;
+  height: 98rpx;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 5rpx 42rpx 12rpx rgba(133, 133, 133, 0.31);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer image {
+  width: 40rpx;
+  height: 34rpx;
+  margin-top: 32rpx;
+}
+
+.footer text {
+  margin-left: 30rpx;
+  font-size: 36rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(255, 70, 1, 1);
+  background: linear-gradient(0deg, rgba(254, 161, 27, 1) 0%, rgba(226, 85, 32, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 98rpx;
+}

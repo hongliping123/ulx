@@ -1,5 +1,12 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/Hotel/Hotel",
+    "pages/fxxq/fxxq",
+    "pages/wyfx/wyfx",
+    "pages/mycollect/mycollect",
+    "pages/mine/mine",
+    "pages/date/date",
     "pages/Delicious/Delicious",
     "pages/scenic/scenic",
     "pages/qbct/qbct",
@@ -18,9 +25,7 @@
     "pages/logistics/logistics",
     "pages/Popular/Popular",
     "pages/Intelligence/Intelligence",
-    "pages/mine/mine",
     "pages/myUToken/myUToken",
-    "pages/mycollect/mycollect",
     "pages/Editdata/Editdata",
     "pages/mynews/mynews",
     "pages/comment/Comment",

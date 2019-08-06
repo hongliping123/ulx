@@ -100,7 +100,7 @@
   </view>
   <view class="hhh"></view>
   <view class="Hotel">
-    <view class="Hotel_title">附近相似酒店</view>
+    <view class="Hotel_title"><text>附近相似酒店</text><text class="text1" bindtap='qbjd'>查看更多酒店</text></view>
     <view class="Hotel_item">
       <view class="Hotel_list">
         <image class="tel" src='../img/hotel.png' lazy-load='true'></image>
@@ -366,8 +366,8 @@
   </view>
 </view>
 
-<view class="zzc" catchtouchmove='ture'>
-  <view class="Reserve">
+<view class="zzc" catchtouchmove='ture'wx:if="{{off}}">
+  <view class="Reserve" >
     <view class="Reserve_title">
       订单填写
       <image class="x" src='../img/x.png' lazy-load='true'></image>

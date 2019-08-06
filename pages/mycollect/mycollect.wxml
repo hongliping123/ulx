@@ -1,25 +1,37 @@
+<view class="nav">
+  <view class="nav_t1">
+    我要分享
+    <view class="bottom"></view>
+  </view>
+  <view class="nav_t2">我的转发</view>
+</view>
 <view class="container">
-    <view class="cont_top" wx:for="{{4}}" wx:key="index">
+  <view class="cont_top" wx:for="{{4}}" wx:key="index">
+    <view class="mua">
       <image src="../img/50.png"></image>
-      <view class="cont_top_text">
-          <view class="cont_top_text_title">
-              <image src="../img/huati.png"></image>
-              <text>中国最美乡村</text>
-          </view>
-          <view class="cont_top_text_referral">
-                海沧最美风景线-风东繁华 不醉流霞 吾自以梦为马sadsad
-          </view>
-          <view class="cont_top_text_img">
-              <view class="cont_top_text_img1">
-                  <image src="../img/tx.png"></image>
-                  <text>老鼠爱上猫</text>
-              </view>
+      <view class="mua_left">采纳中</view>
+    </view>
 
-              <view class="cont_top_text_img2">
-                  <image src="../img/aixin.png"></image>
-                  <text>224</text>
-              </view>
-          </view>
+    <view class="cont_top_text">
+      <view class="cont_top_text_title">
+        <image src="../img/huati.png"></image>
+        <text>中国最美乡村</text>
+      </view>
+      <view class="cont_top_text_referral">
+        海沧最美风景线-风东繁华 不醉流霞 吾自以梦为马sadsad
+      </view>
+      <view class="cont_top_text_img">
+        <view class="cont_top_text_img1">
+          <image src="../img/tx.png"></image>
+          <text>老鼠爱上猫</text>
+        </view>
+
+        <view class="cont_top_text_img2">
+          <image src="../img/aixin.png"></image>
+          <text>224</text>
+        </view>
       </view>
     </view>
+  </view>
 </view>
+<view class="share">分享</view>

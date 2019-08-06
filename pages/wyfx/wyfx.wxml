@@ -1,0 +1,33 @@
+<view class="top">
+  <input type='text' placeholder='请输入标题（5~49字)'></input>
+  <view class="top_footer">0/49</view>
+</view>
+<view class="mian">
+  <textarea type="text" placeholder='快来发布你的文章吧！'></textarea>
+  <view class="mian_img">
+    <image src="../img/wyfx.png" lazy-load='true'></image>
+    <image src="../img/wyfx1.png" lazy-load='true'></image>
+  </view>
+  <view class="mian_cocos">
+    <image class="tb" src="../img/dz.png" lazy-load='true'></image>
+    <view>选择地区</view>
+  </view>
+  <view class="mian_cocos">
+    <image class="tb" src="../img/tb1.png" lazy-load='true'></image>
+    <view>选择话题标签</view>
+  </view>
+  <view class="mian_java">
+    <view class="mian_list">
+      <image src="../img/hhh.png" lazy-load='true'></image>
+      <text>农趣</text>
+    </view>
+    <view class="mian_list1">
+      <image src="../img/hhh1.png" lazy-load='true'></image>
+      <text>亲子</text>
+    </view>
+  </view>
+</view>
+<view class="footer">
+  <image src="../img/fbu.png" lazy-load='true'></image>
+  <text>确定分享</text>
+</view>

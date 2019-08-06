@@ -1,4 +1,4 @@
-// pages/scenic/scenic.js
+// pages/wyfx/wyfx.js
 Page({
 
   /**
@@ -21,11 +21,7 @@ Page({
   onReady: function () {
 
   },
-  ljgm:function(){
-    wx.navigateTo({
-      url: '../Order/Order'
-    })
-  },
+
   /**
    * 生命周期函数--监听页面显示
    */

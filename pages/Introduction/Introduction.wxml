@@ -20,10 +20,27 @@
     </block>
   </swiper>
 </view>
-<view class="Comment">
+<view class="Comment" bindtap='jdxq'>
   <image src='../img/coco.png' lazy-load='true'></image>
   <view class="Comment_conter">
     <view class="Comment_title">浙江·江南水乡</view>
+    <view class="Comment_dian">
+      <view>148</view>
+      篇点评
+    </view>
+    <view class="address">
+      位于浙江省·金华市
+    </view>
+  </view>
+  <view class="Comment_Fabulous">
+    <image src='../img/love1.png' lazy-load='true'></image>
+    <view>327</view>
+  </view>
+</view>
+<view class="Comment" bindtap='guzhen'>
+  <image src='../img/coco.png' lazy-load='true'></image>
+  <view class="Comment_conter">
+    <view class="Comment_title">浙江·古镇</view>
     <view class="Comment_dian">
       <view>148</view>
       篇点评

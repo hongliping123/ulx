@@ -331,8 +331,14 @@
   font-weight: bold;
   color: rgba(0, 0, 0, 1);
   line-height: 32rpx;
+  display: flex;
+  justify-content: space-between;
 }
-
+.Hotel .Hotel_title .text1{
+  line-height: 32rpx;
+  font-size: 18rpx;
+  color: rgba(0, 152, 248, 1);
+}
 .Hotel .Hotel_item {
   padding-bottom: 100rpx;
 }
