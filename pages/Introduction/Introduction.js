@@ -26,6 +26,11 @@ Page({
       url: '../Hotel/Hotel',
     })
   },
+  msxq:function(){
+    wx.navigateTo({
+      url: '../Delicious/Delicious',
+    })
+  },
   guzhen: function() {
     wx.navigateTo({
       url: '../scenic/scenic',

@@ -268,7 +268,7 @@
       </view>
     </view>
   </view>
-  <view class="zzc" catchtouchmove='ture'>
+  <!-- <view class="zzc" catchtouchmove='ture'>
     <view class="Reserve">
       <view class="Reserve_title">
         预订须知
@@ -389,5 +389,5 @@
         立即购买
       </view>
     </view>
-  </view>
+  </view> -->
 </view>

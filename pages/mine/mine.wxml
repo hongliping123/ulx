@@ -163,6 +163,6 @@
 
   <!-- 问答 -->
   <view class="cont_wenda">
-    <image src="../img/wenda.png"></image>
+    <image bindtap='handwd' src="../img/wenda.png"></image>
   </view>
 </view>

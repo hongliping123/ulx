@@ -106,7 +106,10 @@
 </view>
 <view class="Recommend">
   <view class="Recommend_item">
-    <view class="Recommend_title">其他餐厅推荐</view>
+    <view class="Recommend_title">
+      <text>其他餐厅推荐</text>
+      <view bindtap='qbct'>查看全部餐厅</view>
+    </view>
     <view class="Recommend_coco">
       <view class="Recommend_list">
         <image src="../img/jyc.png" lazy-load='true'></image>

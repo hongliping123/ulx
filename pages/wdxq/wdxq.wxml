@@ -28,7 +28,7 @@
   <view class="tiwen">
     <image class="cocos" src="../img/wen1.png" lazy-load='true'></image>
     <text>十分钟内有问必答，快来提问。</text>
-    <view class="tiwen_right">
+    <view class="tiwen_right" bindtap='handtw'>
       <image src="../img/btn.png" lazy-load='true'></image>
       <view>提问</view>
     </view>

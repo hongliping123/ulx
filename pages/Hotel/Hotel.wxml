@@ -366,7 +366,7 @@
   </view>
 </view>
 
-<view class="zzc" catchtouchmove='ture'wx:if="{{off}}">
+<view class="zzc" catchtouchmove='ture'wx:if="{{true}}">
   <view class="Reserve" >
     <view class="Reserve_title">
       订单填写

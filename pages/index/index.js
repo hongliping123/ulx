@@ -21,6 +21,26 @@ Page({
       url: '../logs/logs'
     })
   },
+  ybxr:function(){
+    wx.navigateTo({
+      url: '../Popular/Popular',
+    })
+  }, 
+  handxx:function(){
+    wx.navigateTo({
+      url: '../news/news',
+    })
+  },
+  handkf:function(){
+    wx.navigateTo({
+      url: '../Intelligence/Intelligence',
+    })
+  },
+  qhcs:function(){
+    wx.navigateTo({
+      url: '../switch/switch'
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

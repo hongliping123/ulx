@@ -20,6 +20,11 @@ Page({
       url: '/pages/myorderform/myorderform',
     })
   },
+  ckwl:function(){
+    wx.navigateTo({
+      url: '../logistics/logistics',
+    })
+  },
   /**
    * 退款跳转
    */

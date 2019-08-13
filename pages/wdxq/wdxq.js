@@ -21,7 +21,11 @@ Page({
   onReady: function () {
 
   },
-
+  handtw:function(){
+    wx.navigateTo({
+      url: '../tw/tw',
+    })
+  },
   /**
    * 生命周期函数--监听页面显示
    */

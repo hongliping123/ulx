@@ -15,7 +15,7 @@ Page({
 
   },
 
-  /**
+  /**   
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
@@ -28,7 +28,11 @@ Page({
   onShow: function () {
 
   },
-
+  qbct:function(){
+    wx.navigateTo({
+      url: '../qbct/qbct',
+    })
+  },
   /**
    * 生命周期函数--监听页面隐藏
    */

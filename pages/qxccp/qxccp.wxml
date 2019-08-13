@@ -1,0 +1,163 @@
+<view class="top">
+  <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex;margin-top: 25rpx;">
+    <view class="send">
+      <image src='../img/send1.png' lazy-load='true'></image>
+    </view>
+    <view class="send">
+      <image src='../img/send1.png' lazy-load='true'></image>
+    </view>
+  </scroll-view>
+  <view class="top_title">
+    全国出发 湖南+贵州+四川 崀山千户苗寨冰 川小镇6天5晚精品乡村游路线
+  </view>
+  <view class="top_pirce">
+    ¥
+    <text>1080</text>起
+  </view>
+</view>
+<view class='date'>
+  <view class="date_item">
+    <image class="rl" src='../img/rl111.png' lazy-load='true'></image>
+    <view class="date_conter">
+      <view class="cfrq">选择 出发日期</view>
+      <view class="setout">7月24日出发</view>
+    </view>
+    <image class="right" src='../img/right.png' lazy-load='true'></image>
+  </view>
+  <view class="date_item">
+    <view class="date_left">服务</view>
+    <view class="date_conter">
+      <view class="date_conter_t1">
+        二次确认·此产品 需要二次确认，商家将在24个 工作小时内(工作日9:00-18:00)联系您
+      </view>
+    </view>
+  </view>
+</view>
+<view class="Comment">
+  <view class="Comment_title">
+    <view class="Comment_title_left">大家的点评</view>
+    <view class="Comment_title_right">
+      <text>全部评论</text>
+      <image class="right" src='../img/right.png' lazy-load='true'></image>
+    </view>
+  </view>
+  <view class="Comment_tx">
+    <image src='../img/tx11.png' lazy-load='true'></image>
+    <view>雁玲</view>
+  </view>
+  <view class="Comment_conter">
+    最后定了靖港古镇一人游。除了价格贵以外度都挺好的。早上8:15司机师傅联系我们，还不错。除了...
+  </view>
+  <view class="Comment_img">
+    <image class="right" src='../img/php.png' lazy-load='true'></image>
+    <image class="right" src='../img/php.png' lazy-load='true'></image>
+    <image class="right" src='../img/php.png' lazy-load='true'></image>
+  </view>
+</view>
+<view class="tab">
+  <view class="tab_item">
+    <view class="tab_list">
+      图文介绍
+      <view></view>
+    </view>
+    <view class="tab_list1">
+      图文介绍
+    </view>
+    <view class="tab_list1">
+      图文介绍
+    </view>
+    <view class="tab_list1">
+      图文介绍
+    </view>
+  </view>
+  <view class="introduce">
+    <view class="introduce_top">
+      <image class="kuai" src='../img/kuai.png' lazy-load='true'></image>
+      <text>图文介绍</text>
+    </view>
+    <view class="introduce_img">
+      <image class="right" src='../img/qxccpdt.png' lazy-load='true'></image>
+    </view>
+  </view>
+</view>
+
+<view class="tab">
+  <view class="introduce">
+    <view class="introduce_top">
+      <image class="kuai" src='../img/kuai.png' lazy-load='true'></image>
+      <text>行程线路</text>
+    </view>
+  </view>
+  <view class="tab_item1">
+    <view class="tab_item1_list">
+      <view class="yuan"></view>
+      <view class="tab_item1_list_right">
+        <view class="tab_item1_list_right_title">第一站：蜈支洲岛</view>
+        <view class="tab_item1_list_right_conter">蜈支洲岛又名情人岛，属热带海洋气候，全年温和气爽，四季怡人，是度假、休闲、避寒、冬泳、娱乐的理想去处，洁白的沙滩，天蓝的海水，慕名而来，流连忘返。</view>
+        <view class="tab_item1_list_right_img">
+          <image class="img" src='../img/img247.png' lazy-load='true'></image>
+          <image class="img1" src='../img/img247.png' lazy-load='true'></image>
+          <image class="img1" src='../img/img247.png' lazy-load='true'></image>
+        </view>
+      </view>
+    </view>
+    <view class="tab_item1_list">
+      <view class="yuan"></view>
+      <view class="tab_item1_list_right">
+        <view class="tab_item1_list_right_title">第一站：蜈支洲岛</view>
+        <view class="tab_item1_list_right_conter">蜈支洲岛又名情人岛，属热带海洋气候，全年温和气爽，四季怡人，是度假、休闲、避寒、冬泳、娱乐的理想去处，洁白的沙滩，天蓝的海水，慕名而来，流连忘返。</view>
+        <view class="tab_item1_list_right_img">
+          <image class="img" src='../img/img247.png' lazy-load='true'></image>
+          <image class="img1" src='../img/img247.png' lazy-load='true'></image>
+          <image class="img1" src='../img/img247.png' lazy-load='true'></image>
+        </view>
+      </view>
+    </view>
+    <view class="tab_item1_list" style='border-left:0;'>
+      <view class="yuan"></view>
+      <view class="tab_item1_list_right">
+        <view class="tab_item1_list_right_title">第一站：蜈支洲岛</view>
+        <view class="tab_item1_list_right_conter">蜈支洲岛又名情人岛，属热带海洋气候，全年温和气爽，四季怡人，是度假、休闲、避寒、冬泳、娱乐的理想去处，洁白的沙滩，天蓝的海水，慕名而来，流连忘返。</view>
+        <view class="tab_item1_list_right_img">
+          <image class="img" src='../img/img247.png' lazy-load='true'></image>
+          <image class="img1" src='../img/img247.png' lazy-load='true'></image>
+          <image class="img1" src='../img/img247.png' lazy-load='true'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="tab">
+  <view class="introduce">
+    <view class="introduce_top">
+      <image class="kuai" src='../img/kuai.png' lazy-load='true'></image>
+      <text>费用说明</text>
+    </view>
+  </view>
+  <view class='Cost'>
+    <view class="Cost_d"></view>
+    <view class="Cost_fr">
+      <view class="Cost_fr_t1">大交通</view>
+      <view class="Cost_fr_t1">大交通</view>
+      <view class="Cost_fr_t1">大交通</view>
+      <view class="Cost_fr_t1">大交通</view>
+    </view>
+  </view>
+</view>
+<view class="footer">
+  <view class="footer_left">
+    <view class="footer_img">
+      <image class="img" src='../img/love1.png' lazy-load='true'></image>
+      <view>246</view>
+    </view>
+    <view class="footer_img">
+      <image class="img" src='../img/xing.png' lazy-load='true'></image>
+      <view>246</view>
+    </view>
+  </view>
+  <view class="footer_right">
+    <image src='../img/btn111.png' lazy-load='true'></image>
+    <view class="footer_right_text">立即购买</view>
+  </view>
+</view>

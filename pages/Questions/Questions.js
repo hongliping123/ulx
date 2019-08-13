@@ -22,7 +22,36 @@ Page({
   onLoad: function (options) {
 
   },
-
+  wdhd:function(){
+    wx.navigateTo({
+      url: '../wdhd/wdhd',
+    })
+  },
+  handcgx:function(){
+    wx.navigateTo({
+      url: '../draft/draft',
+    })
+  },
+  wljd:function(){
+    wx.navigateTo({
+      url: '../Answer/Answer',
+    })
+  },
+  wdxqy:function(){
+    wx.navigateTo({
+      url: '../wdxq/wdxq',
+    })
+  },
+  handtw: function () {
+    wx.navigateTo({
+      url: '../tw/tw',
+    })
+  },
+  wdtw:function(){
+    wx.navigateTo({
+      url: '../wdtw/wdtw',
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

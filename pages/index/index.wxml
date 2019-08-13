@@ -1,5 +1,5 @@
 <view class="top">
-  <view class="top_left">
+  <view class="top_left" bindtap='qhcs'>
     <image lazy-load='true' src='../img/wei.png'></image>
     <view>长沙</view>
   </view>
@@ -8,11 +8,11 @@
     <image src='../img/fdj.png' lazy-load='true'></image>
   </view>
   <view class="top_right">
-    <view class="top_right_img">
+    <view class="top_right_img" bindtap='handxx'>
       <image lazy-load='true' src='../img/xx.png'></image>
       <view class='top_right_yuan'>12</view>
     </view>
-    <image lazy-load='true' src='../img/kf.png'></image>
+    <image bindtap='handkf' lazy-load='true' src='../img/kf.png'></image>
   </view>
 </view>
 <view class="img_oo">
@@ -24,7 +24,7 @@
       <image class="img" lazy-load='true' src='../img/list_bg.png'></image>
       <view class="Popular">
         <view class="Popular_list">24小时热门话题</view>
-        <view class="Popular_list1"># 拥抱夏日</view>
+        <view class="Popular_list1" bindtap='ybxr'># 拥抱夏日</view>
         <view class="Popular_list1"># 这也太好玩了吧</view>
         <view class="Popular_list1"># 最美中国乡村</view>
         <view class="Popular_list1"># 农产品早知道</view>

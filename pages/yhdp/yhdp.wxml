@@ -1,0 +1,75 @@
+<view class="top">
+  <view class="top_left">
+    <view class="conter">
+      <text class="t1">4.8</text>
+      <text class="t2">分</text>
+    </view>
+    <view class="dianpin">共70条用户点评</view>
+  </view>
+  <view class="top_right">
+    <view class="top_list">
+      <text>非常棒</text>
+      <image src="../img/hxx.png" lazy-load='true'></image>
+      <progress percent="20" show-info border-radius="4rpx" font-size="22rpx" color='#E25520' backgroundColor="#f1f1f1" active/>
+    </view>
+    <view class="top_list">
+      <text>非常棒</text>
+      <image src="../img/hxx.png" lazy-load='true'></image>
+      <progress percent="20" show-info border-radius="4rpx" font-size="22rpx" color='#E25520' backgroundColor="#f1f1f1" active/>
+    </view>
+    <view class="top_list">
+      <text>非常棒</text>
+      <image src="../img/hxx.png" lazy-load='true'></image>
+      <progress percent="20" show-info border-radius="4rpx" font-size="22rpx" color='#E25520' backgroundColor="#f1f1f1" active/>
+    </view>
+    <view class="top_list">
+      <text>非常棒</text>
+      <image src="../img/hxx.png" lazy-load='true'></image>
+      <progress percent="20" show-info border-radius="4rpx" font-size="22rpx" color='#E25520' backgroundColor="#f1f1f1" active/>
+    </view>
+    <view class="top_list">
+      <text>非常棒</text>
+      <image src="../img/hxx.png" lazy-load='true'></image>
+      <progress percent="20" show-info border-radius="4rpx" font-size="22rpx" color='#E25520' backgroundColor="#f1f1f1" active/>
+    </view>
+  </view>
+</view>
+<view class="mian">
+  <view class="mian_li">
+    <view class="li">
+      全部 70
+    </view>
+    <view class="li1">
+      全部 70
+    </view>
+    <view class="li2">
+      全部 70
+    </view>
+  </view>
+  <view class="item">
+    <view class="item_list">
+      <view class="item_list_top">
+        <image src="../img/tx11.png" lazy-load='true'></image>
+        <view class="item_list_top_right">
+          <view class="name">雁玲</view>
+          <view class="date">2018-10-28 06:45</view>
+        </view>
+      </view>
+      <view class="item_text">
+        最后定了靖港古镇一人游。除了价格贵以外度都挺好的。早上司机师傅联系我们，还不错。晚上我再次回到酒店最后定了靖港古镇一人游。除了价格贵以外度都挺好的。早上司机师傅联系我们，还不错。晚上我再次回到酒店最后定了靖港古镇一人游。除了价格贵以外度都挺好的。早上司机师傅联系我们，还不错。晚上我再次回到酒店
+      </view>
+      <view class="item_img">
+        <image src="../img/nongjia.png" lazy-load='true'></image>
+        <image src="../img/nongjia.png" lazy-load='true'></image>
+        <image src="../img/nongjia.png" lazy-load='true'></image>
+      </view>
+      <view class="item_img1">
+        <image src="../img/zan.png" lazy-load='true'></image>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="footer">
+  <image src="../img/dian.png" lazy-load='true'></image>
+  <view>写点评</view>
+</view>

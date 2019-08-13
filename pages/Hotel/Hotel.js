@@ -25,7 +25,7 @@ Page({
   },
   yhdp:function(){
     wx.navigateTo({
-      url: '',
+      url: '../yhdp/yhdp',
     })
   },
   qbjd: function(){

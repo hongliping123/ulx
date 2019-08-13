@@ -16,16 +16,16 @@
       <image class="duo" src='../img/duo.png' lazy-load='true' bindtap='handOff'></image>
       <image class="jian" wx:if="{{off}}" src='../img/jian1.png' lazy-load='true'></image>
       <view class="tan_img" wx:if="{{off}}">
-        <view class="tan_img_list">
+        <view class="tan_img_list" bindtap='wljd'>
           我来解答
         </view>
-        <view class="tan_img_list">
+        <view class="tan_img_list" bindtap='wdtw'>
           我的提问
         </view>
-        <view class="tan_img_list">
+        <view class="tan_img_list" bindtap='wdhd'>
           我的回答
         </view>
-        <view class="tan_img_list">
+        <view class="tan_img_list" bindtap='handcgx'>
           草稿箱
         </view>
         <view class="tan_img_list">
@@ -45,7 +45,7 @@
   </view>
 </view>
 <view class="item">
-  <view class="item_list">
+  <view class="item_list" bindtap='wdxqy'>
     <view class="item_list_title">长沙周边哪有好玩的乡村，有特色一点的，希 望各路好汉前来推荐</view>
     <view class="item_send">
       <view class="item_send_left">
@@ -79,6 +79,6 @@
     <view class="item_list_footer">4593浏览·45回答·378赞</view>
   </view>
 </view>
-<view class="wen">
+<view class="wen" bindtap='handtw'>
   问
 </view>

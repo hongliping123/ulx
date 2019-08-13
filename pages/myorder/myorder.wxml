@@ -64,7 +64,7 @@
     </view>
     <!-- <view class="t_5 " wx:if="{{item.OrderStatus=='待收货' }} ">
       <view class="t_5_btn " catchtap='payment'>确认收货</view>
-      <view class="t_5_btn " catchtap='cancel'>查看物流</view>
+      <view class="t_5_btn " catchtap='cancel' bindtap='ckwl'>查看物流</view>
     </view>
     <view class="t_5 " wx:if="{{item.OrderStatus=='已收货' }} ">
       <view class="t_5_btn " catchtap='payment'>确认收货</view>

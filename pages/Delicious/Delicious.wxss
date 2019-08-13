@@ -465,6 +465,16 @@ page {
   height: 33rpx;
   line-height: 33rpx;
   margin-top: 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Recommend .Recommend_item .Recommend_title view {
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(0, 152, 248, 1);
+  line-height: 33rpx;
 }
 
 .footer {
@@ -522,11 +532,13 @@ page {
   margin-left: 73rpx;
   text-align: center;
 }
+
 .footer .footer_right .footer_right_fen image {
   width: 35rpx;
   height: 35rpx;
   margin-top: 15rpx;
 }
+
 .footer .footer_right .footer_right_fen view {
   height: 23rpx;
   font-size: 24rpx;
